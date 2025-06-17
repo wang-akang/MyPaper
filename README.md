@@ -10,7 +10,7 @@ Knowledge-Constrained Optimal Transport[[paper]](https://arxiv.org/pdf/2503.1533
 5. [CVPR 2025]Correlative and Discriminative Label Grouping for Multi-Label
 Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 
-** Training-Free：**
+**Training-Free：**
 目前的traning-free方法的核心其实就是算相似度矩阵
 1. [2024 CVPR] **Clip-diy: Clip dense inference yields open-vocabulary semantic segmentation for-free** [[paper]](https://arxiv.org/pdf/2309.14289)
 2. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10655445&tag=1) [[code]](https://github.com/aimagelab/freeda) [[paper]] 
