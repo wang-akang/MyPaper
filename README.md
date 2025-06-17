@@ -5,6 +5,9 @@ Let's embark on the journey of Visual Place Recognition together! We will contin
 
 
 **多标签图像分类：**
+<div style="background-color: blue; padding: 10px; border-left: 5px solid black;">
+  这是一个带有背景色和边框的笔记，提醒用户注意某些内容。
+</div>
 1. [Preprint]SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models[[paper]](https://arxiv.org/pdf/2502.16911?)[[code]](https://github.com/kjmillerCURIS/SPARC)
 2. [ICCV 2023]PatchCT: Aligning Patch Set and Label Set with Conditional Transport
 for Multi-Label Image Classification[[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_PatchCT_Aligning_Patch_Set_and_Label_Set_with_Conditional_Transport_ICCV_2023_paper.pdf)
