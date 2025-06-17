@@ -1,4 +1,5 @@
 Let's embark on the journey of Visual Place Recognition together! We will continue to update with high-quality papers.
+
 **多标签图像分类：**
 1. [Preprint]SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models[[paper]](https://arxiv.org/pdf/2502.16911?)[[code]](https://github.com/kjmillerCURIS/SPARC)
 2. [ICCV 2023]PatchCT: Aligning Patch Set and Label Set with Conditional Transport
