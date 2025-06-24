@@ -8,6 +8,7 @@ Let's embark on the journey of Visual Place Recognition together! We will contin
 > 弱监督病理图像的语义分割
 3. [2024 arXiv]**Toward Modality Gap: Vision Prototype Learning for Weakly-supervised Semantic Segmentation with CLIP** [[paper]](https://arxiv.org/pdf/2412.19650)
 4. [2025CVPR]**Prompt Categories Cluster for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025W/eLVM/papers/Wu_Prompt_Categories_Cluster_for_Weakly_Supervised_Semantic_Segmentation_CVPRW_2025_paper.pdf)
+5. [2025 arXiv]  **2025-NIPS-Disentangling CLIP for Multi-Object Perception** [[paper]](https://arxiv.org/html/2502.02977v3)
 
 **多标签图像分类：** 
 1. [Preprint]SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models[[paper]](https://arxiv.org/pdf/2502.16911?)[[code]](https://github.com/kjmillerCURIS/SPARC)
