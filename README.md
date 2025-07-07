@@ -1,5 +1,5 @@
 ### 语义分割:
-1. [2025CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]]（https://arxiv.org/pdf/2505.21844v1）
+1. [2025CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
 
 
 ### 老师提供暂存：
