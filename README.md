@@ -59,7 +59,7 @@ Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 4. [2025-ICCV] **Domain-aware Category-level Geometry Learning Segmentation for 3D Point Clouds**
 5. [2025-CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**
 6. [2025] **Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection via Graph Score Propagation**
-7. [2025-ICLR] **MULTIMODALITY HELPS FEW-SHOT 3D POINT CLOUD SEMANTIC SEGMENTATION**
+7. [2025-ICLR] **MULTIMODALITY HELPS FEW-SHOT 3D POINT CLOUD SEMANTIC SEGMENTATION** [[paper]](https://arxiv.org/pdf/2410.11414)
 8. [2025-ICML] **SMART-PC: Skeletal Model Adaptation for Robust Test-Time Training in Point Clouds**
 9. [2025-CVPR] **Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis**
 10. [2025-CVPR] **Purge-Gate: Efficient Backpropagation-Free Test-Time Adaptation for Point Clouds via Token Purging**
