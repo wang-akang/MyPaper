@@ -11,6 +11,8 @@
 4. [2025CVPR]**Prompt Categories Cluster for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025W/eLVM/papers/Wu_Prompt_Categories_Cluster_for_Weakly_Supervised_Semantic_Segmentation_CVPRW_2025_paper.pdf)
 5. [2025 arXiv]  **2025-NIPS-Disentangling CLIP for Multi-Object Perception** [[paper]](https://arxiv.org/html/2502.02977v3)
 
+
+
 ### 多标签图像分类：
 1. [ICCV 2023]PatchCT: Aligning Patch Set and Label Set with Conditional Transport
 for Multi-Label Image Classification[[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_PatchCT_Aligning_Patch_Set_and_Label_Set_with_Conditional_Transport_ICCV_2023_paper.pdf)
@@ -50,7 +52,7 @@ Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 16. [2025 arXiv] **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1) [[code]](https://github.com/dosowiechi/MLMP?tab=readme-ov-file)
 
 
-### 云
+### 3D点云处理和视觉-语言模型
 1. [2025-ICCV] **Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection via Graph Score Propagation**
 2. [2025-ICCV] **Describe, Adapt and Combine: Empowering CLIP Encoders for Open-set 3D Object Retrieval**
 3. [2025-ICCV] **Partially Matching Submap Helps: Uncertainty Modeling and Propagation for Text to Point Cloud Localization**
@@ -60,4 +62,6 @@ Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 7. [2025-ICLR] **MULTIMODALITY HELPS FEW-SHOT 3D POINT CLOUD SEMANTIC SEGMENTATION**
 8. [2025-ICML] **SMART-PC: Skeletal Model Adaptation for Robust Test-Time Training in Point Clouds**
 9. [2025-CVPR] **Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis**
+10. [2025-CVPR] **Purge-Gate: Efficient Backpropagation-Free Test-Time Adaptation for Point Clouds via Token Purging**
+11. [2025-ICCV] **Describe, Adapt and Combine: Empowering CLIP Encoders for Open-set 3D Object Retrieval**
 
