@@ -49,3 +49,15 @@ Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 15. [2025 ICLR] **Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model** [[paper]](https://arxiv.org/pdf/2412.18303) [[code]](https://github.com/Yushu-Li/ECALP?tab=readme-ov-file)
 16. [2025 arXiv] **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1) [[code]](https://github.com/dosowiechi/MLMP?tab=readme-ov-file)
 
+
+### 云
+1. [2025-ICCV] **Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection via Graph Score Propagation**
+2. [2025-ICCV] **Describe, Adapt and Combine: Empowering CLIP Encoders for Open-set 3D Object Retrieval**
+3. [2025-ICCV] **Partially Matching Submap Helps: Uncertainty Modeling and Propagation for Text to Point Cloud Localization**
+4. [2025-ICCV] **Domain-aware Category-level Geometry Learning Segmentation for 3D Point Clouds**
+5. [2025-CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**
+6. [2025] **Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection via Graph Score Propagation**
+7. [2025-ICLR] **MULTIMODALITY HELPS FEW-SHOT 3D POINT CLOUD SEMANTIC SEGMENTATION**
+8. [2025-ICML] **SMART-PC: Skeletal Model Adaptation for Robust Test-Time Training in Point Clouds**
+9. [2025-CVPR] **Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis**
+
