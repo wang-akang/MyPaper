@@ -6,10 +6,12 @@ for Multi-Label Image Classification[[paper]](https://openaccess.thecvf.com/cont
 3. [ICML 2024]Language-driven Cross-modal Classifier for
 Zero-shot Multi-label Image Recognition[[paper]](https://openreview.net/pdf?id=sHswzNWUW2)[[code]](https://github.com/yic20/CoMC)
 4. [AAAI 2024]TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training[[paper]](https://arxiv.org/pdf/2312.12828)[[code]](https://github.com/linyq2117/TagCLIP)
+
 5. [CVPR 2025]SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models[[paper]](https://arxiv.org/pdf/2502.16911?)[[code]](https://github.com/kjmillerCURIS/SPARC)
 ---
 6. [CVPR 2025]Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification[[paper]](https://arxiv.org/pdf/2503.16873)[[code]](https://github.com/k0u-id/CCD)
 ---
+
 7. [CVPR 2025]Recover and Match: Open-Vocabulary Multi-Label Recognition through
 Knowledge-Constrained Optimal Transport[[paper]](https://arxiv.org/pdf/2503.15337)[[code]](https://github.com/EricTan7/RAM)
 8. [CVPR 2025]Correlative and Discriminative Label Grouping for Multi-Label
