@@ -1,17 +1,3 @@
-### 语义分割:
-1. [2025CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
-
-
-### 老师提供暂存：
-1. [2025 arXiv] **POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_POT_Prototypical_Optimal_Transport_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf)
-> 弱监督病理图像的语义分割
-2. [2025CVPR] **Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf)
-> 弱监督病理图像的语义分割
-3. [2024 arXiv]**Toward Modality Gap: Vision Prototype Learning for Weakly-supervised Semantic Segmentation with CLIP** [[paper]](https://arxiv.org/pdf/2412.19650)
-4. [2025CVPR]**Prompt Categories Cluster for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025W/eLVM/papers/Wu_Prompt_Categories_Cluster_for_Weakly_Supervised_Semantic_Segmentation_CVPRW_2025_paper.pdf)
-5. [2025 arXiv]  **2025-NIPS-Disentangling CLIP for Multi-Object Perception** [[paper]](https://arxiv.org/html/2502.02977v3)
-
-
 
 ### 多标签图像分类：
 1. [ICCV 2023]PatchCT: Aligning Patch Set and Label Set with Conditional Transport
@@ -29,7 +15,9 @@ Knowledge-Constrained Optimal Transport[[paper]](https://arxiv.org/pdf/2503.1533
 8. [CVPR 2025]Correlative and Discriminative Label Grouping for Multi-Label
 Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 9. [ICML 2025]From Local Details to Global Context:Advancing Vision-Language Models with Attention-Based Selection[[paper]](https://arxiv.org/pdf/2505.13233?)[[code]](https://github.com/BIT-DA/ABS)
-
+10. [WACV 2025]Pay Attention to Your Neighbours:Training-Free Open-Vocabulary Semantic Segmentation[[paper]](https://arxiv.org/pdf/2404.08181?)[[code]](https://github.com/sinahmr/NACLIP)
+11. [ICCV 2025]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
+12. [unknown]Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation[[paper]](https://arxiv.org/pdf/2411.15869)[[code]](https://github.com/SuleBai/SC-CLIP)
 
 
 ### Training-Free：
@@ -50,6 +38,19 @@ Visual Prompt Tuning[[paper]](https://arxiv.org/pdf/2504.09990)
 14. [2025 CVPR] **Realistic Test-Time Adaptation of Vision-Language Models** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zanella_Realistic_Test-Time_Adaptation_of_Vision-Language_Models_CVPR_2025_paper.pdf) [[code]](https://github.com/MaxZanella/StatA) [[original]](https://arxiv.org/pdf/2406.01837)
 15. [2025 ICLR] **Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model** [[paper]](https://arxiv.org/pdf/2412.18303) [[code]](https://github.com/Yushu-Li/ECALP?tab=readme-ov-file)
 16. [2025 arXiv] **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1) [[code]](https://github.com/dosowiechi/MLMP?tab=readme-ov-file)
+
+### 语义分割:
+1. [2025CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
+
+
+### 老师提供暂存：
+1. [2025 arXiv] **POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_POT_Prototypical_Optimal_Transport_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf)
+> 弱监督病理图像的语义分割
+2. [2025CVPR] **Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf)
+> 弱监督病理图像的语义分割
+3. [2024 arXiv]**Toward Modality Gap: Vision Prototype Learning for Weakly-supervised Semantic Segmentation with CLIP** [[paper]](https://arxiv.org/pdf/2412.19650)
+4. [2025CVPR]**Prompt Categories Cluster for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025W/eLVM/papers/Wu_Prompt_Categories_Cluster_for_Weakly_Supervised_Semantic_Segmentation_CVPRW_2025_paper.pdf)
+5. [2025 arXiv]  **2025-NIPS-Disentangling CLIP for Multi-Object Perception** [[paper]](https://arxiv.org/html/2502.02977v3)
 
 
 ### 3D点云处理和视觉-语言模型
