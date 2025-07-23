@@ -1,5 +1,4 @@
-
-###多标签图像分类：
+### 多标签图像分类：
 1. [2023 ICCV] **PatchCT: Aligning Patch Set and Label Set with Conditional Transport
 for Multi-Label Image Classification**[[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_PatchCT_Aligning_Patch_Set_and_Label_Set_with_Conditional_Transport_ICCV_2023_paper.pdf)
 2. [2023 ICCV] **Cdul: Clip-driven unsupervised learning for multi-label image classification**[[paper]](https://arxiv.org/pdf/2307.16634)[[code]](https://github.com/cs-mshah/CDUL)
