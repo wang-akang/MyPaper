@@ -1,29 +1,30 @@
 
-### 多标签图像分类：
-1. [2023 ICCV] **PatchCT: Aligning Patch Set and Label Set with Conditional Transport
-for Multi-Label Image Classification**[[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_PatchCT_Aligning_Patch_Set_and_Label_Set_with_Conditional_Transport_ICCV_2023_paper.pdf)
-2. [2023 ICCV] **Cdul: Clip-driven unsupervised learning for multi-label image classification**[[paper]](https://arxiv.org/pdf/2307.16634)[[code]](https://github.com/cs-mshah/CDUL)
-3. [2024 ICML] **Language-driven Cross-modal Classifier for
-Zero-shot Multi-label Image Recognition**[[paper]](https://openreview.net/pdf?id=sHswzNWUW2)[[code]](https://github.com/yic20/CoMC)
-4. [2024 AAAI] **TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training**[[paper]](https://arxiv.org/pdf/2312.12828)[[code]](https://github.com/linyq2117/TagCLIP)
-5. [2025 CVPR] **SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models**[[paper]](https://arxiv.org/pdf/2502.16911?)[[code]](https://github.com/kjmillerCURIS/SPARC)
-6. [2025 CVPR] **Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification**[[paper]](https://arxiv.org/pdf/2503.16873)[[code]](https://github.com/k0u-id/CCD)
-7. [2025 CVPR] **Recover and Match: Open-Vocabulary Multi-Label Recognition through
-Knowledge-Constrained Optimal Transport**[[paper]](https://arxiv.org/pdf/2503.15337)[[code]](https://github.com/EricTan7/RAM)
-8. [2025 CVPR] **Correlative and Discriminative Label Grouping for Multi-Label
-Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
-9. [2025 ICML] **From Local Details to Global Context:Advancing Vision-Language Models with Attention-Based Selection**[[paper]](https://arxiv.org/pdf/2505.13233?)[[code]](https://github.com/BIT-DA/ABS)
-10. [2025 WACV] **Pay Attention to Your Neighbours:Training-Free Open-Vocabulary Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2404.08181?)[[code]](https://github.com/sinahmr/NACLIP)
-11. [2025 ICCV] **Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification**
-12. [unknown] **Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2411.15869)[[code]](https://github.com/SuleBai/SC-CLIP)
-13. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation**[[paper]](https://arxiv.org/pdf/2404.06542)[[code]](https://github.com/aimagelab/freeda/)
-
+###多标签图像分类：
+1. [2023ICKV] **PatchCT：将补丁集和标签集与条件传输对齐
+用于多标签图像分类**[[纸]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_PatchCT_Aligning_Patch_Set_and_Label_Set_with_Conditional_Transport_ICCV_2023_paper.pdf)
+2. [2023ICKV] **CDUL：用于多标签图像分类的剪辑驱动无监督学习**[[纸]](https://arxiv.org/pdf/2307.16634)[[代码]](https://github.com/cs-mshah/CDUL)
+3. [2024ICML] **语言驱动的跨模态分类器
+零拍多标记图像识别**[[纸]](https://openreview.net/pdf?id=sHswzNWUW2)[[代码]](https://github.com/yic20/CoMC)
+4. [2024AAAI] **TagCLIP：一个本地到全球的框架，在不训练的情况下增强CLIP的开放词汇多标签分类**[[纸]](https://arxiv.org/pdf/2312.12828)[[代码]](https://github.com/linyq2117/TagCLIP)
+5. [2025CVPR] **SPARC：视觉语言模型中零击多标签识别的分数提示和自适应融合**[[纸]](https://arxiv.org/pdf/2502.16911?)[[代码]](https://github.com/kjmillerCURIS/SPARC)
+6. [2025CVPR] **分类器引导的CLIP蒸馏在无监督多标记分类中的应用**[[纸]](https://arxiv.org/pdf/2503.16873)[[代码]](https://github.com/k0u-id/CCD)
+7. [2025CVPR] **恢复和匹配：开放词汇多标签识别
+知识约束最优运输**[[纸]](https://arxiv.org/pdf/2503.15337)[[代码]](https://github.com/EricTan7/RAM)
+8. [2025CVPR] **多标签的相关和判别标签分组
+视觉提示微调**[[纸]](https://arxiv.org/pdf/2504.09990)
+9. [2025年ICML] **从局部细节到全局语境：基于注意选择的视觉语言模型**[[纸]](https://arxiv.org/pdf/2505.13233?)[[代码]](https://github.com/BIT-DA/ABS)
+10. [2025WACV] **关注你的邻居：免训练的开放词汇语义分割**[[纸]](https://arxiv.org/pdf/2404.08181?)[[代码]](https://github.com/sinahmr/NACLIP)
+11. [2025ICKV] **长尾多标签图像分类的分类选择特征增强**
+12. [未知的] **用于免训练的开放词汇切分的自校准CLIP**[[纸]](https://arxiv.org/pdf/2411.15869)[[代码]](https://github.com/SuleBai/SC-CLIP)
+13. [2024CVPR] **离线扩散增强原型生成的免训练开放词汇切分**[[纸]](https://arxiv.org/pdf/2404.06542)[[代码]](https://github.com/aimagelab/freeda/)
+14. [未知的] **TextRegion：来自冻结图像-文本模型的文本对齐区域标记**[纸](https://arxiv.org/pdf/2505.23769)[代码](https://github.com/avaxiao/TextRegion)
+---
 
 
 ### Training-Free：
 目前的traning-free方法的核心其实就是算相似度矩阵
 1. [2024 CVPR] **Clip-diy: Clip dense inference yields open-vocabulary semantic segmentation for-free** [[paper]](https://arxiv.org/pdf/2309.14289)
-2. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10655445&tag=1) [[code]](https://github.com/aimagelab/freeda) 
+2. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation** [[paper]]-(https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10655445&tag=1) [[code]](https://github.com/aimagelab/freeda) 
 3. [2024 ECCV] **Proxyclip: Proxy attention improves clip for open-vocabulary segmentation** [[paper]](https://arxiv.org/pdf/2408.04883) [[code]](https://github.com/mc-lan/ProxyCLIP?tab=readme-ov-file)
 4. [2024 ECCV] **ClearCLIP: Decomposing CLIP Representations for Dense Vision-Language Inference** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06346.pdf) [[code]](https://github.com/mc-lan/ClearCLIP)
 5. [2024 ECCV] **Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2404.08181) [[code]](https://github.com/sinahmr/NACLIP)
