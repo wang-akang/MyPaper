@@ -16,9 +16,13 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 11. [2025 ICCV] **Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification**
 12. [unknown] **Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2411.15869)[[code]](https://github.com/SuleBai/SC-CLIP)
 13. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation**[[paper]](https://arxiv.org/pdf/2404.06542)[[code]](https://github.com/aimagelab/freeda/)
-14. [unknown] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models**[paper](https://arxiv.org/pdf/2505.23769)[code](https://github.com/avaxiao/TextRegion)
+14. [unknown] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models**[[paper]](https://arxiv.org/pdf/2505.23769)[[code]](https://github.com/avaxiao/TextRegion)
+
 ---
 
+### 语义分割:
+1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
+2. [2025 ICCV] **Optimal Transport-assisted Proxy Learning for Weakly Supervised Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/1933)
 
 
 ### Training-Free：
@@ -39,9 +43,6 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 14. [2025 CVPR] **Realistic Test-Time Adaptation of Vision-Language Models** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zanella_Realistic_Test-Time_Adaptation_of_Vision-Language_Models_CVPR_2025_paper.pdf) [[code]](https://github.com/MaxZanella/StatA) [[original]](https://arxiv.org/pdf/2406.01837)
 15. [2025 ICLR] **Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model** [[paper]](https://arxiv.org/pdf/2412.18303) [[code]](https://github.com/Yushu-Li/ECALP?tab=readme-ov-file)
 16. [2025 arXiv] **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1) [[code]](https://github.com/dosowiechi/MLMP?tab=readme-ov-file)
-
-### 语义分割:
-1. [2025CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
 
 
 ### 老师提供暂存：
