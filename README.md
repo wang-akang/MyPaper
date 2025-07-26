@@ -21,6 +21,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 16. [ICCV 2025]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
 17. [ICCV 2025]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
 18. [ICCV 2025]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
+19. [2025 ICCV] **Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation**[[paper]](https://arxiv.org/html/2507.06848v1)
+
 
 ---
 
