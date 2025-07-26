@@ -17,10 +17,10 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 12. [unknown] **Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2411.15869)[[code]](https://github.com/SuleBai/SC-CLIP)
 13. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation**[[paper]](https://arxiv.org/pdf/2404.06542)[[code]](https://github.com/aimagelab/freeda/)
 14. [unknown] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models**[[paper]](https://arxiv.org/pdf/2505.23769)[[code]](https://github.com/avaxiao/TextRegion)
-15. [ICCV 2025]MambaML: Exploring State Space Models for Multi-Label Image Classification
-16. [ICCV 2025]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
-17. [ICCV 2025]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
-18. [ICCV 2025]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
+15. [2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification
+16. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
+17. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
+18. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
 19. [2025 ICCV] **Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation**[[paper]](https://arxiv.org/html/2507.06848v1)
 
 
