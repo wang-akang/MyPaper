@@ -21,15 +21,15 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 16. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
 17. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
 18. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
-
-
-
 ---
 
 ### 语义分割:
 1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
 2. [2025 ICCV] **Optimal Transport-assisted Proxy Learning for Weakly Supervised Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/1933)
 3. [2025 ICCV] **Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation**[[paper]](https://arxiv.org/html/2507.06848v1)
+4. [2025 ICCV] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/645)
+5. [2025 NIPS] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2502.02977v3)
+6. [2023 ICCV] **Zero-guidance Segmentation Using Zero Segment Labels**[[paper]](https://arxiv.org/pdf/2303.13396)
 
 
 ### Training-Free：
