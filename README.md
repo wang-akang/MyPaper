@@ -50,6 +50,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 14. [2025 CVPR] **Realistic Test-Time Adaptation of Vision-Language Models** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Zanella_Realistic_Test-Time_Adaptation_of_Vision-Language_Models_CVPR_2025_paper.pdf) [[code]](https://github.com/MaxZanella/StatA) [[original]](https://arxiv.org/pdf/2406.01837)
 15. [2025 ICLR] **Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model** [[paper]](https://arxiv.org/pdf/2412.18303) [[code]](https://github.com/Yushu-Li/ECALP?tab=readme-ov-file)
 16. [2025 arXiv] **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1) [[code]](https://github.com/dosowiechi/MLMP?tab=readme-ov-file)
+17. [2025 arXiv] **No time to train! Training-Free Reference-Based Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.02798)
 
 
 ### 老师提供暂存：
