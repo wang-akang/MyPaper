@@ -32,6 +32,15 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 6. [2023 ICCV] **Zero-guidance Segmentation Using Zero Segment Labels**[[paper]](https://arxiv.org/pdf/2303.13396)
 7. [2025 ICCV]**Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
 ---
+### few-shot：
+1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**[[paper]]()
+2. [2025 ICCV] **When Pixel Difference Patterns Meet ViT: PiDiViT for Few-Shot Object Detection**
+3. [2025 ICCV] **Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation**
+4. [2025 ICCV] **Few-Shot Pattern Detection via Template Matching and Regression**
+5. [2025 ICCV] **Unknown Text Learning for CLIP-based Few-Shot Open-set Recognition**
+6. [2025 ICCV] **Text Augmented Correlation Transformer For Few-shot Classification & Segmentation**
+7. [2025 CVPR] **UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning**
+8.    **No time to train! Training-Free Reference-Based Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.02798)[[code]](https://github.com/miquel-espinosa/no-time-to-train)
 
 ### Training-Free：
 1. [2024 CVPR] **Clip-diy: Clip dense inference yields open-vocabulary semantic segmentation for-free** [[paper]](https://arxiv.org/pdf/2309.14289)
