@@ -30,7 +30,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 4. [2025 ICCV] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/645)
 5. [2025 NIPS] **Disentangling CLIP for Multi-Object Perception**[[paper]](https://arxiv.org/pdf/2502.02977v3)
 6. [2023 ICCV] **Zero-guidance Segmentation Using Zero Segment Labels**[[paper]](https://arxiv.org/pdf/2303.13396)
-
+---
 
 ### Training-Free：
 目前的traning-free方法的核心其实就是算相似度矩阵
