@@ -33,7 +33,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 7. [2025 ICCV]**Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
 ---
 ### few-shot：
-1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**[[paper]]()
+1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**
 2. [2025 ICCV] **When Pixel Difference Patterns Meet ViT: PiDiViT for Few-Shot Object Detection**
 3. [2025 ICCV] **Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation**
 4. [2025 ICCV] **Few-Shot Pattern Detection via Template Matching and Regression**
