@@ -30,7 +30,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 4. [2025 ICCV] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/645)
 5. [2025 NIPS] **Disentangling CLIP for Multi-Object Perception**[[paper]](https://arxiv.org/pdf/2502.02977v3)
 6. [2023 ICCV] **Zero-guidance Segmentation Using Zero Segment Labels**[[paper]](https://arxiv.org/pdf/2303.13396)
-7. [2025 ICCV]**Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
+7. [2025 ICCV] **Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
+8. [2025 CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**[[paper]](https://arxiv.org/pdf/2503.16282)
 ---
 ### few-shot：
 1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**
