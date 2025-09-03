@@ -33,6 +33,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 7. [2025 ICCV] **Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
 8. [2025 CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**[[paper]](https://arxiv.org/pdf/2503.16282)
 9. [2025 ICCV] **DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary**[[paper]](https://www.arxiv.org/pdf/2508.13560)[[code]](https://github.com/xiaozhen228/DictAS)
+10. [] **No time to train! Training-Free Reference-Based Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.02798)[[code]](https://github.com/miquel-espinosa/no-time-to-train)
 ---
 ### few-shot：
 1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**
