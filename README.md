@@ -41,7 +41,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
  Re-identification**[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf)
 3. [2025 NEIGHBOR] **Neighbor-aware Geodesic Transportation for Neighborhood Refinery**[[paper]](https://openreview.net/pdf?id=DWI1xx2sX5)
 4. [2021 NIPS] **Contextual Similarity Aggregation with Self-attention for Visual Re-ranking**[[paper]](https://arxiv.org/pdf/2110.13430)
-5. [20217-aaai] **Regularized diffusion process for visual retrieval**[[paper]]()
+5. [2027 AAAI] **Regularized diffusion process for visual retrieval**
 
 
 
