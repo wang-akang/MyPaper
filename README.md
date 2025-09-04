@@ -21,7 +21,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 16. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
 17. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
 18. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
----
+
 
 ### 语义分割:
 1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
@@ -36,6 +36,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 10. [2025 arXiv] **No time to train! Training-Free Reference-Based Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.02798)[[code]](https://github.com/miquel-espinosa/no-time-to-train)
 11. [2025 ICCV] **DenseVLM: A Retrieval and Decoupled Alignment Framework for Open-Vocabulary Dense Prediction**[[paper]](https://arxiv.org/pdf/2412.06244)[[code]](https://link.zhihu.com/?target=https%3A//github.com/HVision-NKU/DenseVLM)
 >解决前景偏差问题
+
 ### 检索:
 1. [2024 ICML] **Cluster-Aware Similarity Diffusion for Instance Retrieval**[[paper]](https://arxiv.org/pdf/2406.02343)
 2. [2025 CVPR] **Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person
