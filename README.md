@@ -35,6 +35,17 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 9. [2025 ICCV] **DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary**[[paper]](https://www.arxiv.org/pdf/2508.13560)[[code]](https://github.com/xiaozhen228/DictAS)
 10. [2025 arXiv] **No time to train! Training-Free Reference-Based Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.02798)[[code]](https://github.com/miquel-espinosa/no-time-to-train)
 ---
+### 检索:
+1. [2024 ICML] **Cluster-Aware Similarity Diffusion for Instance Retrieval**[[paper]](https://arxiv.org/pdf/2406.02343)
+2. [2025 CVPR] **Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person
+ Re-identification**[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf)
+3. [2025 NEIGHBOR] **Neighbor-aware Geodesic Transportation for Neighborhood Refinery**[[paper]](https://openreview.net/pdf?id=DWI1xx2sX5)
+4. [2021 NIPS] **Contextual Similarity Aggregation with Self-attention for Visual Re-ranking**[[paper]](https://arxiv.org/pdf/2110.13430)
+5. [20217-aaai] **Regularized diffusion process for visual retrieval**[[paper]]()
+
+
+
+
 ### few-shot：
 1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**
 2. [2025 ICCV] **When Pixel Difference Patterns Meet ViT: PiDiViT for Few-Shot Object Detection**
