@@ -21,6 +21,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 16. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
 17. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
 18. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
+19. [2024 ICLR] **A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation**[[paper]](https://arxiv.org/pdf/2402.04087)[[code]](https://github.com/mrflogs/ICLR24)
+>无需训练”的CLIP模型自适应新方法
 
 
 ### 语义分割:
