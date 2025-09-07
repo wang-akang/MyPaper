@@ -44,6 +44,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 3. [2025 NEIGHBOR] **Neighbor-aware Geodesic Transportation for Neighborhood Refinery**[[paper]](https://openreview.net/pdf?id=DWI1xx2sX5)
 4. [2021 NIPS] **Contextual Similarity Aggregation with Self-attention for Visual Re-ranking**[[paper]](https://arxiv.org/pdf/2110.13430)
 5. [2027 AAAI] **Regularized diffusion process for visual retrieval**
+6. [2025 arXiv] **Global-to-Local or Local-to-Global? Enhancing Image Retrieval with Efficient Local Search and Effective Global Re-ranking**[[paper]](https://arxiv.org/pdf/2509.04351)
 
 
 
