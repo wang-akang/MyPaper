@@ -42,7 +42,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 >解决前景偏差问题
 13. [2025 arXiv] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models**[[paper]](https://arxiv.org/pdf/2505.23769v1)[[code]](https://github.com/avaxiao/TextRegion)
 >SAM2与图像-文本模型(CLIP SigLIP2)结合
-14. []**CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2411.10086)[[code]](https://github.com/zdk258/CorrCLIP)
+14. [2025 ICCV]**CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2411.10086)[[code]](https://github.com/zdk258/CorrCLIP)
 >CLIP与SAM结合
 
 ### 检索:
