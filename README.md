@@ -38,13 +38,13 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 8. [2025 CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**[[paper]](https://arxiv.org/pdf/2503.16282)
 9. [2025 ICCV] **DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary**[[paper]](https://www.arxiv.org/pdf/2508.13560)[[code]](https://github.com/xiaozhen228/DictAS)
 10. [2025 arXiv] **No time to train! Training-Free Reference-Based Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.02798)[[code]](https://github.com/miquel-espinosa/no-time-to-train)
->DINOv2与SAM2结合
+>DINOv2与SAM2结合少样本分割
 12. [2025 ICCV] **DenseVLM: A Retrieval and Decoupled Alignment Framework for Open-Vocabulary Dense Prediction**[[paper]](https://arxiv.org/pdf/2412.06244)[[code]](https://link.zhihu.com/?target=https%3A//github.com/HVision-NKU/DenseVLM)
 >解决前景偏差问题
 13. [2025 arXiv] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models**[[paper]](https://arxiv.org/pdf/2505.23769v1)[[code]](https://github.com/avaxiao/TextRegion)
 >SAM2与图像-文本模型(CLIP SigLIP2)结合
 14. [2025 ICCV]**CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2411.10086)[[code]](https://github.com/zdk258/CorrCLIP)
->CLIP与SAM结合
+>CLIP与SAM结合CorrCLIP 利用分段任意模型 （SAM） 来定义补丁交互的范围，从而减少类间相关性
 
 ### 检索:
 1. [2024 ICML] **Cluster-Aware Similarity Diffusion for Instance Retrieval**[[paper]](https://arxiv.org/pdf/2406.02343)
