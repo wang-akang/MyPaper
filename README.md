@@ -23,7 +23,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 18. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
 19. [2024 ICLR] **A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation**[[paper]](https://arxiv.org/pdf/2402.04087)[[code]](https://github.com/mrflogs/ICLR24)
 >无需训练”的CLIP模型自适应新方法
-
+### 线性特征对齐：
+1. [2025 ICCV]Black Box Few-Shot Adaptation for Vision-Language models[[paper]](https://arxiv.org/pdf/2304.01752v3)[[code]](https://github.com/saic-fi/LFA)
 
 ### 语义分割:
 1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
