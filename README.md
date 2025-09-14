@@ -74,7 +74,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 3. [2024 ECCV] **Diffusion Models for Open-Vocabulary Segmentation** [[paper]](https://arxiv.org/pdf/2306.09316) [[code]](https://github.com/karazijal/ovdiff)
 4. [2024 ECCV] **ClearCLIP: Decomposing CLIP Representations for Dense Vision-Language Inference** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06346.pdf)👌 [[code]](https://github.com/mc-lan/ClearCLIP)
 >CLIP产生了具有错误分割区域的嘈杂分割图，去除残差连接、实现自注意力和丢弃前馈网络。ClearCLIP 始终如一地生成更清晰、更准确的分割图
-5. [2024 ECCV] **SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference** [[paper]](https://arxiv.org/pdf/2312.01597) [[code]](https://github.com/wangf3014/SCLIP)
+5. [2024 ECCV] **SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference** [[paper]](https://arxiv.org/pdf/2312.01597)👌 [[code]](https://github.com/wangf3014/SCLIP)
+>CLIP的分割性能不佳是由斑块表示的空间错位引起的，而不是无法提取密集的视觉特征,问题出在CLIP的自注意力模块,使用 CSA 模块代替 CLIP 视觉编码器中的原始自注意力块
 6. [2024 ECCV] **Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2404.08181) [[code]](https://github.com/sinahmr/NACLIP)
 7. [2024 ECCV] **Proxyclip: Proxy attention improves clip for open-vocabulary segmentation** [[paper]](https://arxiv.org/pdf/2408.04883) [[code]](https://github.com/mc-lan/ProxyCLIP?tab=readme-ov-file) 
 8. [2024 ECCV] **Explore the Potential of CLIP for Training-Free Open Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2407.08268) [[code]](https://github.com/leaves162/CLIPtrase)
