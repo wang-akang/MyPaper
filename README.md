@@ -16,14 +16,13 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 11. [2025 ICCV] **Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification**
 12. [unknown] **Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2411.15869)[[code]](https://github.com/SuleBai/SC-CLIP)
 13. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation**[[paper]](https://arxiv.org/pdf/2404.06542)[[code]](https://github.com/aimagelab/freeda/)
-14. [unknown] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models**[[paper]](https://arxiv.org/pdf/2505.23769)[[code]](https://github.com/avaxiao/TextRegion)
-15. [2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification
-16. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
-17. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
-18. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
+14. [2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification
+15. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
+16. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
+17. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
 19. [2024 ICLR] **A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation**[[paper]](https://arxiv.org/pdf/2402.04087)[[code]](https://github.com/mrflogs/ICLR24)
 >无需训练”的CLIP模型自适应新方法
-20. [2022 IJCV] **Learning to Prompt for Vision-Language Models**[[paper]](https://arxiv.org/pdf/2109.01134v3)[[code]](https://github.com/KaiyangZhou/CoOp)
+19. [2022 IJCV] **Learning to Prompt for Vision-Language Models**[[paper]](https://arxiv.org/pdf/2109.01134v3)[[code]](https://github.com/KaiyangZhou/CoOp)
 ### 线性特征对齐：
 1. [2025 ICCV]**Black Box Few-Shot Adaptation for Vision-Language models**[[paper]](https://arxiv.org/pdf/2304.01752v3)[[code]](https://github.com/saic-fi/LFA)
 
