@@ -28,7 +28,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 1. [2025 ICCV]**Black Box Few-Shot Adaptation for Vision-Language models**[[paper]](https://arxiv.org/pdf/2304.01752v3)[[code]](https://github.com/saic-fi/LFA)
 
 ### 语义分割:
-1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)
+1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)[[code]](https://github.com/dosowiechi/MLMP)
 2. [2025 ICCV] **Optimal Transport-assisted Proxy Learning for Weakly Supervised Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/1933)
 3. [2025 ICCV] **Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation**[[paper]](https://arxiv.org/html/2507.06848v1)
 4. [2025 ICCV] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/645)
