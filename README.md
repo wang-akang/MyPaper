@@ -33,6 +33,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 3. [2025 ICCV] **Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation**[[paper]](https://arxiv.org/html/2507.06848v1)
 4. [2025 ICCV] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**[[paper]](https://iccv.thecvf.com/virtual/2025/poster/645)
 5. [2025 NIPS] **Disentangling CLIP for Multi-Object Perception**[[paper]](https://arxiv.org/pdf/2502.02977v3)
+>VLMs 中类别特征之间的高 MFI 严重影响了其多对象感知能力。通过引入 MFI Loss(解耦文本特征) 和 ASL Loss 来解耦 CLIP 特征训练目标降低总训练损失是 MFI 损失和 ASL 损失的组合
 6. [2023 ICCV] **Zero-guidance Segmentation Using Zero Segment Labels**[[paper]](https://arxiv.org/pdf/2303.13396)
 7. [2025 ICCV] **Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
 8. [2025 CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**[[paper]](https://arxiv.org/pdf/2503.16282)
