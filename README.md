@@ -33,6 +33,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 5. [2025 NIPS] **Disentangling CLIP for Multi-Object Perception**[[paper]](https://arxiv.org/pdf/2502.02977v3)
 >VLMs 中类别特征之间的高 MFI 严重影响了其多对象感知能力。通过引入 MFI Loss(解耦文本特征) 和 ASL Loss 来解耦 CLIP 特征训练目标降低总训练损失是 MFI 损失和 ASL 损失的组合
 6. [2023 ICCV] **Zero-guidance Segmentation Using Zero Segment Labels**[[paper]](https://arxiv.org/pdf/2303.13396)
+>DINO-ViT 模型提取图像的深层像素级特征，聚类得到分割掩码，输入图像和通过聚类得到的二值掩码会被同时送入CLIP，新颖的注意力掩码（Attention Masking）技术，特别是全局消减（Global Subtraction），使用 ZeroCap 把图像生成文本，相似度分数是视觉嵌入和预测文本嵌入（通过 CLIP 文本编码器计算）的余弦相似度的平均值
 7. [2025 ICCV] **Enhancing Few-Shot Vision-Language Classification with Large MultimodalModel Features**[[paper]](https://arxiv.org/pdf/2412.00142)
 8. [2025 CVPR] **Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model**[[paper]](https://arxiv.org/pdf/2503.16282)
 9. [2025 ICCV] **DictAS: A Framework for Class-Generalizable Few-Shot Anomaly Segmentation via Dictionary**[[paper]](https://www.arxiv.org/pdf/2508.13560)[[code]](https://github.com/xiaozhen228/DictAS)
