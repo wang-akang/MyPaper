@@ -46,7 +46,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 >CLIP与SAM结合CorrCLIP 利用分段任意模型 （SAM） 来定义补丁交互的范围，从而减少类间相关性
 15. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation**[[paper]](https://arxiv.org/pdf/2404.06542)[[code]](https://github.com/aimagelab/freeda/)
 > **离线原型生成阶段**:使用 Stable Diffusion 模型,结合大量的文本描述提取局部化掩码,采用 DINOv2视觉原型提取,CLIP 文本键提取,每个文本键都与一个视觉原型相关联,构建一个大规模的文本-视觉原型集合
- **无训练掩码预测阶段**:给定一组文本类别,检索到的原型取平均得到视觉原型.超像素的局部区域分割,CLIP的全局相似性加权.
+ **无训练掩码预测阶段**:给定一组文本类别,检索到的原型取平均得到视觉原型.超像素的局部区域分割Felzenszwalb,CLIP的全局相似性加权.
 
 ### 检索:
 1. [2024 ICML] **Cluster-Aware Similarity Diffusion for Instance Retrieval**[[paper]](https://arxiv.org/pdf/2406.02343)
