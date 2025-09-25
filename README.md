@@ -50,6 +50,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
  **无训练掩码预测阶段**:给定一组文本类别,检索到的原型取平均得到视觉原型.超像素的局部区域分割Felzenszwalb,CLIP的全局相似性加权.
 16. [2025 NeurIPS] **SANSA: Unleashing the Hidden Semantics in SAM2for Few-Shot Segmentation**[[paper]](https://arxiv.org/pdf/2505.21795)[[code]](https://github.com/ClaudiaCuttano/SANSA)
 17. [2025 arXiv] **X-SAM: From Segment Anything to Any Segmentation**[[paper]](https://arxiv.org/pdf/2508.04655)[[code]](https://github.com/wanghao9610/X-SAM)
+18. [2025 CVPR] **Segment Any Motion in Videos**[[paper]](https://arxiv.org/pdf/2503.22268)[[code]](https://github.com/nnanhuang/SegAnyMo)
 
 
 
