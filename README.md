@@ -109,11 +109,11 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 26. [2025 ICCV] **DIH-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation**
 27. [2025 ICCV] **Correspondence as Video: Test-Time Adaption on SAM2 for Reference Segmentation in the Wild**
 28. [2025 ICCV] **Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation**
-29. [2025 ICCV] **Plug-in Feedback Self-adaptive Attention in CLIP for Training-free Open-Vocabulary Segmentation**
-30. [2025 ICCV] **Test-Time Retrieval-Augmented Adaptation for Vision-Language Models**
-31. [2025 ICCV] **ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction**
-32. [2025 ICCV] **Text-guided Visual Prompt DINO for Generic Segmentation**
-33. [2025 ICCV] **SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation**
+29. [2025 ICCV] **Plug-in Feedback Self-adaptive Attention in CLIP for Training-free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2508.20265)
+30. [2025 ICCV] **Test-Time Retrieval-Augmented Adaptation for Vision-Language Models**[[code]](https://github.com/xinqi-fan/TT-RAA)
+31. [2025 ICCV] **ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction**[[paper]](https://arxiv.org/pdf/2507.15803)
+32. [2025 ICCV] **Text-guided Visual Prompt DINO for Generic Segmentation**[[paper]](https://arxiv.org/pdf/2508.06146)[[code]](https://github.com/WeChatCV/WeVisionOne)
+33. [2025 ICCV] **SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation**[[paper]](https://arxiv.org/pdf/2507.12857)[[code]](https://github.com/HuangShiqi128/SCORE)
 34. [2025 ICCV] **Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation**
 35. [2025 arXiv] **Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation** [[paper]](https://arxiv.org/pdf/2411.15869) [[code]](https://github.com/SuleBai/SC-CLIP?tab=readme-ov-file)
 36. [2025 arXiv] **Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1) [[code]](https://github.com/dosowiechi/MLMP?tab=readme-ov-file)
