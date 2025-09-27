@@ -73,8 +73,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 3. [2025 ICCV] **Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2506.22979)[[code]](https://github.com/jliu4ai/FewCLIP)
 4. [2025 ICCV] **Few-Shot Pattern Detection via Template Matching and Regression**[[paper]](https://arxiv.org/pdf/2508.17636)
 5. [2025 ICCV] **Unknown Text Learning for CLIP-based Few-Shot Open-set Recognition**
-6. [2025 ICCV] **Text Augmented Correlation Transformer For Few-shot Classification & Segmentation**
-7. [2025 CVPR] **UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning**
+6. [2025 ICCV] **Text Augmented Correlation Transformer For Few-shot Classification & Segmentation**[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Nandam_Text_Augmented_Correlation_Transformer_For_Few-shot_Classification__Segmentation_CVPR_2025_paper.pdf)
+7. [2025 CVPR] **UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning**[[paper]](https://arxiv.org/pdf/2412.16739)[[code]](https://github.com/ZhouLong0/UNEM-Transductive)
 
 
 ### Training-Free：
