@@ -17,7 +17,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 12. [unknown] **Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2411.15869)[[code]](https://github.com/SuleBai/SC-CLIP)
 13. [2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification
 14. [2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification
-15. [2025 ICCV]More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning
+15. [2025 ICCV] **More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning**[[paper]](https://arxiv.org/pdf/2508.20381)
 16. [2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity
 17. [2024 ICLR] **A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation**[[paper]](https://arxiv.org/pdf/2402.04087)[[code]](https://github.com/mrflogs/ICLR24)
 >无需训练”的CLIP模型自适应新方法
