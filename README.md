@@ -108,7 +108,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 25. [2025 ICCV] **Training-Free Class Purification for Open-Vocabulary Semantic Segmentation**
 26. [2025 ICCV] **DIH-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation**
 27. [2025 ICCV] **Correspondence as Video: Test-Time Adaption on SAM2 for Reference Segmentation in the Wild**[[paper]](https://arxiv.org/pdf/2508.07759)[[code]](https://github.com/wanghr64/cav-sam)
-28. [2025 ICCV] **Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation**
+28. [2025 ICCV] **Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation**[[paper]](https://kimsure.github.io/images/files/iccv25_sfp_full.pdf)[[code]](https://github.com/Kimsure/SFP)
 29. [2025 ICCV] **Plug-in Feedback Self-adaptive Attention in CLIP for Training-free Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2508.20265)
 30. [2025 ICCV] **Test-Time Retrieval-Augmented Adaptation for Vision-Language Models**[[code]](https://github.com/xinqi-fan/TT-RAA)
 31. [2025 ICCV] **ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction**[[paper]](https://arxiv.org/pdf/2507.15803)
