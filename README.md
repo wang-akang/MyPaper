@@ -68,10 +68,10 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 
 
 ### few-shot：
-1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**
+1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**[[paper]](https://arxiv.org/pdf/2509.07917)
 2. [2025 ICCV] **When Pixel Difference Patterns Meet ViT: PiDiViT for Few-Shot Object Detection**
-3. [2025 ICCV] **Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation**
-4. [2025 ICCV] **Few-Shot Pattern Detection via Template Matching and Regression**
+3. [2025 ICCV] **Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2506.22979)[[code]](https://github.com/jliu4ai/FewCLIP)
+4. [2025 ICCV] **Few-Shot Pattern Detection via Template Matching and Regression**[[paper]](https://arxiv.org/pdf/2508.17636)
 5. [2025 ICCV] **Unknown Text Learning for CLIP-based Few-Shot Open-set Recognition**
 6. [2025 ICCV] **Text Augmented Correlation Transformer For Few-shot Classification & Segmentation**
 7. [2025 CVPR] **UNEM: UNrolled Generalized EM for Transductive Few-Shot Learning**
