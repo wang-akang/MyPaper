@@ -78,7 +78,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 
 
 ### Training-Free：
-1. [2024 CVPR] **Clip-diy: Clip dense inference yields open-vocabulary semantic segmentation for-free** [[paper]](https://arxiv.org/pdf/2309.14289)
+1. [2024 CVPR] **Clip-diy: Clip dense inference yields open-vocabulary semantic segmentation for-free** [[paper]](https://arxiv.org/pdf/2309.14289)[[code]](https://github.com/wysoczanska/clip-diy)
 2. [2024 CVPR] **Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation** [[paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10655445&tag=1) [[code]](https://github.com/aimagelab/freeda)
 3. [2024 ECCV] **Diffusion Models for Open-Vocabulary Segmentation** [[paper]](https://arxiv.org/pdf/2306.09316) [[code]](https://github.com/karazijal/ovdiff)
 4. [2024 ECCV] **ClearCLIP: Decomposing CLIP Representations for Dense Vision-Language Inference** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06346.pdf)👌 [[code]](https://github.com/mc-lan/ClearCLIP)
