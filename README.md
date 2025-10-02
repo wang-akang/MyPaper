@@ -22,6 +22,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 17. [2024 ICLR] **A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation**[[paper]](https://arxiv.org/pdf/2402.04087)[[code]](https://github.com/mrflogs/ICLR24)
 >无需训练”的CLIP模型自适应新方法
 18. [2022 IJCV] **Learning to Prompt for Vision-Language Models**[[paper]](https://arxiv.org/pdf/2109.01134v3)[[code]](https://github.com/KaiyangZhou/CoOp)
+19. [2025 CVPR] **DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception**[[paper]](https://arxiv.org/pdf/2505.04410)[[code]](https://github.com/xiaomoguhz/DeCLIP)
 ### 线性特征对齐：
 1. [2025 ICCV]**Black Box Few-Shot Adaptation for Vision-Language models**[[paper]](https://arxiv.org/pdf/2304.01752v3)[[code]](https://github.com/saic-fi/LFA)
 
