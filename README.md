@@ -55,6 +55,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 18. [2025 CVPR] **Segment Any Motion in Videos**[[paper]](https://arxiv.org/pdf/2503.22268)[[code]](https://github.com/nnanhuang/SegAnyMo)
 19. [2025 NeurIPS] **OpenWorldSAM: Extending SAM2 for Universal Image Segmentation with Language Prompts**[[paper]](https://arxiv.org/pdf/2507.05427)
 20. [2025 ICCV] **Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation**[[paper]](https://arxiv.org/pdf/2411.19331)[[code]](https://lorebianchi98.github.io/Talk2DINO/)
+>映射函数，CLIP文本映射到DINOv2特征向量
 21. [2025 ICIP] **Zero-Shot Pseudo Labels Generation Using SAM and CLIP for Semi-Supervised Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2505.19846)
 >使用SAM和CLIP通过zero-shot标注生成伪标签，并通过UniMatch的半监督学习框架作为增强标签来提高其质量。
 
