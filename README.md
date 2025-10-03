@@ -107,6 +107,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 19. [2025 ICCV] **Harnessing Vision Foundation Models for High-Performance, Training-Free Open Vocabulary Segmentation** [[paper]](https://arxiv.org/pdf/2411.09219) [[code]](https://github.com/YuHengsss/Trident)
 20. [2025 ICCV] **E-SAM: Training-Free Segment Every Entity Model** [[paper]](https://arxiv.org/pdf/2503.12094)
 21. [2025 ICCV] **ReME: A Data-Centric Framework for Training-Free Open-Vocabulary Segmentation** [[paper]](https://arxiv.org/pdf/2506.21233) [[code]](https://github.com/xiweix/ReME)
+>其核心在于从真实图像中构建一个高质量、对齐良好、语义丰富且上下文相关的片段-文本对参考集，并通过简单的相似度检索机制，在不进行任何模型微调的情况下，显著提升 OVS 性能。
 22. [2025 ICCV] **CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting** [[paper]](https://arxiv.org/pdf/2505.20469) [[code]](https://epsilontl.github.io/CCL-LGS/)
 23. [2025 ICCV] **Auto-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2312.04539)[[code]](https://github.com/ozzyou/AutoSeg)
 24. [2025 ICCV] **Understanding Personal Concept in Open-Vocabulary Semantic Segmentation**
