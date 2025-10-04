@@ -60,19 +60,6 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 21. [2025 ICIP] **Zero-Shot Pseudo Labels Generation Using SAM and CLIP for Semi-Supervised Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2505.19846)
 >使用SAM和CLIP通过zero-shot标注生成伪标签，并通过UniMatch的半监督学习框架作为增强标签来提高其质量。
 
-
-### 检索:
-1. [2024 ICML] **Cluster-Aware Similarity Diffusion for Instance Retrieval**[[paper]](https://arxiv.org/pdf/2406.02343)
-2. [2025 CVPR] **Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person
- Re-identification**[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf)
-3. [2025 NEIGHBOR] **Neighbor-aware Geodesic Transportation for Neighborhood Refinery**[[paper]](https://openreview.net/pdf?id=DWI1xx2sX5)
-4. [2021 NIPS] **Contextual Similarity Aggregation with Self-attention for Visual Re-ranking**[[paper]](https://arxiv.org/pdf/2110.13430)
-5. [2027 AAAI] **Regularized diffusion process for visual retrieval**
-6. [2025 arXiv] **Global-to-Local or Local-to-Global? Enhancing Image Retrieval with Efficient Local Search and Effective Global Re-ranking**[[paper]](https://arxiv.org/pdf/2509.04351)
-
-
-
-
 ### few-shot：
 1. [2025 ICCV] **Object-level Correlation for Few-Shot Segmentation**[[paper]](https://arxiv.org/pdf/2509.07917)
 2. [2025 ICCV] **When Pixel Difference Patterns Meet ViT: PiDiViT for Few-Shot Object Detection**
@@ -129,6 +116,14 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 38. [2025 arXiv] **TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models** [[paper]](https://arxiv.org/pdf/2505.23769) [[code]](https://github.com/avaxiao/TextRegion)
 39. [2025 arXiv] **A Survey on Training-free Open-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.22209)
 
+### 检索:
+1. [2024 ICML] **Cluster-Aware Similarity Diffusion for Instance Retrieval**[[paper]](https://arxiv.org/pdf/2406.02343)
+2. [2025 CVPR] **Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person
+ Re-identification**[[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf)
+3. [2025 NEIGHBOR] **Neighbor-aware Geodesic Transportation for Neighborhood Refinery**[[paper]](https://openreview.net/pdf?id=DWI1xx2sX5)
+4. [2021 NIPS] **Contextual Similarity Aggregation with Self-attention for Visual Re-ranking**[[paper]](https://arxiv.org/pdf/2110.13430)
+5. [2027 AAAI] **Regularized diffusion process for visual retrieval**
+6. [2025 arXiv] **Global-to-Local or Local-to-Global? Enhancing Image Retrieval with Efficient Local Search and Effective Global Re-ranking**[[paper]](https://arxiv.org/pdf/2509.04351)
 ### 老师提供暂存：
 1. [2025 arXiv] **POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_POT_Prototypical_Optimal_Transport_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf)
 > 弱监督病理图像的语义分割
