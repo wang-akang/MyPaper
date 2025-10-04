@@ -25,7 +25,8 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 19. [2025 CVPR] **DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception**[[paper]](https://arxiv.org/pdf/2505.04410)[[code]](https://github.com/xiaomoguhz/DeCLIP)
 >DeCLIP 通过解耦自注意力模块并分别对内容特征和上下文特征进行蒸馏，有效地解决了 CLIP 在开放词汇密集感知任务中局部特征辨别力不足和空间一致性差的问题。
 ### 线性特征对齐：
-1. [2025 ICCV]**Black Box Few-Shot Adaptation for Vision-Language models**[[paper]](https://arxiv.org/pdf/2304.01752v3)[[code]](https://github.com/saic-fi/LFA)
+1. [2025 ICCV] **Black Box Few-Shot Adaptation for Vision-Language models**[[paper]](https://arxiv.org/pdf/2304.01752v3)[[code]](https://github.com/saic-fi/LFA)
+2. [2025 CVPR] **DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment**[[paper]](https://arxiv.org/pdf/2412.16334)
 
 ### 语义分割:
 1. [2025 CVPR] **Test-Time Adaptation of Vision-Language Models forOpen-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2505.21844v1)[[code]](https://github.com/dosowiechi/MLMP)
