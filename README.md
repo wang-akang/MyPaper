@@ -112,6 +112,7 @@ Visual Prompt Tuning**[[paper]](https://arxiv.org/pdf/2504.09990)
 23. [2025 ICCV] **Auto-Vocabulary Semantic Segmentation** [[paper]](https://arxiv.org/pdf/2312.04539)[[code]](https://github.com/ozzyou/AutoSeg)
 24. [2025 ICCV] **Understanding Personal Concept in Open-Vocabulary Semantic Segmentation**
 25. [2025 ICCV] **Training-Free Class Purification for Open-Vocabulary Semantic Segmentation**[[paper]](https://arxiv.org/pdf/2508.00557)[[code]](https://github.com/chenqi1126/FreeCP)
+>FreeCP通过分析精炼前后类激活图的空间一致性，分两阶段进行类别净化：首先滤除冗余类别，然后结合大型语言模型（LLM）生成的细粒度描述来消除视觉-语言歧义。即插即用
 26. [2025 ICCV] **DIH-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation**
 27. [2025 ICCV] **Correspondence as Video: Test-Time Adaption on SAM2 for Reference Segmentation in the Wild**[[paper]](https://arxiv.org/pdf/2508.07759)[[code]](https://github.com/wanghr64/cav-sam)
 28. [2025 ICCV] **Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation**[[paper]](https://kimsure.github.io/images/files/iccv25_sfp_full.pdf)[[code]](https://github.com/Kimsure/SFP)
