@@ -1,0 +1,2068 @@
+<!DOCTYPE html><html lang="en"><head>
+<title> 2025-10-05未命名文件</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+#wmd-preview{
+  max-width: 210mm;
+  margin: 0 auto;
+}
+/* normal start */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Tahoma, Arial, 'Hiragino Sans GB', STHeiti, "Microsoft YaHei", "微软雅黑", 'WenQuanYi Micro Hei', STXihei, "华文细黑", Heiti, "黑体", SimSun, "宋体", Song, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+  color: #2f2f2f;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+
+/* link start */
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+a {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+/* link end */
+
+
+/* head start */
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+  font-size: 2rem;;
+  margin: .8em 0 .6em 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin: .7em 0 .5em 0;
+}
+
+h3 {
+  font-size: 1.17rem;
+  margin: .6em 0 .4em 0;
+}
+
+h4 {
+  margin: .5em 0 .3em 0;
+}
+
+video {
+  max-width: 100%;
+}
+
+h5 {
+  font-size: 0.83rem;
+  margin: .5em 0 .3em 0;
+}
+
+h6 {
+  font-size: 0.67rem;
+  margin: .5em 0 .3em 0;
+}
+/* head end */
+
+.xsj_hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: 1px dashed #2f2f2f;
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+}
+
+p {
+    margin: 1.1em 0 1.6em;
+}
+
+pre{
+    line-height: initial !important;
+    word-wrap: break-word;
+    word-break: break-all;
+    tab-size: 4;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+
+kbd{
+    display: inline-block;
+    padding: 3px 5px;
+    font-size: 11px;
+    line-height: 10px;
+    color: #2f2f2f;
+    vertical-align: middle;
+    background: #fcfcfc;
+    border: solid 1px #2f2f2f;
+    border-bottom-color: #2f2f2f;
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 #2f2f2f;
+}
+
+address {
+  display: block;
+  margin-bottom: 20px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+em {
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+
+/* list start */
+ul,ol {
+  padding: 0;
+  margin: 1.1em 0 1.1em 3em;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 1em;
+}
+/* list end */
+
+dl {
+  margin-bottom: 20px;
+}
+
+dt,
+dd {
+  line-height: 20px;
+}
+
+dt {
+  font-weight: bold;
+  line-height: 1.35em;
+}
+
+dd {
+  margin-left: 10px;
+  line-height: 1.35em;
+}
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #999999;
+}
+
+/* normal end */
+
+
+/* blockquote start */
+blockquote {
+  padding: 20px 20px;
+  margin: 20px 0 20px;
+  border-left: 5px solid rgba(153, 153, 153, 0.2);
+  background: rgba(204, 204, 204, 0.2);
+}
+
+blockquote p {
+    margin: 1.1em 0 1.1em;
+}
+
+blockquote>ol.markdown_ol, blockquote>ul.markdown_ul{
+  margin-left: 1.1em;
+}
+
+blockquote>*:first-child {
+  margin-top: 0;
+}
+
+blockquote>*:last-child {
+  margin-bottom: 0;
+}
+
+blockquote small {
+  display: block;
+  line-height: 20px;
+  color: #999999;
+}
+
+blockquote small:before {
+  content: '\2014 \00A0';
+}
+
+blockquote footer{
+    margin: 1em 0;
+    font-style: italic;
+}
+
+blockquote footer cite {
+    margin: 0 1em;
+}
+
+/* blockquote end */
+
+/**
+ * Treeview syntax highlighting based on highlight.js
+ * Copyright (c) 2014-2015, Asciidocfx Team, (MIT Licensed)
+ * https://github.com/asciidocfx/highlight-treeview.js
+ */
+.language-treeview.hljs{
+  position: relative;
+}
+.hljs-folder,
+.hljs-hiddenfile,
+.hljs-file {
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    height: 16px;
+}
+.hljs-folder:before,
+.hljs-file:before,
+.hljs-hiddenfile:before {
+    top: 0;
+    content: '';
+    width: 14px;
+    height: 12px;
+    margin-top: 0px;
+    margin-right: 3px;
+    position: relative;
+    display: inline-block;
+    background-size: 14px;
+    background-repeat: no-repeat;
+}
+.hljs-file:before,
+.hljs-hiddenfile:before {
+    height: 14px;
+    margin-left: 1px;
+}
+.hljs-hiddenfile {
+    opacity: 0.6;
+}
+.hljs-file.photo:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c5";
+}
+.hljs-file.plain:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f016";
+}
+.hljs-file.source:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c9";
+}
+.hljs-file.archive:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c6";
+}
+.hljs-file.audio:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c7";
+}
+.hljs-file.video:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c8";
+}
+.hljs-file.pdf:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c1";
+}
+.hljs-file.xls:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c3";
+}
+.hljs-file.doc:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c2";
+}
+.hljs-file.ppt:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f1c4";
+}
+.hljs-folder:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f114";
+}
+.hljs-hiddenfile:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f016";
+}
+.hljs-tvline {
+    margin-left: 6px;
+    position: absolute;
+    text-indent: -99em;
+    padding-bottom: 8px;
+    vertical-align: top;
+    display: inline-block;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(94, 144, 117);
+}
+.hljs-folder-branch {
+    width: 8px;
+    height: 8px;
+    margin-top: -1px;
+    margin-left: 6px;
+    text-indent: -99em;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(94, 144, 117);
+}
+.hljs-folder-branch.win {
+    width: 14px;
+    margin-right: 2px;
+}
+.hljs-folder-last-branch {
+    height: 7px;
+    width: 7px;
+    margin-left: 6px;
+    text-indent: -99em;
+    position: relative;
+    vertical-align: top;
+    display: inline-block;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(94, 144, 117);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(94, 144, 117);
+}
+.hljs-folder-last-branch.win {
+    width: 13px;
+    margin-right: 2px;
+}
+
+
+/**
+ * Treeview syntax highlighting based on highlight.js
+ */
+
+/*wavedrom start*/
+
+.wavedrom_svg text, .wavedrom_svg_defs text {
+    font-size:11pt;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    font-stretch:normal;
+    text-align:center;
+    fill-opacity:1;
+    font-family:Helvetica
+}
+.wavedrom_svg .muted, .wavedrom_svg_defs .muted {
+    fill:#aaa
+}
+.wavedrom_svg .warning, .wavedrom_svg_defs .warning {
+    fill:#f6b900
+}
+.wavedrom_svg .error, .wavedrom_svg_defs .error {
+    fill:#f60000
+}
+.wavedrom_svg .info, .wavedrom_svg_defs .info {
+    fill:#0041c4
+}
+.wavedrom_svg .success, .wavedrom_svg_defs .success {
+    fill:#00ab00
+}
+.wavedrom_svg .h1, .wavedrom_svg_defs .h1 {
+    font-size:33pt;
+    font-weight:bold
+}
+.wavedrom_svg .h2, .wavedrom_svg_defs .h2 {
+    font-size:27pt;
+    font-weight:bold
+}
+.wavedrom_svg .h3, .wavedrom_svg_defs .h3 {
+    font-size:20pt;
+    font-weight:bold
+}
+.wavedrom_svg .h4, .wavedrom_svg_defs .h4 {
+    font-size:14pt;
+    font-weight:bold
+}
+.wavedrom_svg .h5, .wavedrom_svg_defs .h5 {
+    font-size:11pt;
+    font-weight:bold
+}
+.wavedrom_svg .h6, .wavedrom_svg_defs .h6 {
+    font-size:8pt;
+    font-weight:bold
+}
+.wavedrom_svg_defs .s1 {
+    fill:none;
+    stroke:#000;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none
+}
+.wavedrom_svg_defs .s2 {
+    fill:none;
+    stroke:#000;
+    stroke-width:0.5;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none
+}
+.wavedrom_svg_defs .s3 {
+    color:#000;
+    fill:none;
+    stroke:#000;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:1,3;
+    stroke-dashoffset:0;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s4 {
+    color:#000;
+    fill:none;
+    stroke:#000;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none;
+    stroke-dashoffset:0;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible
+}
+.wavedrom_svg_defs .s5 {
+    fill:#fff;
+    stroke:none
+}
+.wavedrom_svg_defs .s6 {
+    color:#000;
+    fill:#ffffb4;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s7 {
+    color:#000;
+    fill:#ffe0b9;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s8 {
+    color:#000;
+    fill:#b9e0ff;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s9 {
+    fill:#000;
+    fill-opacity:1;
+    stroke:none
+}
+.wavedrom_svg_defs .s10 {
+    color:#000;
+    fill:#fff;
+    fill-opacity:1;
+    fill-rule:nonzero;
+    stroke:none;
+    stroke-width:1px;
+    marker:none;
+    visibility:visible;
+    display:inline;
+    overflow:visible;
+    enable-background:accumulate
+}
+.wavedrom_svg_defs .s11 {
+    fill:#0041c4;
+    fill-opacity:1;
+    stroke:none
+}
+.wavedrom_svg_defs .s12 {
+    fill:none;
+    stroke:#0041c4;
+    stroke-width:1;
+    stroke-linecap:round;
+    stroke-linejoin:miter;
+    stroke-miterlimit:4;
+    stroke-opacity:1;
+    stroke-dasharray:none
+}
+
+/*wavedrom stop*/
+
+
+/* fontawesome */
+
+/*!
+ * Font Awesome Free 5.7.1 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+svg:not(:root).svg-inline--fa {
+  overflow: visible; }
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em; }
+  .svg-inline--fa.fa-lg {
+    vertical-align: -.225em; }
+  .svg-inline--fa.fa-w-1 {
+    width: 0.0625em; }
+  .svg-inline--fa.fa-w-2 {
+    width: 0.125em; }
+  .svg-inline--fa.fa-w-3 {
+    width: 0.1875em; }
+  .svg-inline--fa.fa-w-4 {
+    width: 0.25em; }
+  .svg-inline--fa.fa-w-5 {
+    width: 0.3125em; }
+  .svg-inline--fa.fa-w-6 {
+    width: 0.375em; }
+  .svg-inline--fa.fa-w-7 {
+    width: 0.4375em; }
+  .svg-inline--fa.fa-w-8 {
+    width: 0.5em; }
+  .svg-inline--fa.fa-w-9 {
+    width: 0.5625em; }
+  .svg-inline--fa.fa-w-10 {
+    width: 0.625em; }
+  .svg-inline--fa.fa-w-11 {
+    width: 0.6875em; }
+  .svg-inline--fa.fa-w-12 {
+    width: 0.75em; }
+  .svg-inline--fa.fa-w-13 {
+    width: 0.8125em; }
+  .svg-inline--fa.fa-w-14 {
+    width: 0.875em; }
+  .svg-inline--fa.fa-w-15 {
+    width: 0.9375em; }
+  .svg-inline--fa.fa-w-16 {
+    width: 1em; }
+  .svg-inline--fa.fa-w-17 {
+    width: 1.0625em; }
+  .svg-inline--fa.fa-w-18 {
+    width: 1.125em; }
+  .svg-inline--fa.fa-w-19 {
+    width: 1.1875em; }
+  .svg-inline--fa.fa-w-20 {
+    width: 1.25em; }
+  .svg-inline--fa.fa-pull-left {
+    margin-right: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-pull-right {
+    margin-left: .3em;
+    width: auto; }
+  .svg-inline--fa.fa-border {
+    height: 1.5em; }
+  .svg-inline--fa.fa-li {
+    width: 2em; }
+  .svg-inline--fa.fa-fw {
+    width: 1.25em; }
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -.125em;
+  width: 1em; }
+  .fa-layers svg.svg-inline--fa {
+    -webkit-transform-origin: center center;
+            transform-origin: center center; }
+
+.fa-layers-text, .fa-layers-counter {
+  display: inline-block;
+  position: absolute;
+  text-align: center; }
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center; }
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: .25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right; }
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left; }
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right; }
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left; }
+
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em; }
+
+.fa-xs {
+  font-size: .75em; }
+
+.fa-sm {
+  font-size: .875em; }
+
+.fa-1x {
+  font-size: 1em; }
+
+.fa-2x {
+  font-size: 2em; }
+
+.fa-3x {
+  font-size: 3em; }
+
+.fa-4x {
+  font-size: 4em; }
+
+.fa-5x {
+  font-size: 5em; }
+
+.fa-6x {
+  font-size: 6em; }
+
+.fa-7x {
+  font-size: 7em; }
+
+.fa-8x {
+  font-size: 8em; }
+
+.fa-9x {
+  font-size: 9em; }
+
+.fa-10x {
+  font-size: 10em; }
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em; }
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0; }
+  .fa-ul > li {
+    position: relative; }
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit; }
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: .1em;
+  padding: .2em .25em .15em; }
+
+.fa-pull-left {
+  float: left; }
+
+.fa-pull-right {
+  float: right; }
+
+.far,.fa {
+  margin: 0 .3em;
+}
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: .3em; }
+
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: .3em; }
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear; }
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8); }
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg); }
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg); }
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1); }
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1); }
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1); }
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none; }
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em; }
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em; }
+
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em; }
+
+.fa-inverse {
+  color: #fff; }
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/* fontawesome end*/
+
+/* xsj patch start */
+
+.xsj_anchor{
+  overflow: hidden;
+  float: right;
+}
+
+.blank_anchor_id {
+    float: right;
+    width: 1px;
+    height: 0px;
+}
+.blank_anchor_id {
+    visibility: hidden;
+}
+.blank_anchor_id:before {
+    content: 'a';
+}
+.xsj_foreignObject{
+  width: 100%!important;
+  height: 100%!important;
+  text-align: initial;
+  word-spacing: normal;
+}
+.xsj_foreignObject hr{
+    margin: inherit;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject *{
+  font-size: inherit;
+}
+.xsj_export_pdf .xsj_foreignObject.xsj_drawio_foreignObject *{
+  font-size: 85%;
+}
+
+.xsj_export_pdf ins .mathjax .MathJax_SVG {
+    border-bottom: 2px solid;
+}
+
+.xsj_foreignObject.xsj_drawio_foreignObject h1{
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h2{
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h3{
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h4{
+  font-size: 1em;
+  margin-block-start: 1.33em;
+  margin-block-end: 1.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h5{
+  font-size: .83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.xsj_foreignObject.xsj_drawio_foreignObject h6{
+  font-size: .67em;
+  margin-block-start: 2.33em;
+  margin-block-end: 2.33em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+/* xsj patch end */
+
+
+/* title start */
+h1.story_title {
+    font-size: 2.1rem;
+    margin: 0.7em 0;
+}
+/* title end */
+
+/* tag start */
+.story_tags {
+    margin: 0 0 1.2em;
+}
+.tag.label{
+    display: inline-block;
+    vertical-align: baseline;
+    line-height: 1;
+    margin: 0 0.5em 0.5em 0;
+    background: #e2e2e2;
+    border-color: #e2e2e2;
+    background-image: none;
+    padding: 0.6em 0.8em;
+    font-weight: bold;
+    border-radius: 0.2857rem;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+/* tag end */
+
+/* emoji */
+img.emoji {
+    width: 1em;
+    line-height: 1em;
+    vertical-align: baseline;
+    margin-bottom: 0;
+}
+/* emoji */
+
+/* align grammar start*/
+
+.story_align_left, .story_align_left .story_image_container {
+    text-align: left;
+}
+.story_align_right, .story_align_right .story_image_container {
+    text-align: right;
+}
+.story_align_center, .story_align_center .story_image_container {
+    text-align: center;
+}
+.story_align_justify, .story_align_justify .story_image_container {
+    text-align: justify;
+}
+
+/* align grammar end*/
+
+/*mindmap start*/
+.mindmap_container {
+  text-align: center;
+}
+
+.xsj_mindmap_caption{
+   border-bottom: 1px solid #d9d9d9;
+  display: inline-block;
+  color: #999;
+  padding: 10px;
+}
+/*mindmap end*/
+
+
+
+/* table start*/
+
+table {
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  word-break: break-word;
+  border: 1px solid #d9d9da;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.table th,
+.table td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #d9d9da;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table thead th {
+  vertical-align: bottom;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #d9d9da;
+}
+
+.table .table {
+  background-color: #ffffff;
+}
+
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-celled.table tr td,.table-celled.table tr th {
+    border-left: 1px solid #d9d9da;
+}
+
+/* table end*/
+
+/*code start*/
+
+code {
+    background-color: #F0F0F0;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 0 .225em;
+    color: #880000;
+}
+body code{
+    border: 0;
+    border-radius: 4px;
+    font-size: .9em;
+}
+
+.hljs, .hljs * {
+  overflow: visible !important;
+} 
+
+body .xiaoshujiang_code {
+    border: 0;
+    border-radius: 4px;
+    font-size: .9em;
+}
+.xiaoshujiang_code ol{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.xiaoshujiang_pre {
+    line-height: initial !important;
+    word-wrap: break-word;
+    word-break: break-all;
+    tab-size: 4;
+    white-space: pre-wrap;
+    font-family: monospace;
+}
+.xiaoshujiang_code_container pre{
+    margin: 0px;
+}
+.xiaoshujiang_code_container.xiaoshujiang_code_chunk{
+    box-shadow: 0 0 0 1px #A3C293 inset,0 0 0 0 transparent;
+    margin: 1em 0;
+    padding: 1em;
+}
+.xiaoshujiang_code_container.xiaoshujiang_code_chunk_hide_code{
+    box-shadow: initial;
+    padding: initial;
+    padding-bottom: 2em;
+}
+.xiaoshujiang_code_container .out_put{
+    box-shadow: 0 0 0 1px #A3C293 inset,0 0 0 0 transparent;
+    margin: 1em 0;
+    background-color: #FCFFF5;
+    color: #2C662D;
+    padding: 1em;
+}
+.xiaoshujiang_code_container .out_put_error{
+    background-color: #FFF6F6;
+    color: #9F3A38;
+    margin: 1em 0;
+    box-shadow: 0 0 0 1px #E0B4B4 inset,0 0 0 0 transparent;
+    padding: 1em;
+}
+
+/*code end*/
+
+/* code line nums start*/
+
+code.hljs.code_linenums, .xiaoshujiang_code.hljs.code_linenums{
+    position: relative;
+}
+.ol_linenums{
+    padding: 0px;
+    margin-left: 2em;
+    border-left: 1px solid #e0e0e0;
+}
+.li_linenum{
+    position:relative;
+    margin-left: 0.5em;
+    list-style: none;
+    counter-increment: lines 1;
+}
+.li_linenum.li_list_style{
+    list-style: inherit;
+    margin-left: 5px;
+}
+.li_linenum:before, .li_linenum_before_span{
+    content: counter(lines, decimal);
+  position: absolute;
+  left: -3em;
+  text-align: center;
+  width: 2.5em;
+  vertical-align: top;
+}
+.li_linenum_before_span_hide{
+    display: none;
+}
+.xiaoshujiang_code .code_line_break_hack{
+    margin:0;
+    border:0;
+    border-top:0;
+    border-bottom:0;
+}
+.component_attachment, .code_line_break_hack{
+  display: none;
+  visibility: collapse!important;
+  height: 0!important;
+}
+
+/* code line nums end*/
+
+/* block code start */
+.xiaoshujiang_code_container {
+    margin: 1em 0px 2em;
+    position: relative;
+}
+
+
+.xiaoshujiang_code_title_container{
+    font-size: 50%;
+}
+.xiaoshujiang_code_title_container>.xiaoshujiang_code_infos{
+    float: right;
+}
+/* block code end */
+
+
+/*mark start*/
+
+.mark{
+  border: 0;
+  background-color: rgba(221, 243, 231, 0.4);
+  color: #105012;
+  padding: 2px 4px;
+}
+
+.mark_color_000000{
+  color: transparent!important;
+  background: initial!important;
+  border-bottom: 2px solid #3a4c42;
+  transition: color .6s;
+}
+
+.mark_color_000000:hover{
+  color: black!important;
+}
+
+.li_linenum.line_mark:before, .line_mark .li_linenum_before_span {
+    background: rgba(65, 174, 60, 0.6);
+}
+.line_mark{
+  background: rgba(65, 174, 60, 0.3);
+}
+
+
+
+.li_linenum.line_mark_warn:before, .line_mark_warn .li_linenum_before_span {
+    background: rgba(252, 121, 48, .6);
+}
+.line_mark_warn{
+  background: rgba(252, 121, 48, .3);
+}
+
+.li_linenum.line_mark_info:before, .line_mark_info .li_linenum_before_span {
+    background: rgba(97, 154, 195, .6);
+}
+.line_mark_info{
+  background: rgba(97, 154, 195, .3);
+}
+
+.li_linenum.line_mark_error:before, .line_mark_error .li_linenum_before_span {
+    background: rgba(210, 118, 118, 0.6);
+}
+.line_mark_error{
+  background: rgba(210, 174, 174, 0.3);
+}
+
+.line_mark_del{
+  text-decoration: line-through;
+  text-decoration: 2px line-through;
+}
+.line_mark_ins{
+  text-decoration: underline;
+  text-decoration: 2px underline;
+}
+
+code .mark, .xiaoshujiang_code .mark{
+    border-radius: 0px;
+    font-size: initial;
+    padding: initial;
+}
+/*mark end*/
+
+
+.xsj_code_strong{
+  -webkit-text-emphasis: triangle;
+  -webkit-text-emphasis-position: under;
+}
+
+/* attachment start */
+a.attachment{
+    background: #ecf0f3;
+    border: 1px solid #bec6cb;
+    display: inline-block;
+    padding: 0.6em;
+    margin: 0.5em 0.5em;
+    min-width: 250px;
+}
+a.attachment i.fa{
+    font-size: 3em;
+  float: left;
+  margin-right: 0.2em;
+}
+a.attachment .filename{
+    vertical-align: top;
+  text-align: left;
+  font-weight: bold;
+}
+a.attachment .filesize{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  opacity: .6;
+  font-size: 80%;
+  white-space: nowrap;
+}
+/* attachment end */
+
+
+/*code chunk video, slideshare start*/
+.video_container{
+    width: 100%;
+    display: table;
+    text-align: center;
+    position: relative;
+    padding-bottom: 56.25%!important;
+}
+
+.video_container iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    vertical-align: middle;
+}
+
+.slideshare_container .inner{
+    position: relative;
+    width: 100%;
+}
+
+.slideshare_container .inner iframe{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*code chunk video, slideshare start*/
+
+
+
+/*mermaid start*/
+
+.mermaid {
+    text-align: center;
+}
+
+.mermaid_svg{
+    font-family: monospace;
+    text-align: initial;
+}
+.mermaid_svg foreignObject{
+  overflow: visible;
+}
+.mermaid_svg foreignObject i.fa{
+  min-width: 16px;
+}
+.mermaid_svg .svg-inline--fa,.mermaid_svg .svg-inline--fa path {
+    fill: initial!important;
+    stroke: initial!important;
+}
+
+.mermaid_svg .grid path {
+  stroke: transparent;
+}
+/*mermaid stop*/
+
+
+/* patch evernote start*/
+.toc ul {
+    list-style-type: none;
+}
+/* patch evernote end*/
+
+
+/* image start*/
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+    border: 0;
+}
+
+.story_image_container{
+    text-align: center;
+}
+.story_image_container>.story_image{
+    display: inline-block;
+    position: relative;
+    max-width: 100%;
+}
+.story_image_caption, .xsj_remote_html_caption {
+    border-bottom: 1px solid #d9d9d9;
+    display: inline-block;
+    color: #999;
+    padding: 10px;
+}
+.story_image_blank_caption, .xsj_remote_html_blank_caption{
+    display: none;
+}
+.story_image>img{
+    border-radius: 0.3125em;
+    box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);
+}
+
+.story_inline_image{
+  display: inline-block;
+}
+.story_inline_image>img{
+    vertical-align: bottom;
+}
+/* image end*/
+
+.story_remote_resource_block{
+    text-align: center;
+}
+
+/* task list start */
+.task-list-item{
+    list-style: none;
+}
+.task-list-item.li_list_style{
+    list-style:inherit;
+}
+.task-list-item > p {
+  margin: 0;
+}
+
+/* task list end */
+
+/* other start */
+em.cjk_emphasis{
+    font-style: normal;
+    font-family: Georgia,"Times New Roman",Times,"楷体","AR PL UKai CN", "NSimSun","Songti SC","SimSun",serif!important;
+}
+
+.flow-chart, .sequence-diagram{
+    text-align: center;
+}
+.plot, .plot-image{
+    text-align: center;
+    min-height: 200px;
+    min-width: 200px;
+}
+
+ins .mathjax .MathJax_SVG {
+    border-bottom: 1px solid;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+
+.mathjax-container{
+    text-align: center;
+    margin: 0 auto;
+}
+div.mathjax{
+    max-width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+.mathjax-container .math_equation_table{
+  border: 0;
+  width: 100%;
+}
+.mathjax-container .math_equation_table td{
+  text-align: center;
+  vertical-align: top;
+}
+
+.xsj_export_pdf .fa-border {
+  border: none;
+  border-radius: initial;
+  padding: initial;
+  margin: 0 .25em;
+  outline-offset: .2em;
+  outline: 1px solid #eee;
+}
+.preview.html_preview{
+  max-width: 100%;
+}
+
+.xsj_export_pdf.preview.html_preview{
+  max-width: initial;
+  border: initial;
+  margin: initial;
+  padding: initial;
+  border-radius: initial;
+  box-shadow: initial;
+}
+/* other end */
+
+
+
+
+/* blockquote start*/
+/** only icon **/
+.html_preview>.markdown_blockquote{
+    position: relative;
+}
+.html_preview>.markdown_blockquote.markdown_blockquote_icon{
+    margin-left: 10px;
+}
+.html_preview>.markdown_blockquote>.xsj_paragraph:first-child>i:first-child{
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -18px;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 16px!important;
+    padding: 0;
+    border: 0px;
+
+}
+
+.html_preview>.markdown_blockquote>.xsj_paragraph:first-child>.svg-image:first-child,
+.html_preview>.markdown_blockquote>.xsj_paragraph:first-child>svg.svg-inline--fa:first-child {
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -15px;
+    line-height: 30px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    box-shadow: 0 0 0px 5px #dedede;
+    font-size: 16px!important;
+    padding: 0;
+    border: 0px;
+    outline: 0;
+    margin: 0;
+}
+/** only icon **/
+/** heading **/
+.html_preview > .markdown_blockquote.markdown_blockquote_heading {
+    margin-top: 40px;
+    page-break-inside: auto;
+}
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child {
+    display: block;
+    font-size: 1.4em;
+    background-color: #dedede;
+    padding: 0 15px;
+    margin: -20px;
+    position: relative;
+}
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child .xsj_heading_content>i:first-child {
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -16px;
+    top: .25em;
+    line-height: 30px;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    font-size: 16px !important;
+    padding: 0;
+    border: 0px;
+}
+
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child .xsj_heading_content>.svg-image:first-child,
+.html_preview>.markdown_blockquote_heading>.xsj_heading:first-child .xsj_heading_content>svg.svg-inline--fa:first-child {
+    background-color: #dedede;
+    border-radius: 100%;
+    left: -15px;
+    top: .25em;
+    line-height: 30px;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    box-shadow: 0 0 0px 5px #dedede;
+    font-size: 16px!important;
+    padding: 0;
+    border: 0px;
+    outline: 0;
+    margin: 0;
+}
+
+/** heading **/
+/* blockquote end*/
+
+
+@media print{
+  body{
+    font-size: 18px;
+    word-wrap: break-word;
+    word-break: break-word;
+    background: initial!important;
+    font-kerning: normal;
+    text-rendering: geometricPrecision;
+  }
+  .preview.html_preview{
+    max-width: initial;
+    border: initial;
+    margin: initial;
+    padding: initial;
+    border-radius: initial;
+    box-shadow: initial;
+  }
+  .xiaoshujiang_element.xsj_anchor{
+    position: absolute;
+  }
+  tr { page-break-inside: avoid; }
+  .story_image_container{
+     page-break-inside: avoid;
+  }
+  blockquote{
+    page-break-inside: avoid;
+  }
+
+  .xsj_underline{
+      page-break-after: always;
+      visibility: hidden;
+  }
+}
+
+body{color:#2f2f2f}.xsj_hr{border-top:1px dashed #2f2f2f}kbd{color:#2f2f2f;border:solid 1px #2f2f2f;border-bottom-color:#2f2f2f;box-shadow:inset 0 -1px 0 #2f2f2f}table{border:1px solid rgba(34,36,38,.15)}.table td,.table th{border-top:1px solid #ddd}.table tbody+tbody{border-top:2px solid #ddd}.table .table{background:#fff}.table-striped tbody>tr:nth-child(odd)>td,.table-striped tbody>tr:nth-child(odd)>th{background:#f9f9f9}.table-celled.table tr td,.table-celled.table tr th{border-left:1px solid rgba(34,36,38,.1)}.xiaoshujiang_code .mark,code .mark{background:rgba(160,234,194,.7)}.markdown_vertical>*,.markdown_vertical>:first-child{margin-top:.8em}.markdown_vertical{font-family:YRDZST,"Noto Serif CJK SC",FandolKai,"Adobe Kaiti Std","Adobe 楷体 Std",FZKai-Z03S,"方正楷体简体","AR PL UKai CN","楷体",NSimSun,SimSun,serif;font-size:1.2em;writing-mode:vertical-rl;border:initial;border-left:initial;background:initial;margin-left:auto!important;margin-right:0}.markdown_vertical em{-webkit-text-emphasis:circle}.markdown_vertical strong{border-left:2px solid}.html_preview>.markdown_blockquote_heading.markdown_vertical>.xsj_heading:first-child{position:initial;background:initial;border:initial;background-color:initial;border-top:initial}.html_preview>.markdown_blockquote.markdown_vertical>.xsj_paragraph:first-child>i:first-child,.html_preview>.markdown_blockquote_heading.markdown_vertical>.xsj_heading:first-child .xsj_heading_content>i:first-child{position:initial;background-color:initial}@media print{.markdown_vertical{writing-mode:initial}.markdown_vertical strong{border-left:0;border-bottom:2px solid}}
+/*
+
+Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
+
+*/
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #F0F0F0;
+}
+
+
+/* Base color: saturation 0; */
+
+.hljs,
+.hljs-subst {
+  color: #444;
+}
+
+.hljs-comment {
+  color: #888888;
+}
+
+.hljs-keyword,
+.hljs-attribute,
+.hljs-selector-tag,
+.hljs-meta .hljs-keyword,
+.hljs-doctag,
+.hljs-name {
+  font-weight: bold;
+}
+
+
+/* User color: hue: 0 */
+
+.hljs-type,
+.hljs-string,
+.hljs-number,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-quote,
+.hljs-template-tag,
+.hljs-deletion {
+  color: #880000;
+}
+
+.hljs-title,
+.hljs-section {
+  color: #880000;
+  font-weight: bold;
+}
+
+.hljs-regexp,
+.hljs-symbol,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-link,
+.hljs-selector-attr,
+.hljs-selector-pseudo {
+  color: #BC6060;
+}
+
+
+/* Language color: hue: 90; */
+
+.hljs-literal {
+  color: #78A960;
+}
+
+.hljs-built_in,
+.hljs-bullet,
+.hljs-code,
+.hljs-addition {
+  color: #397300;
+}
+
+
+/* Meta color: hue: 200 */
+
+.hljs-meta {
+  color: #1f7199;
+}
+
+.hljs-meta .hljs--string {
+  color: #4d99bf;
+}
+
+
+/* Misc effects */
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+</style>
+</head><body>
+<div><div class="preview" id="wmd-preview">
+
+	<div class="preview html_preview xsj_export_html"><div style="overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><svg><defs id="MathJax_SVG_glyphs"></defs></svg></div>      <style> .content-box { max-width: 1800px; margin: -20px auto -20px 25px ; padding: 5px 10px 2px 25px; background-color: #818b981f; /* 内容区域可以设置为白色，突出显示 */ border-radius: 6px; } </style>  
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bbefbc9a_1"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bbefbc9a_1" class="blank_anchor_name"></a><a id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bbefbc9a_1" class="blank_anchor_id"></a><a name="多标签图像分类" class="blank_anchor_name"></a><a id="多标签图像分类" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">多标签图像分类：</span></h1>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">PatchCT: Aligning Patch Set and Label Set with Conditional Transport<br>
+for Multi-Label Image Classification</strong><a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Li_PatchCT_Aligning_Patch_Set_and_Label_Set_with_Conditional_Transport_ICCV_2023_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">Cdul: Clip-driven unsupervised learning for multi-label image classification</strong><a href="https://arxiv.org/pdf/2307.16634" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/cs-mshah/CDUL" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ICML] <strong class="markdown_strong_asterisk">Language-driven Cross-modal Classifier for<br>
+Zero-shot Multi-label Image Recognition</strong><a href="https://openreview.net/pdf?id=sHswzNWUW2" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/yic20/CoMC" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 AAAI] <strong class="markdown_strong_asterisk">TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training</strong><a href="https://arxiv.org/pdf/2312.12828" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/linyq2117/TagCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models</strong><a href="https://arxiv.org/pdf/2502.16911?" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/kjmillerCURIS/SPARC" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification</strong><a href="https://arxiv.org/pdf/2503.16873" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/k0u-id/CCD" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Recover and Match: Open-Vocabulary Multi-Label Recognition through<br>
+Knowledge-Constrained Optimal Transport</strong><a href="https://arxiv.org/pdf/2503.15337" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/EricTan7/RAM" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Correlative and Discriminative Label Grouping for Multi-Label<br>
+Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICML] <strong class="markdown_strong_asterisk">From Local Details to Global Context:Advancing Vision-Language Models with Attention-Based Selection</strong><a href="https://arxiv.org/pdf/2505.13233?" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/BIT-DA/ABS" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 WACV] <strong class="markdown_strong_asterisk">Pay Attention to Your Neighbours:Training-Free Open-Vocabulary Semantic Segmentation</strong><a href="https://arxiv.org/pdf/2404.08181?" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/sinahmr/NACLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification</li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification</li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning</strong><a href="https://arxiv.org/pdf/2508.20381" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity</li>
+<li><span class="xsj_placeholder_span"></span>[2024 ICLR] <strong class="markdown_strong_asterisk">A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation</strong><a href="https://arxiv.org/pdf/2402.04087" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/mrflogs/ICLR24" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>无需训练”的CLIP模型自适应新方法</span></div>
+<ol start="18" style="counter-reset: my-awesome-counter 17;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2022 IJCV] <strong class="markdown_strong_asterisk">Learning to Prompt for Vision-Language Models</strong><a href="https://arxiv.org/pdf/2109.01134v3" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/KaiyangZhou/CoOp" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e7babfe680a7e789b9e5be81e5afb9e9bd90efbc9a_2"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e7babfe680a7e789b9e5be81e5afb9e9bd90efbc9a_2" class="blank_anchor_name"></a><a id="e7babfe680a7e789b9e5be81e5afb9e9bd90efbc9a_2" class="blank_anchor_id"></a><a name="线性特征对齐" class="blank_anchor_name"></a><a id="线性特征对齐" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">线性特征对齐：</span></h1>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">Black Box Few-Shot Adaptation for Vision-Language models</strong><a href="https://arxiv.org/pdf/2304.01752v3" class="xsj_link xsj_manu_link">[paper]</a><a href="https://github.com/saic-fi/LFA" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training-free20open-vocabulary20semantic20segmentation_3"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="training-free20open-vocabulary20semantic20segmentation_3" class="blank_anchor_name"></a><a id="training-free20open-vocabulary20semantic20segmentation_3" class="blank_anchor_id"></a><a name="training-free-open-vocabulary-semantic-segmentation" class="blank_anchor_name"></a><a id="training-free-open-vocabulary-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Training-Free Open-Vocabulary Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="Training-Free_OVSS"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Clip-diy: Clip dense inference yields open-vocabulary semantic segmentation for-free</strong> <a href="https://arxiv.org/pdf/2309.14289" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Training-Free Open-Vocabulary Segmentation with Offline Diffusion-Augmented Prototype Generation</strong> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10655445&amp;tag=1" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/aimagelab/freeda" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>离线原型生成阶段:使用 Stable Diffusion 模型,结合大量的文本描述提取局部化掩码,采用 DINOv2视觉原型提取,CLIP 文本键提取,每个文本键都与一个视觉原型相关联,构建一个大规模的文本-视觉原型集合 无训练掩码预测阶段:给定一组文本类别,检索到的原型取平均得到视觉原型.超像素的局部区域分割Felzenszwalb,CLIP的全局相似性加权。</span></div>
+<ol start="4" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Diffusion Models for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2306.09316" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/karazijal/ovdiff" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">ClearCLIP: Decomposing CLIP Representations for Dense Vision-Language Inference</strong> <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06346.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/mc-lan/ClearCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>CLIP产生了具有错误分割区域的嘈杂分割图，去除残差连接、实现自注意力和丢弃前馈网络。ClearCLIP 始终如一地生成更清晰、更准确的分割图 </span></div>
+<ol start="5" style="counter-reset: my-awesome-counter 4;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">SCLIP: Rethinking Self-Attention for Dense Vision-Language Inference</strong> <a href="https://arxiv.org/pdf/2312.01597" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/wangf3014/SCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>CLIP的分割性能不佳是由斑块表示的空间错位引起的，而不是无法提取密集的视觉特征,问题出在CLIP的自注意力模块,使用 CSA 模块代替 CLIP 视觉编码器中的原始自注意力块</span></div>
+<ol start="6" style="counter-reset: my-awesome-counter 5;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Pay Attention to Your Neighbours: Training-Free Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2404.08181" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/sinahmr/NACLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Proxyclip: Proxy attention improves clip for open-vocabulary segmentation</strong> <a href="https://arxiv.org/pdf/2408.04883" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/mc-lan/ProxyCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Explore the Potential of CLIP for Training-Free Open Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2407.08268" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/leaves162/CLIPtrase" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">CLIPer: Hierarchically Improving Spatial Representation of CLIP for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2411.13836" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/linsun449/cliper.code?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">LPOSS: Label Propagation Over Patches and Pixels for Open-vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2503.19777" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/vladan-stojnic/LPOSS" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">ResCLIP: Residual Attention for Training-free Dense Vision-language Inference</strong> <a href="https://arxiv.org/pdf/2411.15851" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/yvhangyang/ResCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>残差互相关自注意力 （RCS） 和语义反馈细化 （SFR） 模块。这两个模块可以纠正最后一层的注意力，以捕获特定类的特征和局部一致性，从而改进密集视觉语言预测任务的CLIP模型。</span></div>
+<ol start="12" style="counter-reset: my-awesome-counter 11;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Distilling Spectral Graph for Object-Context Aware Open-Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Kim_Distilling_Spectral_Graph_for_Object-Context_Aware_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/MICV-yonsei/CASS" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person Re-identification</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Jinxi-Yang-WHU/Fast-GCR.git" class="xsj_link xsj_manu_link">[code]</a> <a href="%E6%9C%AC%E6%96%87%E6%8F%90%E5%88%B0%E7%9A%84%E5%BE%88%E5%A4%9Are-ranking%E7%9A%84%E6%8A%80%E6%9C%AF%E5%B0%B1%E6%98%AF%E5%AF%B9%E7%9B%B4%E6%8E%A5%E8%AE%A1%E7%AE%97%E7%9A%84%E7%9B%B8%E4%BC%BC%E5%BA%A6%E7%9F%A9%E9%98%B5%E8%BF%9B%E8%A1%8C%E6%9B%B4%E6%96%B0%EF%BC%8C%E5%89%8D%E9%9D%A2%E5%85%AC%E5%BC%8F%E6%90%9E%E4%BA%86%E4%B8%80%E5%A4%A7%E5%A0%86%EF%BC%8C%E6%9C%80%E5%90%8E%E5%B0%B1%E6%98%AF%E4%B8%80%E4%B8%AA%E7%89%B9%E5%BE%81%E4%BC%A0%E6%92%AD%E3%80%82" class="xsj_link xsj_manu_link">[note]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">ITACLIP: Boosting Training-Free Semantic Segmentation with Image, Text, and Architectural Enhancements</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025W/PixFoundation/papers/Aydin_ITACLIP_Boosting_Training-Free_Semantic_Segmentation_with_Image_Text_and_Architectural_CVPRW_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/m-arda-aydn/ITACLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Search and Detect: Training-Free Long Tail Object Detection via Web-Image Retrieval</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Sidhu_Search_and_Detect_Training-Free_Long_Tail_Object_Detection_via_Web-Image_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Mankeerat/SearchDet" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Shift the Lens: Environment-Aware Unsupervised Camouflaged Object Detection</strong> <a href="%5Bhttps://github.com/xiaohainku/EASE%5D(https://openaccess.thecvf.com/content/CVPR2025/papers/Du_Shift_the_Lens_Environment-Aware_Unsupervised_Camouflaged_Object_Detection_CVPR_2025_paper.pdf)" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xiaohainku/EASE" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">LUDVIG: Learning-free Uplifting of 2D Visual features to Gaussian Splatting scene</strong> <a href="https://arxiv.org/pdf/2410.14462#page=17.85" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/naver/ludvig" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">WildSeg3D: Segment Any 3D Objects in the Wild from 2D Images</strong> <a href="https://arxiv.org/pdf/2503.08407" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Harnessing Vision Foundation Models for High-Performance, Training-Free Open Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2411.09219" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/YuHengsss/Trident" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">E-SAM: Training-Free Segment Every Entity Model</strong> <a href="https://arxiv.org/pdf/2503.12094" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">ReME: A Data-Centric Framework for Training-Free Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2506.21233" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xiweix/ReME" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>其核心在于从真实图像中构建一个高质量、对齐良好、语义丰富且上下文相关的片段-文本对参考集，并通过简单的相似度检索机制，在不进行任何模型微调的情况下，显著提升 OVS 性能。</span></div>
+<ol start="22" style="counter-reset: my-awesome-counter 21;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">CorrCLIP: Reconstructing Patch Correlations in CLIP for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2411.10086" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/zdk258/CorrCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">CCL-LGS: Contrastive Codebook Learning for 3D Language Gaussian Splatting</strong> <a href="https://arxiv.org/pdf/2505.20469" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://epsilontl.github.io/CCL-LGS/" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Auto-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2312.04539" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Understanding Personal Concept in Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2507.11030" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Training-Free Class Purification for Open-Vocabulary Semantic Segmentation</strong></li>
+</ol>
+<div class="content-box"> <span>FreeCP通过分析精炼前后类激活图的空间一致性，分两阶段进行类别净化：首先滤除冗余类别，然后结合大型语言模型（LLM）生成的细粒度描述来消除视觉-语言歧义。即插即用</span></div>
+<ol start="27" style="counter-reset: my-awesome-counter 26;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">DIH-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Correspondence as Video: Test-Time Adaption on SAM2 for Reference Segmentation in the Wild</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation</strong><br>
+30 [2025 ICCV] <strong class="markdown_strong_asterisk">Plug-in Feedback Self-adaptive Attention in CLIP for Training-free Open-Vocabulary Segmentation</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Test-Time Retrieval-Augmented Adaptation for Vision-Language Models</strong> <a href="https://openreview.net/pdf?id=V3zobHnS61" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xinqi-fan/TT-RAA" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Text-guided Visual Prompt DINO for Generic Segmentation</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.12857" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/HuangShiqi128/SCORE" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Images as Noisy Labels: Unleashing the Potential of the Diffusion Model for Open-Vocabulary Semantic Segmentation</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 AAAI] <strong class="markdown_strong_asterisk">Training-free Open-Vocabulary Semantic Segmentation via Diverse Prototype Construction and Sub-region Matching</strong> <a href="https://ojs.aaai.org/index.php/AAAI/article/view/33137" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2411.15869" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/SuleBai/SC-CLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2505.21844v1" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/dosowiechi/MLMP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/abs/2504.10487" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/yasserben/FLOSS" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models</strong> <a href="https://arxiv.org/pdf/2505.23769" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/avaxiao/TextRegion" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>SAM2与图像-文本模型(CLIP SigLIP2)结合</span></div>
+<ol start="41" style="counter-reset: my-awesome-counter 40;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">A Survey on Training-free Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2505.22209" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">No time to train! Training-Free Reference-Based Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.02798" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/miquel-espinosa/no-time-to-train?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a> <a href="https://mp.weixin.qq.com/s/6BjzduZoqc2OgocNkaDiPQ" class="xsj_link xsj_manu_link">[note]</a></li>
+</ol>
+<div class="content-box"> <span>DINOv2与SAM2结合少样本，使用DINOv2提取特征，求类平均值特征。</span></div>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training20open-vocabulary20semantic20segmentation_4"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="training20open-vocabulary20semantic20segmentation_4" class="blank_anchor_name"></a><a id="training20open-vocabulary20semantic20segmentation_4" class="blank_anchor_id"></a><a name="training-open-vocabulary-semantic-segmentation" class="blank_anchor_name"></a><a id="training-open-vocabulary-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Training Open-Vocabulary Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="Training_OVSS"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2022 CVPR] <strong class="markdown_strong_asterisk">GroupViT: Semantic Segmentation Emerges from Text Supervision</strong> <a href="https://arxiv.org/pdf/2202.11094" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/NVlabs/GroupViT?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning</strong> <a href="https://arxiv.org/pdf/2212.04994" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs</strong> <a href="https://arxiv.org/pdf/2212.00785" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/khanrc/tcl?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">Exploring Open-Vocabulary Semantic Segmentation from CLIP Vision Encoder Distillation Only</strong> <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Exploring_Open-Vocabulary_Semantic_Segmentation_from_CLIP_Vision_Encoder_Distillation_Only_ICCV_2023_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 ICML] <strong class="markdown_strong_asterisk">SegCLIP: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2211.14813" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/ArrowLuo/SegCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 ICML] <strong class="markdown_strong_asterisk">Grounding Everything: Emerging Localization Properties in Vision-Language Transformers</strong> <a href="https://arxiv.org/pdf/2312.00878" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/WalBouss/GEM?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 NIPS] <strong class="markdown_strong_asterisk">Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2310.19001" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Ferenas/PGSeg?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">SED: A Simple Encoder-Decoder for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2311.15537v2" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xb534/SED.git" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Not All Classes Stand on Same Embeddings: Calibrating a Semantic Distance with Metric Tensor</strong> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10658112&amp;tag=1" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">USE: Universal Segment Embeddings for Open-Vocabulary Image Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_USE_Universal_Segment_Embeddings_for_Open-Vocabulary_Image_Segmentation_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">CAT-Seg: Cost Aggregation for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2303.11797" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/cvlab-kaist/CAT-Seg" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Emergent Open-Vocabulary Semantic Segmentation from Off-the-shelf Vision-Language Models</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Emergent_Open-Vocabulary_Semantic_Segmentation_from_Off-the-shelf_Vision-Language_Models_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/letitiabanana/PnP-OVSS" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">SAM-CLIP: Merging Vision Foundation Models towards Semantic and Spatial Understanding</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024W/ELVM/papers/Wang_SAM-CLIP_Merging_Vision_Foundation_Models_Towards_Semantic_and_Spatial_Understanding_CVPRW_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Image-to-Image Matching via Foundation Models: A New Perspective for Open-Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_Image-to-Image_Matching_via_Foundation_Models_A_New_Perspective_for_Open-Vocabulary_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">CLIP-DINOiser: Teaching CLIP a few DINO tricks for open-vocabulary semantic segmentation</strong> <a href="https://arxiv.org/pdf/2312.12359" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/wysoczanska/clip_dinoiser" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">In Defense of Lazy Visual Grounding for Open-Vocabulary Semantic Segmentation</strong> <a href="http://arxiv.org/abs/2408.04961" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/dahyun-kang/lavg" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ICLR] <strong class="markdown_strong_asterisk">CLIPSelf: Vision Transformer Distills Itself for Open-Vocabulary Dense Prediction</strong> <a href="https://arxiv.org/pdf/2310.01403v2" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/wusize/CLIPSelf?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Towards Open-Vocabulary Semantic Segmentation Without Semantic Labels</strong> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/1119587863e78451f080da2a768c4935-Paper-Conference.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/cvlab-kaist/PixelCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Relationship Prompt Learning is Enough for Open-Vocabulary Semantic Segmentation</strong> <a href="https://openreview.net/pdf?id=PKcCHncbzg" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment</strong> <a href="https://arxiv.org/pdf/2412.16334" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Semantic Library Adaptation: LoRA Retrieval and Fusion for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2503.21780" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Your ViT is Secretly an Image Segmentation Model</strong> <a href="https://arxiv.org/pdf/2503.19108" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/tue-mps/eomt" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Exploring Simple Open-Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_Exploring_Simple_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Dual Semantic Guidance for Open Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Dual_Semantic_Guidance_for_Open_Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_DeCLIP_Decoupled_Learning_for_Open-Vocabulary_Dense_Perception_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>DeCLIP 通过解耦自注意力模块并分别对内容特征和上下文特征进行蒸馏，有效地解决了 CLIP 在开放词汇密集感知任务中局部特征辨别力不足和空间一致性差的问题。</span></div>
+<ol start="29" style="counter-reset: my-awesome-counter 28;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2411.19331" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/lorebianchi98/Talk2DINO" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>映射函数，CLIP文本映射到DINOv2特征向量，训练矩阵，DINOv2特征向量直接映射到CLIP提取的文本特征</span></div>
+<ol start="31" style="counter-reset: my-awesome-counter 30;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICLR] <strong class="markdown_strong_asterisk">Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion</strong> <a href="https://arxiv.org/pdf/2502.04263" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/miccunifi/Cross-the-Gap?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="zero-shot20open-vocabulary20semantic20segmentation_5"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="zero-shot20open-vocabulary20semantic20segmentation_5" class="blank_anchor_name"></a><a id="zero-shot20open-vocabulary20semantic20segmentation_5" class="blank_anchor_id"></a><a name="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name"></a><a id="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Zero-Shot Open-Vocabulary Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="ZSOVSS"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">On the test-time zero-shot generalization of vision-language models: Do we really need prompt learning?</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zanella_On_the_Test-Time_Zero-Shot_Generalization_of_Vision-Language_Models_Do_We_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/MaxZanella/MTA" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation</strong> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10656627&amp;tag=1" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Jittor/JSeg" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Diffuse, Attend, and Segment: Unsupervised Zero-Shot Segmentation using Stable Diffusion</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Tian_Diffuse_Attend_and_Segment_Unsupervised_Zero-Shot_Segmentation_using_Stable_Diffusion_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/google/diffseg" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">OTSeg: Multi-prompt Sinkhorn Attention for Zero-Shot Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2403.14183" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/cubeyoung/OTSeg?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ICCV] <strong class="markdown_strong_asterisk">Zero-guidance Segmentation Using Zero Segment Labels</strong> <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Rewatbowornwong_Zero-guidance_Segmentation_Using_Zero_Segment_Labels_ICCV_2023_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/nessessence/ZeroGuidanceSeg" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<div class="content-box"> <span>DINO-ViT 模型提取图像的深层像素级特征，聚类得到分割掩码，输入图像和通过聚类得到的二值掩码会被同时送入CLIP，新颖的注意力掩码（Attention Masking）技术，特别是全局消减（Global Subtraction），使用 ZeroCap 把图像生成文本，相似度分数是视觉嵌入和预测文本嵌入（通过 CLIP 文本编码器计算）的余弦相似度的平均值</span></div>
+<ol start="7" style="counter-reset: my-awesome-counter 6;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">DiffCut: Catalyzing Zero-Shot Semantic Segmentation with Diffusion Features and Recursive Normalized Cut</strong> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/1867748a011e1425b924ec72a4066b62-Paper-Conference.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/PaulCouairon/DiffCut" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICLR] <strong class="markdown_strong_asterisk">Efficient and Context-Aware Label Propagation for Zero-/Few-Shot Training-Free Adaptation of Vision-Language Model</strong> <a href="https://arxiv.org/pdf/2412.18303" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Yushu-Li/ECALP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="few-shot20open-vocabulary20semantic20segmentation_6"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="few-shot20open-vocabulary20semantic20segmentation_6" class="blank_anchor_name"></a><a id="few-shot20open-vocabulary20semantic20segmentation_6" class="blank_anchor_id"></a><a name="few-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name"></a><a id="few-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Few-Shot Open-Vocabulary Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="FSOVSS"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Training-Free Open-Ended Object Detection and Segmentation via Attention as Prompts</strong> <a href="https://arxiv.org/pdf/2410.05963" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">A Surprisingly Simple Approach to Generalized Few-Shot Semantic Segmentation</strong> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/2f75a57e9c71e8369da0150ea769d5a2-Paper-Conference.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/IBM/BCM" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Renovating Names in Open-Vocabulary Segmentation Benchmarks</strong> <a href="https://openreview.net/pdf?id=Uw2eJOI822" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://andrehuang.github.io/renovate/" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Hyperbolic Uncertainty-Aware Few-Shot Incremental Point Cloud Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Sur_Hyperbolic_Uncertainty-Aware_Few-Shot_Incremental_Point_Cloud_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2506.22979" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/jliu4ai/FewCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 MICCAI] <strong class="markdown_strong_asterisk">Realistic Adaptation of Medical Vision-Language Models</strong> <a href="https://arxiv.org/pdf/2506.17500" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/jusiro/SS-Text" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="supervised20semantic20segmentation_7"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="supervised20semantic20segmentation_7" class="blank_anchor_name"></a><a id="supervised20semantic20segmentation_7" class="blank_anchor_id"></a><a name="supervised-semantic-segmentation" class="blank_anchor_name"></a><a id="supervised-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Supervised Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="Supervised_Semantic_Segmentation"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2021 ICCV] <strong class="markdown_strong_asterisk">Vision Transformers for Dense Prediction</strong> <a href="https://arxiv.org/abs/2103.13413v1" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/isl-org/DPT?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2021 ICCV] <strong class="markdown_strong_asterisk">Segmenter: Transformer for Semantic Segmentation</strong> <a href="https://arxiv.org/abs/2105.05633" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/rstrudel/segmenter" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2022 ICLR] <strong class="markdown_strong_asterisk">Language-driven Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2201.03546" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/isl-org/lang-seg" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPV] <strong class="markdown_strong_asterisk">Your ViT is Secretly an Image Segmentation Model</strong> <a href="https://arxiv.org/pdf/2503.19108" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/tue-mps/eomt" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="weakly20supervised20semantic20segmentation_8"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="weakly20supervised20semantic20segmentation_8" class="blank_anchor_name"></a><a id="weakly20supervised20semantic20segmentation_8" class="blank_anchor_id"></a><a name="weakly-supervised-semantic-segmentation" class="blank_anchor_name"></a><a id="weakly-supervised-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Weakly Supervised Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="Weakly_Supervised_Semantic_Segmentation"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2022 CVPR] <strong class="markdown_strong_asterisk">Learning Affinity from Attention: End-to-End Weakly-Supervised Semantic Segmentation with Transformers</strong> <a href="https://arXiv.org/pdf/2203.02664" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/rulixiang/afa" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2022 CVPR] <strong class="markdown_strong_asterisk">MCTFormer:Multi-Class Token Transformer for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2203.02891" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xulianuwa/MCTformer" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">Learning Multi-Modal Class-Specific Tokens for Weakly Supervised Dense Object Localization</strong> <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Xu_Learning_Multi-Modal_Class-Specific_Tokens_for_Weakly_Supervised_Dense_Object_Localization_CVPR_2023_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xulianuwa/MMCST" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">Spatial-Aware Token for Weakly Supervised Object Localization</strong> <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Spatial-Aware_Token_for_Weakly_Supervised_Object_Localization_ICCV_2023_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/wpy1999/SAT" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">Boundary-enhanced Co-training for Weakly Supervised Semantic Segmentatio</strong> <a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Rong_Boundary-Enhanced_Co-Training_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2023_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/ShenghaiRong/BECO?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">ToCo:Token Contrast for Weakly-Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2303.01267" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/rulixiang/ToCo" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">CLIP is Also an Efficient Segmenter: A Text-Driven Approach for Weakly Supervised Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2212.09506" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/linyq2117/CLIP-ES" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 arXiv] <strong class="markdown_strong_asterisk">MCTformer+: Multi-Class Token Transformer for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2308.03005" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xulianuwa/MCTformer" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Frozen CLIP: A Strong Backbone for Weakly Supervised Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2406.11189v1" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/zbf1991/WeCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">CorrMatch: Label Propagation via Correlation Matching for Semi-Supervised Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2411.13147v1" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/ZiqinZhou66/ZegCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">DuPL: Dual Student with Trustworthy Progressive Learning for Robust Weakly Supervised Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2403.11184" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Wu0409/DuPL" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Hunting Attributes: Context Prototype-Aware Learning for Weakly Supervised Semantic Segmentation</strong> <a href="https:https://openaccess.thecvf.com/content/CVPR2024/papers/Tang_Hunting_Attributes_Context_Prototype-Aware_Learning_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Barrett-python/CPAL" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Improving the Generalization of Segmentation Foundation Model under Distribution Shift via Weakly Supervised Adaptation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhang_Improving_the_Generalization_of_Segmentation_Foundation_Model_under_Distribution_Shift_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Official code for Class Tokens Infusion for Weakly Supervised Semantic Segmentation</strong> <a href="Yoon_Class_Tokens_Infusion_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2024_paper" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/yoon307/CTI" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Separate and Conquer: Decoupling Co-occurrence via Decomposition and Representation for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2402.18467" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/zwyang6/SeCo" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Class Tokens Infusion for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Yoon_Class_Tokens_Infusion_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/yoon307/CTI" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">SFC: Shared Feature Calibration in Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2401.11719" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Barrett-python/SFC" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">PSDPM:Prototype-based Secondary Discriminative Pixels Mining for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_PSDPM_Prototype-based_Secondary_Discriminative_Pixels_Mining_for_Weakly_Supervised_Semantic_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xinqiaozhao/PSDPM" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">DIAL: Dense Image-text ALignment for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2409.15801" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">CoSa:Weakly Supervised Co-training with Swapping Assignments for Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2402.17891" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/youshyee/CoSA" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 AAAI] <strong class="markdown_strong_asterisk">Progressive Feature Self-Reinforcement for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2312.08916" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Jessie459/feature-self-reinforcement" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">A Realistic Protocol for Evaluation of Weakly Supervised Object Localization</strong> <a href="https://arXiv.org/pdf/2404.10034" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/shakeebmurtaza/wsol_model_selection" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 IEEE] <strong class="markdown_strong_asterisk">SSC:Spatial Structure Constraints for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2401.11122" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/NUST-Machine-Intelligence-Laboratory/SSC" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_POT_Prototypical_Optimal_Transport_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/jianwang91/POT" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">PROMPT-CAM: A Simpler Interpretable Transformer for Fine-Grained Analysis</strong> <a href="https://arXiv.org/pdf/2501.09333" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Imageomics/Prompt_CAM" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Exploring CLIP’s Dense Knowledge for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2503.20826" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/zwyang6/ExCEL" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">GET: Unlocking the Multi-modal Potential of CLIP for Generalized Category Discovery</strong> <a href="https://arXiv.org/abs/2403.09974" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/enguangW/GET" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Prompt Categories Cluster for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2412.13823" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Class Token as Proxy: Optimal Transport-assisted Proxy Learning for Weakly Supervised Semantic Segmentation</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Know Your Attention Maps: Class-specific Token Masking for Weakly Supervised Semantic Segmentation</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Bias-Resilient Weakly Supervised Semantic Segmentation Using Normalizing Flows</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">OVA-Fields: Weakly Supervised Open-Vocabulary Affordance Fields for Robot Operational Part Detection</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 AAAI] <strong class="markdown_strong_asterisk">MoRe: Class Patch Attention Needs Regularization for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2412.11076" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/zwyang6/MoRe" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">TeD-Loc: Text Distillation for Weakly Supervised Object Localization</strong> <a href="https://arXiv.org/pdf/2501.12632" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/shakeebmurtaza/TeDLOC" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Image Augmentation Agent for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2412.20439" class="xsj_link xsj_manu_link">[paper]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="semi-supervised20semantic20segmentation_9"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="semi-supervised20semantic20segmentation_9" class="blank_anchor_name"></a><a id="semi-supervised20semantic20segmentation_9" class="blank_anchor_id"></a><a name="semi-supervised-semantic-segmentation" class="blank_anchor_name"></a><a id="semi-supervised-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Semi-Supervised Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="Semi-Supervised_Semantic_Segmentation"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction</strong> <a href="https://arxiv.org/pdf/2507.15803" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/xinqi-fan/TT-RAA" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="unsupervised20semantic20segmentation_10"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="unsupervised20semantic20segmentation_10" class="blank_anchor_name"></a><a id="unsupervised20semantic20segmentation_10" class="blank_anchor_id"></a><a name="unsupervised-semantic-segmentation" class="blank_anchor_name"></a><a id="unsupervised-semantic-segmentation" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">Unsupervised Semantic Segmentation</span></h1>
+<p class="xsj_paragraph xsj_paragraph_level_0"><a name="Unsupervised_Semantic_Segmentation"></a></p>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2021 ICCV] <strong class="markdown_strong_asterisk">Emerging Properties in Self-Supervised Vision Transformers</strong> <a href="http://openaccess.thecvf.com//content/ICCV2021/papers/Caron_Emerging_Properties_in_Self-Supervised_Vision_Transformers_ICCV_2021_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/facebookresearch/dino" class="xsj_link xsj_manu_link">[code]</a> <a href="https://blog.csdn.net/YoooooL_/article/details/129234966" class="xsj_link xsj_manu_link">[note]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2022 CVPR] <strong class="markdown_strong_asterisk">Deep Spectral Methods: A Surprisingly Strong Baseline for Unsupervised Semantic Segmentation and Localization</strong> <a href="https://arxiv.org/abs/2205.07839" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/lukemelas/deep-spectral-segmentation?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2022 CVPR] <strong class="markdown_strong_asterisk">Freesolo: Learning to segment objects without annotations</strong> <a href="https://arxiv.org/pdf/2202.12181" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/NVlabs/FreeSOLO" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2022 ECCV] <strong class="markdown_strong_asterisk">Extract Free Dense Labels from CLIP</strong> <a href="https://arxiv.org/pdf/2112.01071" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/chongzhou96/MaskCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a> <a href="https://www.cnblogs.com/lipoicyclic/p/16967704.html" class="xsj_link xsj_manu_link">[note]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">ZegCLIP: Towards Adapting CLIP for Zero-shot Semantic Segmentation</strong> <a href="https://arxiv.org/abs/2212.03588" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/ZiqinZhou66/ZegCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Guided Slot Attention for Unsupervised Video Object Segmentation</strong> <a href="https://arxiv.org/pdf/2303.08314v3" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/Hydragon516/GSANet" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">ReCLIP++:Learn to Rectify the Bias of CLIP for Unsupervised Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2408.06747" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/dogehhh/ReCLIP" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">CuVLER: Enhanced Unsupervised Object Discoveries through Exhaustive Self-Supervised Transformers</strong> <a href="https://arxiv.org/pdf/2403.07700" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/shahaf-arica/CuVLER?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">EAGLE: Eigen Aggregation Learning for Object-Centric Unsupervised Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2403.01482" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/MICV-yonsei/EAGLE?tab=readme-ov-file" class="xsj_link xsj_manu_link">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Unsupervised Dense Prediction using Differentiable Normalized Cuts</strong> <a href="https://fq.pkwyx.com/default/https/www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05675.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">PaintSeg: Training-free Segmentation via Painting</strong> <a href="https://arxiv.org/abs/2305.19406" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">DIP: Unsupervised Dense In-Context Post-training of Visual Representations</strong> <a href="https://arxiv.org/pdf/2506.18463" class="xsj_link xsj_manu_link">[paper]</a> <a href="https://github.com/sirkosophia/DIP" class="xsj_link xsj_manu_link">[code]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e6a380e7b4a2_11"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e6a380e7b4a2_11" class="blank_anchor_name"></a><a id="e6a380e7b4a2_11" class="blank_anchor_id"></a><a name="检索" class="blank_anchor_name"></a><a id="检索" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">检索:</span></h1>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 ICML] <strong class="markdown_strong_asterisk">Cluster-Aware Similarity Diffusion for Instance Retrieval</strong><a href="https://arxiv.org/pdf/2406.02343" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person<br>
+Re-identification</strong><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 NEIGHBOR] <strong class="markdown_strong_asterisk">Neighbor-aware Geodesic Transportation for Neighborhood Refinery</strong><a href="https://openreview.net/pdf?id=DWI1xx2sX5" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2021 NIPS] <strong class="markdown_strong_asterisk">Contextual Similarity Aggregation with Self-attention for Visual Re-ranking</strong><a href="https://arxiv.org/pdf/2110.13430" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2027 AAAI] <strong class="markdown_strong_asterisk">Regularized diffusion process for visual retrieval</strong></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Global-to-Local or Local-to-Global? Enhancing Image Retrieval with Efficient Local Search and Effective Global Re-ranking</strong><a href="https://arxiv.org/pdf/2509.04351" class="xsj_link xsj_manu_link">[paper]</a></li>
+</ol>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e88081e5b888e68f90e4be9be69a82e5ad98efbc9a_12"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e88081e5b888e68f90e4be9be69a82e5ad98efbc9a_12" class="blank_anchor_name"></a><a id="e88081e5b888e68f90e4be9be69a82e5ad98efbc9a_12" class="blank_anchor_id"></a><a name="老师提供暂存" class="blank_anchor_name"></a><a id="老师提供暂存" class="blank_anchor_id"></a>
+</div>
+<span class="xsj_heading_content">老师提供暂存：</span></h1>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">POT: Prototypical Optimal Transport for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_POT_Prototypical_Optimal_Transport_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 arXiv]<strong class="markdown_strong_asterisk">Toward Modality Gap: Vision Prototype Learning for Weakly-supervised Semantic Segmentation with CLIP</strong> <a href="https://arxiv.org/pdf/2412.19650" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv]  <strong class="markdown_strong_asterisk">2025-NIPS-Disentangling CLIP for Multi-Object Perception</strong> <a href="https://arxiv.org/html/2502.02977v3" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2021 ICLR] <strong class="markdown_strong_asterisk">A Trainable Optimal Transport Embedding for Feature Aggregation and its Relationship to Attention</strong><a href="https://arxiv.org/pdf/2006.12065" class="xsj_link xsj_manu_link">[paper]</a><br>
+7.[2025 ICCV] <strong class="markdown_strong_asterisk">Interpretable point cloud classification using multiple instance learning</strong><a href="" class="xsj_link xsj_manu_link">[paper]</a></li>
+</ol>
+<hr class="xsj_hr xsj_minus">
+</div>
+
+</div></div>
+</body></html>
+
