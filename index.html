@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 #wmd-preview{
-  width: 80%;
-  max-width: 4000mm;
+  width:80%;
+  max-width: 400mm;
   margin: 0 auto;
 }
 /* normal start */
@@ -2012,6 +2012,12 @@ Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="x
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2403.11197v1/x2.png')">
   <span>TAG：利用预训练的CLIP和DINOv2模型提取图像的像素级语义特征，并通过从外部数据库检索的方式，为图像中的每个语义区域分配开放词汇类别。使用DINOv2分割，聚类得到mask，利用外部数据库来检索最匹配的类别。 </span>
 </div>
+<ol start="45" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">ASurvey on Training-free Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2505.22209" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="">
+  <span>文章将现有30余种方法分为纯粹基于CLIP的方法、结合CLIP与DINO或SAM等辅助视觉基础模型的方法，以及利用Stable Diffusion等生成模型以增强密集预测和定位能力的方法。 </span>
+</div>
 <ol>
 </ol>
 </fieldset> </div> 
@@ -2049,19 +2055,29 @@ Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="x
 <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_DeCLIP_Decoupled_Learning_for_Open-Vocabulary_Dense_Perception_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box"> <span>DeCLIP 通过解耦自注意力模块并分别对内容特征和上下文特征进行蒸馏，有效地解决了 CLIP 在开放词汇密集感知任务中局部特征辨别力不足和空间一致性差的问题。</span></div>
-<ol start="29" style="counter-reset: my-awesome-counter 28;" class="markdown_ol">
+<ol start="27" style="counter-reset: my-awesome-counter 26;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2411.19331" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/lorebianchi98/Talk2DINO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box"> <span>映射函数，CLIP文本映射到DINOv2特征向量，训练矩阵，DINOv2特征向量直接映射到CLIP提取的文本特征</span></div>
-<ol start="31" style="counter-reset: my-awesome-counter 30;" class="markdown_ol">
+<ol start="28" style="counter-reset: my-awesome-counter 27;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICLR] <strong class="markdown_strong_asterisk">Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion</strong> <a href="https://arxiv.org/pdf/2502.04263" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/miccunifi/Cross-the-Gap?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Text-guided Visual Prompt DINO for Generic Segmentation</strong> <a href="https://arxiv.org/pdf/2508.06146" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/WeChatCV/WeVisionOne" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.06146v1/x2.png')" ;=""> <span>Prompt-DINO：</span></div>
-<ol start="33" style="counter-reset: my-awesome-counter 32;" class="markdown_ol">
+<ol start="30" style="counter-reset: my-awesome-counter 29;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.12857" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/HuangShiqi128/SCORE" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2507.12857v1/x2.png')" ;=""> <span>SCORE：通过“区域感知集成（RAI）”利用区域上下文增强视觉表示，并通过“全局上下文适应（GCA）”模块注入遥感领域全局上下文以丰富文本嵌入。<span style="color: #03a9f4">开放词汇分割模型应用于遥感领域。</span></span></div>
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月7日添加</legend> 
+<ol start="34" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">Multi-Grained Cross-modal Alignment for Learning Open-vocabulary Semantic Segmentation from Text Supervision</strong> <a href="https://arxiv.org/pdf/2403.03707" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Valkyrja3607/TAG" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2403.03707v1/x2.png')">
+  <span>MGCA：框架，通过巧妙构建对象、区域和像素级的伪语义对应关系，结合难采样策略，实现了无需密集标注的细粒度跨模态对比学习。 </span>
+</div>
+<ol>
+</ol>
+</fieldset> </div> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="zero-shot20open-vocabulary20semantic20segmentation_5"><div class="xiaoshujiang_element xsj_anchor">
   <a name="zero-shot20open-vocabulary20semantic20segmentation_5" class="blank_anchor_name" target="_blank"></a><a id="zero-shot20open-vocabulary20semantic20segmentation_5" class="blank_anchor_id" target="_blank"></a><a name="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
