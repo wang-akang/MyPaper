@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 #wmd-preview{
-	width:80%;
+  width:80%;
   max-width: 400mm;
   margin: 0 auto;
 }
@@ -1790,7 +1790,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><a href="#%E6%A3%80%E7%B4%A2" class="xsj_link xsj_manu_link">检索</a></li>
 <li><a href="#%E8%80%81%E5%B8%88%E6%8F%90%E4%BE%9B%E6%9A%82%E5%AD%98" class="xsj_link xsj_manu_link">老师提供暂存</a></li>
 </ol>
-     <title>Hover Image Scaled Example (Damping Effect)</title> <style> html { height: 100%; /* 保证视口高度 */ } body { min-height: 100vh; /* 使用 100vh 确保占据整个视口高度 */ margin: 0; background-color: #f4f4f4; /* 增加一些 padding 以便观察右侧对齐效果 */ } /* 基础样式 */ .content-box { max-width: 1800px; /* 保持用户定义的特殊边距 */ margin: -20px auto -14px 20px ; padding: 2px 0px 0px 28px; background-color: #818b981f; border-radius: 6px; /* 关键：相对定位 */ position: relative; z-index: 1; font-size: 80%; /* 示例宽度，用于观察右侧对齐效果 */ } /* 伪元素样式 */ .content-box::before { content: ''; position: absolute; /* 定位：基于 200px 高度，将其放在 box 上方 */ top: -430px; /* ***** 修改点 1: 移除 left: 50%;，改为 right: 0; 实现右对齐 ***** */ right: 0; /* left: 50%; (已移除) */ /* ***** 修改点 2: 移除 translateX(-50%)，仅保留 translateY(10px) ***** */ transform: translateY(10px); /* transform: translateX(-50%) translateY(10px); (已修改) */ /* 定义图片的最大显示区域 */ width: 800px; height: 400px; /* 加载图片：使用 CSS 变量 */ background-image: var(--hover-image-url); /* 实现整体缩放，保持纵横比，确保图片完全可见 */ background-size: contain; /* 防止平铺，并确保图片居中靠下显示 */ background-repeat: no-repeat; background-position: right bottom; /* 初始状态：隐藏 */ opacity: 0; visibility: hidden; /* 增加 transform 的过渡时间和 ease-out 效果 */ transition: opacity 0.4s ease-out, visibility 0.4s ease-out, transform 0.4s ease-out; z-index: 10; border-radius: 4px; } /* 鼠标悬浮时显示 */ .content-box:hover::before { opacity: 1; visibility: visible; /* ***** 修改点 3: 移除 translateX(-50%)，恢复到原始位置 (向上滑动 10px) ***** */ transform: translateY(0); /* transform: translateX(-50%) translateY(0); (已修改) */ } </style> 
+     <title>Hover Image Scaled Example (Damping Effect)</title> <style> html { height: 100%; /* 保证视口高度 */ } body { min-height: 100vh; /* 使用 100vh 确保占据整个视口高度 */ margin: 0; background-color: #f4f4f4; /* 增加一些 padding 以便观察右侧对齐效果 */ } .content-box { max-width: 1800px; /* 保持用户定义的特殊边距 */ margin: -20px 4px -14px 20px ; padding: 2px 5px 0px 28px; background-color: #818b981f; border-radius: 2px; /* 关键：相对定位 */ position: relative; z-index: 1; font-size: 80%; /* 示例宽度，用于观察右侧对齐效果 */ } .content-box::before { /* 加载图片：使用 CSS 变量 */ background-image: var(--hover-image-url);content: ''; position: absolute; top: -430px;  right: 0;  transform: translateY(50px); /* 定义图片的最大显示区域 */ width: 800px; height: 400px;  /* 实现整体缩放，保持纵横比，确保图片完全可见 */ background-size: contain; /* 防止平铺，并确保图片居中靠下显示 */ background-repeat: no-repeat; background-position: right bottom; /* 初始状态：隐藏 */ opacity: 0; visibility: hidden; /* 增加 transform 的过渡时间和 ease-out 效果 */ transition: opacity 0.4s ease-out, visibility 0.4s ease-out, transform 0.4s ease-out; transition-delay: 0s; z-index: 10; border-radius: 4px; } .content-box:hover::before { opacity: 1; visibility: visible; transform: translateY(0);transition-delay: 0.6s;} </style> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_1"><div class="xiaoshujiang_element xsj_anchor">
   <a name="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_1" class="blank_anchor_name" target="_blank"></a><a id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_1" class="blank_anchor_id" target="_blank"></a><a name="多标签图像分类" class="blank_anchor_name" target="_blank"></a><a id="多标签图像分类" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -1818,9 +1818,17 @@ Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="x
 <li><span class="xsj_placeholder_span"></span>[2024 ICLR] <strong class="markdown_strong_asterisk">A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation</strong><a href="https://arxiv.org/pdf/2402.04087" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/mrflogs/ICLR24" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box"> <span>无需训练”的CLIP模型自适应新方法</span></div>
-<ol start="18" style="counter-reset: my-awesome-counter 17;" class="markdown_ol">
+<ol start="17" style="counter-reset: my-awesome-counter 16;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2022 IJCV] <strong class="markdown_strong_asterisk">Learning to Prompt for Vision-Language Models</strong><a href="https://arxiv.org/pdf/2109.01134v3" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/KaiyangZhou/CoOp" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月7日添加</legend> 
+<ol start="18" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection</strong> <a href="https://arxiv.org/pdf/2303.05499" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/IDEA-Research/GroundingDINO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2303.05499v5/x3.png')"><span>Grounding DINO：通过在特征增强、语言引导查询选择和跨模态解码器三个阶段进行紧密的多模态融合，并引入子句级文本特征进行大规模 grounded pre-training，有效融合了语言和视觉模态。</span></div>
+<ol>
+</ol>
+</fieldset> </div> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e7babfe680a7e789b9e5be81e5afb9e9bd90_2"><div class="xiaoshujiang_element xsj_anchor">
   <a name="e7babfe680a7e789b9e5be81e5afb9e9bd90_2" class="blank_anchor_name" target="_blank"></a><a id="e7babfe680a7e789b9e5be81e5afb9e9bd90_2" class="blank_anchor_id" target="_blank"></a><a name="线性特征对齐" class="blank_anchor_name" target="_blank"></a><a id="线性特征对齐" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -1959,15 +1967,42 @@ Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="x
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2411.15869v2/x5.png')" ;=""> <span>SC-CLIP：通过识别并解决异常tokens，利用CLIP中间层特征的语义一致性增强特征判别力和注意力相关性，并有效融合多级特征来校准模型。</span></div>
 <ol start="35" style="counter-reset: my-awesome-counter 34;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Test-Time Adaptation of Vision-Language Models for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2505.21844v1" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/dosowiechi/MLMP?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/abs/2504.10487" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/yasserben/FLOSS" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2505.21844v1/x2.png')" ;=""> <span>MLMP：通过自适应整合视觉编码器中间层特征和利用不同文本提示模板进行多提示熵最小化，同时优化全局CLS token和局部像素级别的预测，有效捕获互补且对偏移具有鲁棒性的特征。</span></div>
+<ol start="36" style="counter-reset: my-awesome-counter 35;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">FLOSS: Free Lunch in Open-vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2504.10487" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/yasserben/FLOSS" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2504.10487v2/x2.png')" ;=""> <span>FLOSS：<span style="color:red">类别专家，找到每一个类的最佳模板</span>从而为每个类别生成一个更精准、更具辨识度的文本表示，来提高像素级的分割性能。</span></div>
+<ol start="37" style="counter-reset: my-awesome-counter 36;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models</strong> <a href="https://arxiv.org/pdf/2505.23769" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/avaxiao/TextRegion" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<div class="content-box"> <span>SAM2与图像-文本模型(CLIP SigLIP2)结合</span></div>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2505.23769v1/x1.png')" ;=""> <span>TextRegion：SAM2与图像-文本模型(CLIP SigLIP2 PE)结合，在图像-文本模型最后一个注意力层，不使用模型原生的 [CLS]token 的注意力权重，而是用下采样后的软掩码来引导注意力池化。</span></div>
 <ol start="38" style="counter-reset: my-awesome-counter 37;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">A Survey on Training-free Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2505.22209" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">No time to train! Training-Free Reference-Based Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.02798" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/miquel-espinosa/no-time-to-train?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a> <a href="https://mp.weixin.qq.com/s/6BjzduZoqc2OgocNkaDiPQ" class="xsj_link xsj_manu_link" target="_blank">[note]</a></li>
 </ol>
-<div class="content-box"> <span>DINOv2与SAM2结合少样本，使用DINOv2提取特征，求类平均值特征。</span></div>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2505.23769v1/x1.png')" ;=""> <span>TextRegion：SAM2与图像-文本模型(CLIP SigLIP2 PE)结合，在图像-文本模型最后一个注意力层，不使用模型原生的 [CLS]token 的注意力权重，而是用下采样后的软掩码来引导注意力池化。</span></div>
+<ol start="39" style="counter-reset: my-awesome-counter 38;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">No time to train! Training-Free Reference-Based Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.02798" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/miquel-espinosa/no-time-to-train?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2507.02798v2/x2.png')" ;=""> <span>DINOv2与SAM2结合少样本，使用DINOv2提取特征，求类平均值特征。</span></div>
+      <style>  /* 容器样式 */ .display-container { width: 100%; max-width: 1800px; } /* Fieldset: 负责外框和整体布局 */ .advanced-display-group { margin-left: -2px;margin-right: -1px; box-sizing: border-box;/* 默认边框样式 */ border: 2px solid #000; /* 浅灰色边框 */ border-radius: 8px; /* 更圆润的边角 */ padding: 15px 0px 25px 0px; /* 内部填充 */ margin-top: 40px; /* 留出空间给 legend */ background-color: #f4f4f4; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 轻微阴影增加层次感 */ transition: all 0.3s ease; } /* 鼠标悬停时的效果 (增加高级感) */ .advanced-display-group:hover { border-color: #a0cfff; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); } /* Legend: 负责左上角的文字 */ .advanced-display-group legend { /* 确保 legend 的背景色与 fieldset 的背景色一致 */ background-color: #f4f4f4; color: #000; /* 标签文字颜色 */ font-size: 1.0em; font-weight: 600; padding: 0 10px; /* 关键：padding 决定了边框被去除的长度 */ margin-left: 25px; /* 微调位置 */ transition: color 0.3s ease; } /* 文本内容区域 */ .display-content { color: #303133; /* 内容文字颜色 */ font-size: 1em; line-height: 1.5; min-height: 20px; /* 确保空内容时也有高度 */ word-wrap: break-word; /* 保证长文本换行 */ }  } </style> 
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>10月7日添加</legend> 
+<ol start="40" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">There is no SAMantics! Exploring SAM as a Backbone for Visual Understanding Tasks</strong> <a href="https://arxiv.org/pdf/2411.15288" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/miquel-espinosa/samantics" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2411.15288v1/x2.png')"><span>量化发现SAM的特征表示缺乏显著的语义区分性。研究进一步尝试通过轻量级微调和in-context学习为SAM注入语义信息，但结果显示模型对已知类别存在过拟合，对未见类别泛化能力有限。<span style="color:#03a9f4">作者由此发布后续作品 No time to train! Training-Free Reference-Based Instance Segmentation
+</span></span></div>
+<ol start="41" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Rethinking the Global Knowledge of CLIP in Training-Free Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2502.06818" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2502.06818v2/x2.png')"> <span>GCLIP：针对现有训练无关开放词汇语义分割（TF-OVSS）方法因过度局部化而削弱CLIP全局上下文的问题，提出了GCLIP框架以重新利用CLIP的有益全局知识。两种创新策略：“注意力图融合”（AMF）将全局token涌现块的注意力图与最终块的Query-Query注意力融合，赋予其图像级全局属性；“通道抑制”（CS）则通过抑制FFN异常权重范数，增强最终块Value嵌入的语义相关性。 </span></div>
+<ol start="42" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Seg2Track-SAM2: SAM2-based Multi-object Tracking and Segmentation for Zero-shot Generalization</strong> <a href="https://www.arxiv.org/pdf/2509.11772" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/hcmr-lab/Seg2Track-SAM2" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2509.11772v1/x2.jpg')"> <span>Seg2Track-SAM2：“Zero-Shot" 和 "Training-Free"，基于 SAM2 的多对象跟踪与分割（MOTS）框架，通过集成预训练检测器和新型 Seg2Track 模块，旨在实现零样本泛化能力和增强跟踪鲁棒性 </span></div>
+<ol>
+</ol>
+</fieldset> </div> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training20open-vocabulary20semantic20segmentation_4"><div class="xiaoshujiang_element xsj_anchor">
   <a name="training20open-vocabulary20semantic20segmentation_4" class="blank_anchor_name" target="_blank"></a><a id="training20open-vocabulary20semantic20segmentation_4" class="blank_anchor_id" target="_blank"></a><a name="training-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
