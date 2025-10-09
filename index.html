@@ -1799,30 +1799,67 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2022 IJCV] <strong class="markdown_strong_asterisk">Learning to Prompt for Vision-Language Models</strong><a href="https://arxiv.org/pdf/2109.01134v3" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/KaiyangZhou/CoOp" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://picx.zhimg.com/70/v2-25cd42dbf58dc091c3fb8e8562eeb70e_1440w.avis?source=172ae18b&amp;biz_tag=Post')"> <span>CoOp：通过可学习向量对Prompt上下文词进行建模，并在固定预训练模型参数的同时，利用分类损失进行优化。为自动化此过程，本文提出了Context Optimization (CoOp) 方法，通过可学习向量对Prompt上下文词进行建模，并在固定预训练模型参数的同时，利用分类损失进行优化。</span></div>
-<ol start="3" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
+<ol start="2" style="counter-reset: my-awesome-counter 1;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">PatchCT: Aligning Patch Set and Label Set with Conditional Transport for Multi-Label Image Classification</strong><a href="https://arxiv.org/pdf/2307.09066" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/keepgoingjkg/PatchCT" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<div class="content-box" style="--hover-image-url: url('https://github.com/keepgoingjkg/PatchCT/raw/main/Figure/1.png')"> <span>PatchCT将图像表示为视觉块嵌入和文本标签嵌入的离散分布，通过逐层最小化双向CT成本来学习并对齐这两个语义集合，同时引入稀疏的标签引导式补丁选择和提示学习。</span></div>
-<ol start="5" style="counter-reset: my-awesome-counter 4;" class="markdown_ol">
+<div class="content-box" style="--hover-image-url: url('https://github.com/keepgoingjkg/PatchCT/raw/main/Figure/1.png')"> <span>PatchCT：将图像表示为视觉块嵌入和文本标签嵌入的离散分布，通过逐层最小化双向CT成本来学习并对齐这两个语义集合，同时引入稀疏的标签引导式补丁选择和提示学习。</span></div>
+<ol start="3" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">Cdul: Clip-driven unsupervised learning for multi-label image classification</strong><a href="https://arxiv.org/pdf/2307.16634" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/cs-mshah/CDUL" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2307.16634v2/extracted/5454394/figs/main-figure2.png')"> <span>CDUL：<span style="color:#03a9f4">通过将图像分割成片段并利用 CLIP 模型聚合全局与局部图像-文本相似性</span>，生成高质量的初始伪标签，随后采用梯度对齐优化框架递归更新分类网络参数并精炼伪标签。</span></div>
+<ol start="4" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 ICML] <strong class="markdown_strong_asterisk">Language-driven Cross-modal Classifier for Zero-shot Multi-label Image Recognition</strong><a href="https://openreview.net/pdf?id=sHswzNWUW2" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/yic20/CoMC" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://github.com/keepgoingjkg/PatchCT/raw/main/Figure/1.png')"> <span>CoMC：该框架利用大型语言模型（LLM）生成高质量多标签文本数据来训练分类器，并引入了一种高效的跨模态映射方法，将图像嵌入映射到语言模态以弥合模态差距，同时融合原始视觉信息。<span style="color:#03a9f4">大模型LLM（GPT-3）生成图像文本描述</span></span></div>
+<ol start="5" style="counter-reset: my-awesome-counter 4;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 AAAI] <strong class="markdown_strong_asterisk">TagCLIP: A Local-to-Global Framework to Enhance Open-Vocabulary Multi-Label Classification of CLIP Without Training</strong><a href="https://arxiv.org/pdf/2312.12828" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/linyq2117/TagCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2312.12828v1/x2.png')"> <span>TagCLIP：CLIP最后一层注意力操作会破坏空间信息。通过Patch级分类获取粗分数，继而采用双掩码注意力细化（DMAR）模块进行优化，并通过类别重识别（CWR）模块从全局视角校正预测。忽略CLIP-ViT模型最后一个自注意力操作，直接从倒数第二层获取 dense token 输出。</span></div>
+<ol start="6" style="counter-reset: my-awesome-counter 5;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 ICLR] <strong class="markdown_strong_asterisk">A Hard-to-Beat Baseline for Training-free CLIP-based Adaptation</strong><a href="https://arxiv.org/pdf/2402.04087" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/mrflogs/ICLR24" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models</strong><a href="https://arxiv.org/pdf/2502.16911?" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/kjmillerCURIS/SPARC" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://zhengbo.wang/assets/img/project_page_images/hard_to_beat/architecture.png')"> <span>研究者重新审视高斯判别分析（GDA），通过从训练数据中估计类别均值和协方差来直接构建分类器，并将其与CLIP的零样本分类器融合以整合多模态知识。</span></div>
+<ol start="7" style="counter-reset: my-awesome-counter 6;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">SPARC: Score Prompting and Adaptive Fusion for Zero-Shot Multi-Label Recognition in Vision-Language Models</strong><a href="https://arxiv.org/pdf/2502.16911" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/kjmillerCURIS/SPARC" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://moonlight-paper-snapshot.s3.ap-northeast-2.amazonaws.com/arxiv/sparc-score-prompting-and-adaptive-fusion-for-zero-shot-multi-label-recognition-in-vision-language-models-0.png')"> <span>SPARC：将VLM视为黑盒，利用大语言模型洞察对象共现关系构建复合提示，并通过去偏算法和自适应分数融合技术，纠正了图像偏见并发现次高复合得分比最高得分更具区分性。复合提示生成，排序融合。 </span></div>
+<ol start="8" style="counter-reset: my-awesome-counter 7;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Classifier-guided CLIP Distillation for Unsupervised Multi-label Classification</strong><a href="https://arxiv.org/pdf/2503.16873" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/k0u-id/CCD" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2503.16873v1/x4.png')"> <span>CCD：利用分类器引导的类别激活图（CAM）自适应地选择并生成局部视图伪标签，并引入去偏机制校正CLIP的预测偏差，同时结合一致性损失处理噪声。</span></div>
+<ol start="9" style="counter-reset: my-awesome-counter 8;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Recover and Match: Open-Vocabulary Multi-Label Recognition through Knowledge-Constrained Optimal Transport</strong><a href="https://arxiv.org/pdf/2503.15337" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/EricTan7/RAM" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Correlative and Discriminative Label Grouping for Multi-Label Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2503.15337v1/x2.png')"> <span>RAM：该框架引入Ladder Local Adapter (LLA) 来恢复CLIP的局部语义，并通过Knowledge-Constrained Optimal Transport (KCOT) 将区域-标签匹配建模为知识约束的最优传输问题，从而抑制了对非目标标签的无效匹配。</span></div>
+<ol start="10" style="counter-reset: my-awesome-counter 9;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Correlative and Discriminative Label Grouping for Multi-Label Visual Prompt Tuning</strong><a href="https://arxiv.org/pdf/2504.09990" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/yu-gi-oh-leilei/ML-VPT" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2503.15337v1/x2.png')"> <span>ML-VPT：该框架引入Ladder Local Adapter (LLA) 来恢复CLIP的局部语义，并通过Knowledge-Constrained Optimal Transport (KCOT) 将区域-标签匹配建模为知识约束的最优传输问题，从而抑制了对非目标标签的无效匹配。</span></div>
+<ol start="11" style="counter-reset: my-awesome-counter 10;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICML] <strong class="markdown_strong_asterisk">From Local Details to Global Context:Advancing Vision-Language Models with Attention-Based Selection</strong><a href="https://arxiv.org/pdf/2505.13233?" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/BIT-DA/ABS" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 WACV] <strong class="markdown_strong_asterisk">Pay Attention to Your Neighbours:Training-Free Open-Vocabulary Semantic Segmentation</strong><a href="https://arxiv.org/pdf/2404.08181?" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/sinahmr/NACLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Category-Specific Selective Feature Enhancement for Long-Tailed Multi Label Image Classification</strong></li>
-<li><span class="xsj_placeholder_span"></span>[2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification</li>
-<li><span class="xsj_placeholder_span"></span>[2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification</li>
-<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning</strong><a href="https://arxiv.org/pdf/2508.20381" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 ICCV]Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity</li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2505.13233v1/x3.png')"> <span>ABS：一种无需训练的注意力引导选择方法，它利用DINO注意力图在原始图像和特征空间进行裁剪，以同时捕获局部特征和补充全局语义信息。</span></div>
+<ol start="12" style="counter-reset: my-awesome-counter 11;" class="markdown_ol">
+<li>
+<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Category-Specific Selective Feature Enhancement for Long-Tailed Multi Label Image Classification</strong></p>
+</li>
+<li>
+<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV]MambaML: Exploring State Space Models for Multi-Label Image Classification</p>
+</li>
+<li>
+<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV]Category-Specific Selective Feature Enhancement for Long-Tailed Multi-Label Image Classification</p>
+</li>
+<li>
+<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning</strong><a href="https://arxiv.org/pdf/2508.20381" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/Fsoft-AIC/AEVLP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></p>
+</li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.20381v1/figures/overmethod_iccv.png')"> <span>AEVLP：框架包含广义伪标签鲁棒损失（GPR Loss），旨在有效处理各种伪标签并减轻其噪声影响，同时引入动态增强多焦点伪标签（DAMP）技术，利用视觉-语言模型生成更可靠且动态变化的伪标签。</span></div>
+<ol start="16" style="counter-reset: my-awesome-counter 15;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity</strong> <a href="https://github.com/wangshouwen/RCNn" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box"> <span>无需训练”的CLIP模型自适应新方法</span></div>
  <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月7日添加</legend> 
-<ol start="18" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
+<ol start="17" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection</strong> <a href="https://arxiv.org/pdf/2303.05499" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/IDEA-Research/GroundingDINO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2303.05499v5/x3.png')"><span>Grounding DINO：通过在特征增强、语言引导查询选择和跨模态解码器三个阶段进行紧密的多模态融合，并引入子句级文本特征进行大规模 grounded pre-training，有效融合了语言和视觉模态。</span></div>
