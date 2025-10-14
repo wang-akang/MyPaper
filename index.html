@@ -1791,6 +1791,13 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><a href="#%E8%80%81%E5%B8%88%E6%8F%90%E4%BE%9B%E6%9A%82%E5%AD%98" class="xsj_link xsj_manu_link">老师提供暂存</a></li>
 </ol>
      <title>Hover Image Scaled Example (Damping Effect)</title> <style> html { height: 100%; /* 保证视口高度 */ } body { min-height: 100vh; /* 使用 100vh 确保占据整个视口高度 */ margin: 0; background-color: #f4f4f4; /* 增加一些 padding 以便观察右侧对齐效果 */ } .content-box { max-width: 1740px; /* 保持用户定义的特殊边距 */ margin: -20px 20px -14px 20px ; padding: 2px 0px 0px 28px; background-color: #818b981f; border-radius: 2px; /* 关键：相对定位 */ position: relative; z-index: 1; font-size: 80%; /* 示例宽度，用于观察右侧对齐效果 */ } .content-box::before { content: ''; position: absolute; top: -430px;  right: 0;  transform: translateY(50px); /* 定义图片的最大显示区域 */ width: 800px; height: 400px;  /* 实现整体缩放，保持纵横比，确保图片完全可见 */ background-size: contain; /* 防止平铺，并确保图片居中靠下显示 */ background-repeat: no-repeat; background-position: right bottom; /* 初始状态：隐藏 */ opacity: 0; visibility: hidden; /* 增加 transform 的过渡时间和 ease-out 效果 */ transition: opacity 0.4s ease-out, visibility 0.4s ease-out, transform 0.4s ease-out; transition-delay: 0s; z-index: 10; border-radius: 4px; } .content-box:hover::before {/* 加载图片：使用 CSS 变量 */ background-image: var(--hover-image-url); opacity: 1; visibility: visible; transform: translateY(0);transition-delay: 0.6s;} </style> 
+ <div class="display-container"><fieldset class="advanced-display-group"> <legend>暂时没有论文</legend> 
+<ol start="1" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">E-SD³: Fine-Grained Confidence-Aware Fusion of SD3 for Zero-Shot Semantic Matching</strong>  <a href="https://github.com/panda7777777/feature-fusion" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<ol>
+</ol>
+</fieldset> </div> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_1"><div class="xiaoshujiang_element xsj_anchor">
   <a name="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_1" class="blank_anchor_name" target="_blank"></a><a id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_1" class="blank_anchor_id" target="_blank"></a><a name="多标签图像分类" class="blank_anchor_name" target="_blank"></a><a id="多标签图像分类" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -1855,6 +1862,16 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection</strong> <a href="https://arxiv.org/pdf/2303.05499" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/IDEA-Research/GroundingDINO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2303.05499v5/x3.png')"><span>Grounding DINO：通过在特征增强、语言引导查询选择和跨模态解码器三个阶段进行紧密的多模态融合，并引入子句级文本特征进行大规模 grounded pre-training，有效融合了语言和视觉模态。</span></div>
+<ol>
+</ol>
+</fieldset> </div> 
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月13日添加</legend> 
+<ol start="18" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 IEEE] <strong class="markdown_strong_asterisk">Modeling Cross-Modal Semantic Transformations from Coarse to Fine in CLIP</strong> <a href="https://ieeexplore.ieee.org/document/11178074" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="">
+  <span>HIVE：通过超球面变分适配器（HVA）使用von Mises-Fisher (vMF) 分布来建模CLIP特征的超球面几何特性，并结合潜在超球面空间插值（LHSI）机制，利用球面线性插值（SLERP）从图像和粗粒度文本特征中生成精细粒度文本特征。旨在通过建模跨模态语义转换，实现从粗粒度到细粒度的语义建模。 </span>
+</div>
 <ol>
 </ol>
 </fieldset> </div> 
@@ -2087,27 +2104,35 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning</strong> <a href="https://arxiv.org/pdf/2212.04994" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/8ca316a10a2749e4c6bf3d0284e8cce2f56a4543/500px/6-Figure5-1.png')" ;=""> <span>PACL：<span style="color:red">CLIP训练视觉编码器中的patch token与文本编码器中的CLS token之间的对齐关系。</span>这种对齐使模型能够识别图像中与给定文本输入相对应的区域，从而无需任何分割标注即可无缝迁移到开放词汇语义分割任务。</span></div>
-<ol start="5" style="counter-reset: my-awesome-counter 4;" class="markdown_ol">
+<ol start="3" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2023 CVPR] <strong class="markdown_strong_asterisk">Learning to Generate Text-grounded Mask for Open-world Semantic Segmentation from Only Image-Text Pairs</strong> <a href="https://arxiv.org/pdf/2212.00785" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/khanrc/tcl" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://ar5iv.labs.arxiv.org/html/2212.00785/assets/x3.png')" ;=""> <span>TCL：<span style="color:red">对CLIP学习区域—文本对齐</span>文本引导对比学习，通过生成文本引导的分割掩码，并直接对掩码区域与文本嵌入进行对齐，从而端到端地学习区域-文本对齐。</span></div>
-<ol start="6" style="counter-reset: my-awesome-counter 5;" class="markdown_ol">
+<ol start="4" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2023 ICCV] <strong class="markdown_strong_asterisk">Exploring Open-Vocabulary Semantic Segmentation from CLIP Vision Encoder Distillation Only</strong> <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Chen_Exploring_Open-Vocabulary_Semantic_Segmentation_from_CLIP_Vision_Encoder_Distillation_Only_ICCV_2023_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/2008356d334fb27ba7dbc638119f9d567d4adbd8/500px/4-Figure2-1.png')" ;=""> <span>ZeroSeg：提出一种新颖的零样本开放词汇语义分割方法，将输入图像划分为多尺度视图以提取区域视觉概念，并通过多尺度特征蒸馏损失和段匹配损失，将这些概念有效传递给结合了掩码自编码器骨干的ZeroSeg模型。</span></div>
-<ol start="7" style="counter-reset: my-awesome-counter 6;" class="markdown_ol">
+<ol start="5" style="counter-reset: my-awesome-counter 4;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2023 ICML] <strong class="markdown_strong_asterisk">SegCLIP: Patch Aggregation with Learnable Centers for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2211.14813" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/ArrowLuo/SegCLIP?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/4bae689ade260c1624406b5bf2d58d637a0c5aa9/500px/3-Figure2-1.png')" ;=""> <span>ZeroSeg：提出一种新颖的零样本开放词汇语义分割方法，将输入图像划分为多尺度视图以提取区域视觉概念，并通过多尺度特征蒸馏损失和段匹配损失，将这些概念有效传递给结合了掩码自编码器骨干的ZeroSeg模型。</span></div>
-<ol start="8" style="counter-reset: my-awesome-counter 7;" class="markdown_ol">
-<li><span class="xsj_placeholder_span"></span>[2023 ICML] <strong class="markdown_strong_asterisk">Grounding Everything: Emerging Localization Properties in Vision-Language Transformers</strong> <a href="https://arxiv.org/pdf/2312.00878" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/WalBouss/GEM?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-</ol>
-<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/4bae689ade260c1624406b5bf2d58d637a0c5aa9/500px/3-Figure2-1.png')" ;=""> <span>ZeroSeg：提出一种新颖的零样本开放词汇语义分割方法，将输入图像划分为多尺度视图以提取区域视觉概念，并通过多尺度特征蒸馏损失和段匹配损失，将这些概念有效传递给结合了掩码自编码器骨干的ZeroSeg模型。</span></div>
-<ol start="13" style="counter-reset: my-awesome-counter 12;" class="markdown_ol">
+<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/4bae689ade260c1624406b5bf2d58d637a0c5aa9/500px/3-Figure2-1.png')" ;=""> <span>SegCLIP：<span style="color:#03a9f4">语义分组模块</span>利用ViT架构和可学习的语义中心，通过跨注意力机制动态捕获语义分组，并引入重建损失和基于超像素的KL损失来增强视觉表示。</span></div>
+<ol start="6" style="counter-reset: my-awesome-counter 5;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2023 NIPS] <strong class="markdown_strong_asterisk">Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2310.19001" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Ferenas/PGSeg?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">SED: A Simple Encoder-Decoder for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2311.15537v2" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xb534/SED.git" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/4bae689ade260c1624406b5bf2d58d637a0c5aa9/500px/3-Figure2-1.png')" ;=""> <span>SegCLIP：<span style="color:#03a9f4">语义分组模块</span>利用ViT架构和可学习的语义中心，通过跨注意力机制动态捕获语义分组，并引入重建损失和基于超像素的KL损失来增强视觉表示。</span></div>
+<ol start="7" style="counter-reset: my-awesome-counter 6;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">SED: A Simple Encoder-Decoder for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2311.15537" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xb534/SED" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2311.15537v2/x2.png')" ;=""> <span>SED：<span style="color:#03a9f4">提出了一个包含层次化编码器生成代价图和渐进融合解码器（带类别早期拒绝）的简单编解码器架构。</span>利用分层编码器生成像素级图像-文本成本图，并采用渐进融合解码器结合多层特征图来输出高分辨率的分割结果，有效捕捉局部空间信息。</span></div>
+<ol start="8" style="counter-reset: my-awesome-counter 7;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Not All Classes Stand on Same Embeddings: Calibrating a Semantic Distance with Metric Tensor</strong> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10658112&amp;tag=1" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">USE: Universal Segment Embeddings for Open-Vocabulary Image Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Wang_USE_Universal_Segment_Embeddings_for_Open-Vocabulary_Image_Segmentation_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://cdn.bytez.com/mobilePapers/v2/cvpr/30957/images/2-0.png')" ;=""> <span>本文提出了一种基于度量张量的一致性正则化方法。该方法通过引入全局度量张量来估计整体的类不变几何结构，并利用局部度量张量捕获每个类别的类变异几何结构，通过弱增强和强增强策略进行协同优化。</span></div>
+<ol start="9" style="counter-reset: my-awesome-counter 8;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">USE: Universal Segment Embeddings for Open-Vocabulary Image Segmentation</strong> <a href="https://arxiv.org/pdf/2406.05271" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2406.05271v1/x5.png')" ;=""> <span>USE：框架包含一个数据管线，该管线利用多模态大语言模型和短语 grounding 模型，<span style="color:red">自动生成多粒度的mask-文本对</span>；以及一个轻量级通用Segment嵌入模型，该模型基于预训练的CLIP和DINOv2模型，生成与文本描述对齐的Segment嵌入。</span></div>
+<ol start="10" style="counter-reset: my-awesome-counter 9;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">CAT-Seg: Cost Aggregation for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2303.11797" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/cvlab-kaist/CAT-Seg" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Emergent Open-Vocabulary Semantic Segmentation from Off-the-shelf Vision-Language Models</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Luo_Emergent_Open-Vocabulary_Semantic_Segmentation_from_Off-the-shelf_Vision-Language_Models_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/letitiabanana/PnP-OVSS" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">SAM-CLIP: Merging Vision Foundation Models towards Semantic and Spatial Understanding</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024W/ELVM/papers/Wang_SAM-CLIP_Merging_Vision_Foundation_Models_Towards_Semantic_and_Spatial_Understanding_CVPRW_2024_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
@@ -2126,21 +2151,21 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_DeCLIP_Decoupled_Learning_for_Open-Vocabulary_Dense_Perception_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box"> <span>DeCLIP 通过解耦自注意力模块并分别对内容特征和上下文特征进行蒸馏，有效地解决了 CLIP 在开放词汇密集感知任务中局部特征辨别力不足和空间一致性差的问题。</span></div>
-<ol start="27" style="counter-reset: my-awesome-counter 26;" class="markdown_ol">
+<ol start="26" style="counter-reset: my-awesome-counter 25;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2411.19331" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/lorebianchi98/Talk2DINO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box"> <span>映射函数，CLIP文本映射到DINOv2特征向量，训练矩阵，DINOv2特征向量直接映射到CLIP提取的文本特征</span></div>
-<ol start="28" style="counter-reset: my-awesome-counter 27;" class="markdown_ol">
+<ol start="27" style="counter-reset: my-awesome-counter 26;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICLR] <strong class="markdown_strong_asterisk">Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion</strong> <a href="https://arxiv.org/pdf/2502.04263" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/miccunifi/Cross-the-Gap?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Text-guided Visual Prompt DINO for Generic Segmentation</strong> <a href="https://arxiv.org/pdf/2508.06146" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/WeChatCV/WeVisionOne" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.06146v1/x2.png')" ;=""> <span>Prompt-DINO：</span></div>
-<ol start="30" style="counter-reset: my-awesome-counter 29;" class="markdown_ol">
+<ol start="29" style="counter-reset: my-awesome-counter 28;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.12857" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/HuangShiqi128/SCORE" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2507.12857v1/x2.png')" ;=""> <span>SCORE：通过“区域感知集成（RAI）”利用区域上下文增强视觉表示，并通过“全局上下文适应（GCA）”模块注入遥感领域全局上下文以丰富文本嵌入。<span style="color: #03a9f4">开放词汇分割模型应用于遥感领域。</span></span></div>
  <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月7日添加</legend> 
-<ol start="34" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="30" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">Multi-Grained Cross-modal Alignment for Learning Open-vocabulary Semantic Segmentation from Text Supervision</strong> <a href="https://arxiv.org/pdf/2403.03707" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Valkyrja3607/TAG" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2403.03707v1/x2.png')">
@@ -2150,19 +2175,19 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 </ol>
 </fieldset> </div> 
  <div class="display-container"> <fieldset class="advanced-display-group"> <legend>2025年10月8日添加</legend> 
-<ol start="35" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="31" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">High-Quality Mask Tuning Matters for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2412.11464" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/HVision-NKU/MaskCLIPpp" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2412.11464v3/x6.png')">
   <span>MaskCLIP++：通过使用高质量的真实掩码而非生成掩码来微调 CLIP，以增强其掩码分类能力，并引入“一致性对齐”原则来缓解对微调数据集的过拟合问题。 </span>
 </div>
-<ol start="36" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="32" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Generalized Decoupled Learning for Enhancing Open-Vocabulary Dense Perception</strong> <a href="https://arxiv.org/pdf/2508.11256" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.11256v1/x3.png')">
   <span>DeCLIP：通过解耦CLIP的自注意力模块为“内容”和“上下文”特征，并分别利用Vision Foundation Models (VFMs)的语义相关性和扩散模型的对象完整性线索进行蒸馏来增强其密集表征。 </span>
 </div>
-<ol start="37" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="33" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Mask-Adapter_The_Devil_is_in_the_Masks_for_Open-Vocabulary_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/hustvl/MaskAdapter" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://github.com/hustvl/MaskAdapter/raw/main/assets/main_fig.png')">
@@ -2170,12 +2195,25 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 </div>
 <ol></ol>
 </fieldset> </div> 
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月14日添加</legend> 
+<ol start="34" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">SegMASt3R: Geometry Grounded Segment Matching</strong> <a href="https://arxiv.org/pdf/2510.05051" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/SegMASt3R" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.05051v1/x1.png')">
+  <span>SegMASt3R：利用预训练的3D基础模型MASt3R的几何感知归纳偏置，通过轻量级段特征头生成鲁棒的段级描述符，并通过可微分最优传输层实现图像对间的端到端段匹配。利用 3D 基础模型 (3DFM) MASt3R 进行宽基线 (wide-baseline) 图像段匹配的方法。几何接地的图像分割匹配 </span>
+</div>
+<ol>
+</ol>
+</fieldset> </div> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="zero-shot20open-vocabulary20semantic20segmentation_5"><div class="xiaoshujiang_element xsj_anchor">
   <a name="zero-shot20open-vocabulary20semantic20segmentation_5" class="blank_anchor_name" target="_blank"></a><a id="zero-shot20open-vocabulary20semantic20segmentation_5" class="blank_anchor_id" target="_blank"></a><a name="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Zero-Shot Open-Vocabulary Semantic Segmentation</span></h1>
-<p class="xsj_paragraph xsj_paragraph_level_0"><a name="ZSOVSS" target="_blank"></a></p>
 <ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2023 ICML] <strong class="markdown_strong_asterisk">Grounding Everything: Emerging Localization Properties in Vision-Language Transformers</strong> <a href="https://arxiv.org/pdf/2312.00878" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/WalBouss/GEM?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2312.00878v3/x2.png')" ;=""> <span>GEM：<span style="color:#03a9f4">修改CLIP内部结构</span>通过将价值-价值注意力推广为广义的自-自注意力，并结合L2归一化、自适应温度及迭代机制，有效促进视觉特征聚类并保持与语言空间的对齐</span></div>
+<ol start="2" style="counter-reset: my-awesome-counter 1;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">On the test-time zero-shot generalization of vision-language models: Do we really need prompt learning?</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Zanella_On_the_Test-Time_Zero-Shot_Generalization_of_Vision-Language_Models_Do_We_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/MaxZanella/MTA" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Exploring Regional Clues in CLIP for Zero-Shot Semantic Segmentation</strong> <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=10656627&amp;tag=1" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Jittor/JSeg" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2024 CVPR] <strong class="markdown_strong_asterisk">Diffuse, Attend, and Segment: Unsupervised Zero-Shot Segmentation using Stable Diffusion</strong> <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Tian_Diffuse_Attend_and_Segment_Unsupervised_Zero-Shot_Segmentation_using_Stable_Diffusion_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/google/diffseg" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
