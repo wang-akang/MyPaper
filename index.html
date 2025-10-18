@@ -1790,7 +1790,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><a href="#%E6%A3%80%E7%B4%A2" class="xsj_link xsj_manu_link">检索</a></li>
 <li><a href="#%E8%80%81%E5%B8%88%E6%8F%90%E4%BE%9B%E6%9A%82%E5%AD%98" class="xsj_link xsj_manu_link">老师提供暂存</a></li>
 </ol>
-     <title>Hover Image Scaled Example (Damping Effect)</title> <style> html { height: 100%; /* 保证视口高度 */ } body { min-height: 100vh; /* 使用 100vh 确保占据整个视口高度 */ margin: 0; background-color: #f4f4f4; /* 增加一些 padding 以便观察右侧对齐效果 */ } .content-box { max-width: 1740px; /* 保持用户定义的特殊边距 */ margin: -20px 20px -14px 20px ; padding: 2px 0px 0px 28px; background-color: #818b981f; border-radius: 2px; /* 关键：相对定位 */ position: relative; z-index: 1; font-size: 80%; /* 示例宽度，用于观察右侧对齐效果 */ } .content-box::before { content: ''; position: absolute; top: -430px;  right: 0;  transform: translateY(50px); /* 定义图片的最大显示区域 */ width: 800px; height: 400px;  /* 实现整体缩放，保持纵横比，确保图片完全可见 */ background-size: contain; /* 防止平铺，并确保图片居中靠下显示 */ background-repeat: no-repeat; background-position: right bottom; /* 初始状态：隐藏 */ opacity: 0; visibility: hidden; /* 增加 transform 的过渡时间和 ease-out 效果 */ transition: opacity 0.4s ease-out, visibility 0.4s ease-out, transform 0.4s ease-out; transition-delay: 0s; z-index: 10; border-radius: 4px; } .content-box:hover::before {/* 加载图片：使用 CSS 变量 */ background-image: var(--hover-image-url); opacity: 1; visibility: visible; transform: translateY(0);transition-delay: 0.6s;} </style> 
+     <title>Hover Image Scaled Example (Damping Effect)</title> <style> html { height: 100%; /* 保证视口高度 */ } body { min-height: 100vh; /* 使用 100vh 确保占据整个视口高度 */ margin: 0; background-color: #f4f4f4; /* 增加一些 padding 以便观察右侧对齐效果 */ } .content-box { max-width: 1740px; /* 保持用户定义的特殊边距 */ margin: -20px 20px -14px 20px ; padding: 2px 0px 0px 28px; background-color: #818b981f; border-radius: 2px; /* 关键：相对定位 */ position: relative; z-index: 1; font-size: 80%; /* 示例宽度，用于观察右侧对齐效果 */ } .content-box::before { content: ''; position: absolute; top: -430px;  right: 0;  transform: translateY(50px); /* 定义图片的最大显示区域 */ width: 800px; height: 400px;  /* 实现整体缩放，保持纵横比，确保图片完全可见 */ background-size: contain; /* 防止平铺，并确保图片居中靠下显示 */ background-repeat: no-repeat; background-position: right bottom; /* 初始状态：隐藏 */ opacity: 0; visibility: hidden; /* 增加 transform 的过渡时间和 ease-out 效果 */ transition: opacity 0.4s ease-out, visibility 0.4s ease-out, transform 0.4s ease-out; transition-delay: 0s; z-index: 10; border-radius: 4px; } .content-box:hover::before {/* 加载图片：使用 CSS 变量 */ background-image: var(--hover-image-url); opacity: 1; visibility: visible; transform: translateY(0);transition-delay: 0.8s;} </style> 
  <div class="display-container"><fieldset class="advanced-display-group"> <legend>暂存</legend> 
 <ol start="1" style="counter-reset: my-awesome-counter 2;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">E-SD³: Fine-Grained Confidence-Aware Fusion of SD3 for Zero-Shot Semantic Matching</strong>  <a href="https://github.com/panda7777777/feature-fusion" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
@@ -1825,7 +1825,41 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
   <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">From Pixels to Words – Towards Native Vision-Language Primitives at Scale</strong> <a href="https://arxiv.org/pdf/2510.14979" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/EvolvingLMMs-Lab/NEO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.14979v1/x1.png')">
-<span>NEO：一个基于统一原生原语构建的新型端到端视觉-语言模型系列。NEO通过设计灵活的位置编码、多头原生注意力以及模态感知旋转位置嵌入（Native-RoPE），有效地在像素和单词间进行对齐、编码与推理，并创新性地采用Pre-Buffer和Post-LLM分阶段训练，随后融合成统一架构。<span style="color:red">原生 VLM，理解像素（pixel）并将其与词语（word）对齐。</span> </span>
+<span>NEO：<span style="color:red">原生 VLM，理解像素（pixel）并将其与词语（word）对齐。</span>一个基于统一原生原语构建的新型端到端视觉-语言模型系列。NEO通过设计灵活的位置编码、多头原生注意力以及模态感知旋转位置嵌入（Native-RoPE），有效地在像素和单词间进行对齐、编码与推理，并创新性地采用Pre-Buffer和Post-LLM分阶段训练，随后融合成统一架构。 </span>
+</div>
+<ol start="2" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Exploring Cross-Modal Flows for Few-Shot Learning</strong> <a href="https://arxiv.org/pdf/2510.14543" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.14543v1/x4.png')">
+<span>FMA：<span style="color:red">从视觉特征到文本特征</span>模型无关，通过学习跨模态速度场实现特征对齐，其训练阶段引入“耦合强制”和“噪声增强”以维持类别对应并缓解数据稀缺，推理阶段则采用“早停求解器”以提升效率和准确性。 </span>
+</div>
+<ol start="3" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">AnyUp: Universal Feature Upsampling</strong> <a href="https://arxiv.org/pdf/2510.12764" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.14543v1/x4.png')">
+<span>AnyUP：<span style="color:red">上采样</span>通过引入特征无关层来处理不同维度和类型的输入特征、采用局部窗口注意力机制以简化上采样问题，并结合基于图像局部裁切的高效训练策略和一致性正则化，显著提升了上采样质量。 </span>
+</div>
+<ol>
+</ol>
+</fieldset> </div> 
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月18日添加</legend> 
+<ol start="4" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">CoT-PL: Visual Chain-of-Thought Reasoning Meets Pseudo-Labeling for Open-Vocabulary Object Detection</strong> <a href="https://arxiv.org/pdf/2510.14792" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.14792v1/x4.png')">
+  <span> CoT-PL：利用多模态大语言模型（MLLMs）将目标理解分解为区域感知、零样本类别识别和背景定位三个可解释步骤，并通过对比背景学习（CBL）进一步分离目标与背景特征。<span style="color:red"> 将物体理解分解为三个可解释的、多步骤的推理过程，区域感知 (Region Perception)：零样本类别识别 (Zero-shot Category Recognition)背景接地 (Background Grounding)</span></span>
+</div>
+<ol start="5" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Data or Language Supervision: What Makes CLIP Better than DINO?</strong> <a href="https://arxiv.org/pdf/2510.11835" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.11835v1/clip.png')">
+  <span>CLIP更侧重于捕获高级语义如物体类别和嵌入文本，而DINO则对颜色和风格等低级视觉特征更敏感。 </span>
+</div>
+<ol start="6" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">VISTA:EnhancingVision-TextAlignment inMLLMsviaCross ModalMutualInformationMaximization</strong> <a href="https://arxiv.org/pdf/2505.10917" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Tencent/DigitalHuman/tree/main/VISTA" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2505.10917v2/x1.png')">
+  <span>VISTA：<span style="color:red">视觉-文本对齐，支持各种视觉编码器和语言模型</span>是一种用于多模态大型语言模型 （MLLM）的创新对齐方法，可解决当前 MLLM 中普遍存在的模态对齐问题。通过对传统交叉熵损失的信息论特性的深入分析，我们发现现有的隐式对齐机制随着文本序列长度的增加而退化，导致视觉信息在语义理解中的重要性降低。 </span>
 </div>
 <ol>
 </ol>
@@ -2381,8 +2415,8 @@ Re-identification</strong><a href="https://openaccess.thecvf.com/content/CVPR202
 <li><span class="xsj_placeholder_span"></span>[2025CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2024 arXiv]<strong class="markdown_strong_asterisk">Toward Modality Gap: Vision Prototype Learning for Weakly-supervised Semantic Segmentation with CLIP</strong> <a href="https://arxiv.org/pdf/2412.19650" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv]  <strong class="markdown_strong_asterisk">2025-NIPS-Disentangling CLIP for Multi-Object Perception</strong> <a href="https://arxiv.org/html/2502.02977v3" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2021 ICLR] <strong class="markdown_strong_asterisk">A Trainable Optimal Transport Embedding for Feature Aggregation and its Relationship to Attention</strong><a href="https://arxiv.org/pdf/2006.12065" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><br>
-7.[2025 ICCV] <strong class="markdown_strong_asterisk">Interpretable point cloud classification using multiple instance learning</strong><a href="" class="xsj_link xsj_manu_link">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2021 ICLR] <strong class="markdown_strong_asterisk">A Trainable Optimal Transport Embedding for Feature Aggregation and its Relationship to Attention</strong><a href="https://arxiv.org/pdf/2006.12065" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Interpretable point cloud classification using multiple instance learning</strong></li>
 </ol>
 <hr class="xsj_hr xsj_minus">
 </div>
