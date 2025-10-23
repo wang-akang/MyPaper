@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 #wmd-preview{
-	width: 75%;
+ width: 75%;
   max-width: 4000mm;
   margin: 0 auto;
 }
@@ -2298,6 +2298,16 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <ol>
 </ol>
 </fieldset> </div> 
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月23日添加</legend> 
+<ol start="35" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Unified Open-World Segmentation with Multi-Modal Prompts</strong> <a href="https://arxiv.org/pdf/2510.10524" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/aim-uofa/COSINE" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.10524v1/x1.png')">
+  <span>COSINE：是首个 统一开放词汇与上下文分割的多模态框架，输入：目标图像 + 文本提示 + 图像提示；输出：统一格式的 token 序列，包括视觉特征 F、图像提示 V、文本提示 T； </span>
+</div>
+<ol>
+</ol>
+</fieldset> </div> 
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="zero-shot20open-vocabulary20semantic20segmentation_6"><div class="xiaoshujiang_element xsj_anchor">
   <a name="zero-shot20open-vocabulary20semantic20segmentation_6" class="blank_anchor_name" target="_blank"></a><a id="zero-shot20open-vocabulary20semantic20segmentation_6" class="blank_anchor_id" target="_blank"></a><a name="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -2441,5 +2451,137 @@ Re-identification</strong><a href="https://openaccess.thecvf.com/content/CVPR202
 </div>
 
 </div></div>
+
+
+<!-- Back to top: use .back-to-top structure to match provided markup -->
+<div class="back-to-top" data-v-56bb7e7f="" role="button" tabindex="0" aria-label="返回顶部" title="返回顶部">
+  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-chevrons-up icon" data-v-56bb7e7f="" aria-hidden="true">
+    <path d="M7 11l5 -5l5 5"></path>
+    <path d="M7 17l5 -5l5 5"></path>
+  </svg>
+</div>
+
+<style>
+:root{ --theme-color-rgb: 63,209,221; }
+.back-to-top[data-v-56bb7e7f] {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  background: linear-gradient(180deg,#3fd1dd 0%,#29b6b6 100%);
+  box-shadow: 0 6px 20px rgba(var(--theme-color-rgb),.35), inset 0 1px 0 rgba(255,255,255,.2);
+  cursor: pointer;
+  z-index: 99999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* animate transform and opacity together for a smooth slide-up fade-in */
+  transition: transform .95s cubic-bezier(.22,1,.36,1), box-shadow .95s cubic-bezier(.22,1,.36,1), opacity .95s ease;
+  /* hidden by default; shown when .show is added by JS */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  /* start lower so it slides up when shown */
+  transform: translateY(25px) scale(.98);
+  -webkit-tap-highlight-color: transparent;
+  overflow: hidden;
+}
+
+/* visible state toggled by JS */
+.back-to-top.show[data-v-56bb7e7f] {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+}
+
+.back-to-top[data-v-56bb7e7f]:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(145deg, hsla(0,0%,100%,.18), hsla(0,0%,100%,0));
+  opacity: 0;
+  transition: opacity .65s ease;
+  border-radius: 12px;
+}
+
+.back-to-top[data-v-56bb7e7f]:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  height: 50%;
+  background: linear-gradient(180deg, hsla(0,0%,100%,.2), hsla(0,0%,100%,0));
+  border-radius: 11px 11px 50% 50%;
+  opacity: .6;
+}
+
+.back-to-top[data-v-56bb7e7f]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(var(--theme-color-rgb),.48);
+  opacity: 1;
+}
+
+.back-to-top[data-v-56bb7e7f]:hover:before {
+  opacity: 1;
+}
+
+.back-to-top:hover .icon[data-v-56bb7e7f] {
+  transform: translateY(-2px) scale(1.08);
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,.12));
+}
+
+.back-to-top[data-v-56bb7e7f]:active {
+  transform: translateY(0);
+  transition: all .12s ease;
+  box-shadow: 0 4px 12px rgba(var(--theme-color-rgb),.3);
+}
+
+.back-to-top:active .icon[data-v-56bb7e7f] {
+  transform: translateY(0) scale(.96);
+  transition: all .12s ease;
+}
+
+.back-to-top .icon[data-v-56bb7e7f] {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  filter: drop-shadow(0 1px 1px rgba(0,0,0,.08));
+  transition: transform .32s cubic-bezier(.34,1.56,.64,1), filter .2s ease;
+  position: relative;
+  z-index: 2;
+}
+</style>
+
+<script>
+  (function(){
+    var el = document.querySelector('.back-to-top');
+    if(!el) return;
+    var showAfter = 200;
+
+    function scrollToTop(){
+      try{ window.scrollTo({ top: 0, behavior: 'smooth' }); }
+      catch(e){ window.scrollTo(0,0); }
+    }
+
+    function onScroll(){
+      var y = window.pageYOffset || document.documentElement.scrollTop || 0;
+      if(y > showAfter) el.classList.add('show'); else el.classList.remove('show');
+    }
+
+    el.addEventListener('click', function(e){ e.preventDefault(); scrollToTop(); el.blur && el.blur(); });
+    el.addEventListener('keydown', function(e){ if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); el.click(); } });
+
+    onScroll();
+    window.addEventListener('scroll', onScroll, { passive: true });
+  })();
+  
+</script>
 </body></html>
 
