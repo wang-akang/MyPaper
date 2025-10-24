@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 #wmd-preview{
- width: 75%;
+  width: 75%;
   max-width: 4000mm;
   margin: 0 auto;
 }
@@ -2233,32 +2233,64 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2310.01403v2/extracted/5365492/figures/iclr_method.jpg')" ;=""> 
 <div style="color:red">图像裁剪 (Image Crop) 方法（将局部区域裁剪出来作为独立图像输入 CLIP，并使用其图像级特征进行分类）时，CLIP ViT 能达到令人满意的区域识别精度。</div><span>CLIPSelf：自蒸馏方法，通过将“学生”ViT的密集特征图中的区域表示与“教师”ViT相应图像裁剪的图像级表示进行对齐，从而在无需区域-文本对的情况下提升ViT的局部视觉-语言对齐能力。<span style="color:#03a9f4">需依赖额外的区域-文本配对数据。</span></span></div>
 <ol start="14" style="counter-reset: my-awesome-counter 13;" class="markdown_ol">
-<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Towards Open-Vocabulary Semantic Segmentation Without Semantic Labels</strong> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/1119587863e78451f080da2a768c4935-Paper-Conference.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/cvlab-kaist/PixelCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Relationship Prompt Learning is Enough for Open-Vocabulary Semantic Segmentation</strong> <a href="https://openreview.net/pdf?id=PKcCHncbzg" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment</strong> <a href="https://arxiv.org/pdf/2412.16334" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Semantic Library Adaptation: LoRA Retrieval and Fusion for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2503.21780" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Your ViT is Secretly an Image Segmentation Model</strong> <a href="https://arxiv.org/pdf/2503.19108" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/tue-mps/eomt" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Exploring Simple Open-Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Lai_Exploring_Simple_Open-Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Dual Semantic Guidance for Open Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Dual_Semantic_Guidance_for_Open_Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_DeCLIP_Decoupled_Learning_for_Open-Vocabulary_Dense_Perception_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Towards Open-Vocabulary Semantic Segmentation Without Semantic Labels</strong> <a href="https://arxiv.org/pdf/2409.19846" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/cvlab-kaist/PixelCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<div class="content-box"> <span>DeCLIP 通过解耦自注意力模块并分别对内容特征和上下文特征进行蒸馏，有效地解决了 CLIP 在开放词汇密集感知任务中局部特征辨别力不足和空间一致性差的问题。</span></div>
-<ol start="26" style="counter-reset: my-awesome-counter 25;" class="markdown_ol">
+<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/1b1f1cf8192b44c66b6c8a948bb98560ecce15ac/4-Figure3-1.png')" ;=""> 
+<span>PixelCLIP：利用SAM和DINO等视觉基础模型生成的无标签掩码作为监督信号，并设计了一种基于可学习类别提示的在线聚类算法，将语义相似的掩码聚类成全局语义概念。<span style="color:#03a9f4">通过VFMs(CLIP或 DINO)来训练CLIP视觉编码器学习像素级理解，线聚类算法。</span></span></div>
+<ol start="15" style="counter-reset: my-awesome-counter 14;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">Relationship Prompt Learning is Enough for Open-Vocabulary Semantic Segmentation</strong> <a href="https://openreview.net/pdf?id=PKcCHncbzg" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/liblacklucy/RPN" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://github.com/liblacklucy/RPN/raw/main/figs/overview.png.png')" ;=""> 
+<span>RPM：关系Prompt模块，它能生成像素级关系Prompt，直接引导VLM提取适合OVSS的像素级语义嵌入，并与VLM共同构建了关系Prompt网络（RPN）。<span style="color:red">通过RPM，直接让CLIP分割。</span><span style="color:#03a9f4">多尺度混合专家模型 (M2oE)：不同尺度看物体，确保不漏掉任何大小的物体信息。图像到像素语义注意力 (ITP)： 连接图片和文字的核心，计算区域与标签最相关。自适应提示生成 (APG)：根据刚才的“关系注意力图”，生成一个可以动态调整的、针对每个像素的“微调指导”。它能根据当前要画的像素，自动调整画笔的粗细和颜色。</span></span></div>
+<ol start="16" style="counter-reset: my-awesome-counter 15;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">DINOv2 Meets Text: A Unified Framework for Image- and Pixel-Level Vision-Language Alignment</strong> <a href="https://arxiv.org/pdf/2412.16334" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2412.16334v1/x2.png')" ;=""> 
+<span>dino.txt：将自监督视觉基础模型DINOv2与文本对齐，该方法通过结合[CLS] token与平均池化后的patch token来改进图像表示，并引入可学习的视觉模块以适应训练数据，同时采用文本和图像双模态数据筛选策略来提升性能和训练效率。<span style="color:red">DINOv2 的视觉特征与 dino.txt 自己从头训练的文本编码器（Text Encoder）的文本特征对齐。</span><span style="color:#03a9f4">dino.txt 不再仅仅使用 [CLS] token 来表示图像，而是将视觉编码器输出的 [CLS] token与所有 patch token 的平均池化来训练。</span></span></div>
+<ol start="17" style="counter-reset: my-awesome-counter 16;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Semantic Library Adaptation: LoRA Retrieval and Fusion for Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2503.21780" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/rezaqorbani/SemLA" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2503.21780v1/x2.png')" ;=""> 
+<span>SemLA：语义库自适应框架，通过建立一个由CLIP嵌入索引的LoRA适配器库，并在测试时基于目标域的嵌入空间邻近性动态融合最相关的适配器，从而实现无需训练的实时域自适应。<span style="color:red">让OVSS方面的模型在面对任何陌生环境，都能快速、聪明地调整自己，完成检测。</span><span style="color:#03a9f4">LoRA 适配器：收集不同环境下数据集，短暂学习，不是从头学习。然后让CLIP打上标签，语义化描述是关于什么环境下的。</span></span></div>
+<ol start="18" style="counter-reset: my-awesome-counter 17;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Your ViT is Secretly an Image Segmentation Model</strong> <a href="https://arxiv.org/pdf/2503.19108" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/tue-mps/eomt" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2503.21780v1/x2.png')" ;=""> 
+<span>EoMT：当Vision Transformers (ViTs) 模型规模和预训练足够大时，其用于图像分割的额外任务特定组件（如卷积适配器和像素解码器）变得冗余。基于此，研究者提出了Encoder-only Mask Transformer ，该模型通过直接将查询处理集成到ViT编码器块中，并引入掩膜退火策略以实现高效的无掩膜推理。<span style="color:red">只使用ViT，就能实现那些复杂模型相近的分割精度</span><span style="color:#03a9f4">掩码退火：在训练初期，他们会使用“掩码注意力”，让模型学习得更好。但是，随着训练的进行，会逐渐减少使用“掩码注意力”的概率，直到训练后期完全不使用它。</span></span></div>
+<ol start="19" style="counter-reset: my-awesome-counter 18;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Exploring Simple Open-Vocabulary Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2401.12217" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/zlai0/S-Seg" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://github.com/zlai0/S-Seg/blob/main/figures/method.png')" ;=""> 
+<span>S-Seg：通过结合自监督DINO生成的伪掩码提供掩码监督，以及利用嘈杂网络图像-文本对的语言监督，直接训练MaskFormer模型，从而实现像素级特征与语言的对齐。<span style="color:red">OVSS不需要CLIP，DINO使用K-Means聚类获得masj与Language Model训练MaskFormer。</span></span></div>
+<ol start="20" style="counter-reset: my-awesome-counter 19;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Dual Semantic Guidance for Open Vocabulary Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Wang_Dual_Semantic_Guidance_for_Open_Vocabulary_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/131a89ae6f57dffd6282cf867072c5e1a14ec026/3-Figure2-1.png')" ;=""> 
+<span>EoMT：当Vision Transformers (ViTs) 模型规模和预训练足够大时，其用于图像分割的额外任务特定组件（如卷积适配器和像素解码器）变得冗余。基于此，研究者提出了Encoder-only Mask Transformer ，该模型通过直接将查询处理集成到ViT编码器块中，并引入掩膜退火策略以实现高效的无掩膜推理。<span style="color:red">只使用ViT，就能实现那些复杂模型相近的分割精度</span><span style="color:#03a9f4">掩码退火：在训练初期，他们会使用“掩码注意力”，让模型学习得更好。但是，随着训练的进行，会逐渐减少使用“掩码注意力”的概率，直到训练后期完全不使用它。</span></span></div>
+<ol start="21" style="counter-reset: my-awesome-counter 20;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">DeCLIP: Decoupled Learning for Open-Vocabulary Dense Perception</strong> <a href="https://arxiv.org/pdf/2505.04410" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2505.04410v1/x5.png')" ;=""> <span>DeCLIP：通过解耦自注意力模块并分别对内容特征和上下文特征进行蒸馏，有效地解决了 CLIP 在开放词汇密集感知任务中局部特征辨别力不足和空间一致性差的问题。</span></div>
+<ol start="22" style="counter-reset: my-awesome-counter 21;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Talking to DINO: Bridging Self-Supervised Vision Backbones with Language for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2411.19331" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/lorebianchi98/Talk2DINO" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<div class="content-box"> <span>映射函数，CLIP文本映射到DINOv2特征向量，训练矩阵，DINOv2特征向量直接映射到CLIP提取的文本特征</span></div>
-<ol start="27" style="counter-reset: my-awesome-counter 26;" class="markdown_ol">
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2411.19331v3/x1.png')" ;=""> <span>Talking to DINO：映射函数，CLIP文本映射到DINOv2特征向量，训练矩阵，<span style="color:red">DINOv2特征向量直接映射到CLIP提取的文本特征。</span></span></div>
+<ol start="23" style="counter-reset: my-awesome-counter 22;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICLR] <strong class="markdown_strong_asterisk">Cross the Gap: Exposing the Intra-modal Misalignment in CLIP via Modality Inversion</strong> <a href="https://arxiv.org/pdf/2502.04263" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/miccunifi/Cross-the-Gap?tab=readme-ov-file" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2502.04263v1/x1.png')" ;=""> 
+<span>OTI和OVI：两种基于优化的模态反转技术，将模态内任务转化为跨模态任务，从而利用CLIP固有的跨模态对齐优势来提升性能。<span style="color:red">CLIP模态内错位，把“模态内任务”变成“跨模态任务”。</span><span style="color:#03a9f4">OTI：基于优化的文本反演，把文本特征转视觉特征。OVI：基于优化的视觉反演，视觉特征转文本特征。</span></span></div>
+<ol start="24" style="counter-reset: my-awesome-counter 23;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Text-guided Visual Prompt DINO for Generic Segmentation</strong> <a href="https://arxiv.org/pdf/2508.06146" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/WeChatCV/WeVisionOne" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.06146v1/x2.png')" ;=""> <span>Prompt-DINO：</span></div>
-<ol start="29" style="counter-reset: my-awesome-counter 28;" class="markdown_ol">
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.06146v1/x2.png')" ;=""> 
+<span>Prompt-DINO：提出了一种文本引导的视觉 Prompt DINO 框架，该框架通过早期融合机制实现文本/视觉提示与骨干特征的深度跨模态交互，引入序对齐查询选择优化文本与视觉查询的结构一致性，并开发了基于 0.5B 参数 RAP 模型的生成式数据引擎。<span style="color:#03a9f4">早期融合：让文字、图片和模型的内部特征更早地“交流”。有序查询选择：让模型内部的“探针”更智能地匹配文字和视觉信息。数据生成引擎：大规模地创建高质量的训练数据，突破现有词汇限制</span></span></div>
+<ol start="25" style="counter-reset: my-awesome-counter 24;" class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">SCORE: Scene Context Matters in Open-Vocabulary Remote Sensing Instance Segmentation</strong> <a href="https://arxiv.org/pdf/2507.12857" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/HuangShiqi128/SCORE" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2507.12857v1/x2.png')" ;=""> <span>SCORE：通过“区域感知集成（RAI）”利用区域上下文增强视觉表示，并通过“全局上下文适应（GCA）”模块注入遥感领域全局上下文以丰富文本嵌入。<span style="color: #03a9f4">开放词汇分割模型应用于遥感领域。</span></span></div>
  <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月7日添加</legend> 
-<ol start="30" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="26" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">Multi-Grained Cross-modal Alignment for Learning Open-vocabulary Semantic Segmentation from Text Supervision</strong> <a href="https://arxiv.org/pdf/2403.03707" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Valkyrja3607/TAG" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2403.03707v1/x2.png')">
@@ -2268,19 +2300,19 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 </ol>
 </fieldset> </div> 
  <div class="display-container"> <fieldset class="advanced-display-group"> <legend>2025年10月8日添加</legend> 
-<ol start="31" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="27" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2024 arXiv] <strong class="markdown_strong_asterisk">High-Quality Mask Tuning Matters for Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2412.11464" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/HVision-NKU/MaskCLIPpp" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2412.11464v3/x6.png')">
   <span>MaskCLIP++：通过使用高质量的真实掩码而非生成掩码来微调 CLIP，以增强其掩码分类能力，并引入“一致性对齐”原则来缓解对微调数据集的过拟合问题。 </span>
 </div>
-<ol start="32" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="28" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Generalized Decoupled Learning for Enhancing Open-Vocabulary Dense Perception</strong> <a href="https://arxiv.org/pdf/2508.11256" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xiaomoguhz/DeCLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.11256v1/x3.png')">
   <span>DeCLIP：通过解耦CLIP的自注意力模块为“内容”和“上下文”特征，并分别利用Vision Foundation Models (VFMs)的语义相关性和扩散模型的对象完整性线索进行蒸馏来增强其密集表征。 </span>
 </div>
-<ol start="33" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="29" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Mask-Adapter: The Devil is in the Masks for Open-Vocabulary Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Li_Mask-Adapter_The_Devil_is_in_the_Masks_for_Open-Vocabulary_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/hustvl/MaskAdapter" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://github.com/hustvl/MaskAdapter/raw/main/assets/main_fig.png')">
@@ -2289,7 +2321,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <ol></ol>
 </fieldset> </div> 
  <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月14日添加</legend> 
-<ol start="34" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="30" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">SegMASt3R: Geometry Grounded Segment Matching</strong> <a href="https://arxiv.org/pdf/2510.05051" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/SegMASt3R" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.05051v1/x1.png')">
@@ -2299,7 +2331,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 </ol>
 </fieldset> </div> 
  <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年10月23日添加</legend> 
-<ol start="35" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="31" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Unified Open-World Segmentation with Multi-Modal Prompts</strong> <a href="https://arxiv.org/pdf/2510.10524" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/aim-uofa/COSINE" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.10524v1/x1.png')">
@@ -2394,7 +2426,10 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 AAAI] <strong class="markdown_strong_asterisk">MoRe: Class Patch Attention Needs Regularization for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2412.11076" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/zwyang6/MoRe" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">TeD-Loc: Text Distillation for Weakly Supervised Object Localization</strong> <a href="https://arXiv.org/pdf/2501.12632" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/shakeebmurtaza/TeDLOC" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Image Augmentation Agent for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2412.20439" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
+<div class="content-box" style="--hover-image-url: url('https://figures.semanticscholar.org/665122f3ab14c871fc33aee35e4a44c581c254c4/4-Figure3-1.png')" ;=""> 
+<span>MuP-VSS：包含多标签原型表示和优化两部分：前者通过全局嵌入和原型嵌入模块（PEM）学习全局及局部语义信息；后者利用原型排他性和一致性原则，设计了跨类别原型对比损失（CCP）、跨图像原型对比损失（CIP）和补丁到原型一致性损失（P2P）进行优化。<span style="color:red">WSSS解决分类偏差</span><span style="color:#03a9f4">跨类别原型对比损失CCP：不同类远一点。跨图像原型对比损失CIP：不同图片相同类特征近一点。Patch-to-Prototype 一致性损失P2P：确保图片中的每个“补丁”都能准确地“响应”到它所属的物体模版上。</span></span></div>
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="semi-supervised20semantic20segmentation_10"><div class="xiaoshujiang_element xsj_anchor">
   <a name="semi-supervised20semantic20segmentation_10" class="blank_anchor_name" target="_blank"></a><a id="semi-supervised20semantic20segmentation_10" class="blank_anchor_id" target="_blank"></a><a name="semi-supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="semi-supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -2451,6 +2486,7 @@ Re-identification</strong><a href="https://openaccess.thecvf.com/content/CVPR202
 </div>
 
 </div></div>
+
 
 
 <!-- Back to top: use .back-to-top structure to match provided markup -->
