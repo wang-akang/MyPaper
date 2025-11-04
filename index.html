@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 #wmd-preview{
-  width: 75%;
+	width: 75%;
   max-width: 4000mm;
   margin: 0 auto;
 }
@@ -1851,6 +1851,18 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <div style="color:red">解决深度聚类中长期被忽视的“过自信”问题</div>
 <span>CDC：一个开创性的校准深度聚类框架，该框架引入了一个双头网络（包含聚类头和校准头），其中校准头通过新颖的区域感知正则化损失校准预测置信度，而聚类头则利用这些校准后的置信度动态选择可靠样本进行自训练，同时还提出了有效的网络初始化策略。<span style="color:#03a9f4">聚类头 (Clustering Head)： 负责真正做聚类分类的主力。它会尝试把特征（照片的内在信息）分成不同的组。校准头 (Calibration Head)： 这是负责“监督”和“纠正”聚类头置信度的“纠错员”。它不直接做聚类，而是专门确保聚类头说自己“很自信”的时候，是真的有那么自信。K-means算法在已经学好的特征上找出一些“代表点”（原型），然后用这些“代表点”来设置聚类头的初始权重。</span></span>
 </div>
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年11月4日添加</legend> 
+<ol start="9" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 NeurIPS] <strong class="markdown_strong_asterisk">Test-Time Adaptive Object Detection with Foundation Model</strong> <a href="https://arxiv.org/pdf/2510.25175" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/gaoyingjay/ttaod_foundation" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2510.25175v1/x2.png')">
+<div style="color:red">Test-Time,不用源数据，识别开放类 </div>
+  <span>TTAOD：该研究设计了一个多模态Prompt驱动的Mean-Teacher框架，通过文本和视觉Prompt微调结合Test-time Warm-start策略，实现了参数高效的自适应。 </span>
+<div style="color:#03a9f4">文本Prompt微调（TPT）：不改“字典”，只加“注释”。视觉Prompt微调（VPT）：在Grounding DINO的每个图像编码器层t中引入T个可学习的视觉token t 帮助他更快地适应新环境的视觉特点（比如新城市的模糊、光线等）</div>
+</div>
+<ol>
+</ol>
+</fieldset></div>
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_2"><div class="xiaoshujiang_element xsj_anchor">
   <a name="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_2" class="blank_anchor_name" target="_blank"></a><a id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_2" class="blank_anchor_id" target="_blank"></a><a name="多标签图像分类" class="blank_anchor_name" target="_blank"></a><a id="多标签图像分类" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -2048,11 +2060,12 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">DIH-CLIP: Unleashing the Diversity of Multi-Head Self-Attention for Training-Free Open-Vocabulary Semantic Segmentation</strong></p>
 </li>
 <li>
-<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation</strong></p>
+<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Feature Purification Matters: Suppressing Outlier Propagation for Training-Free Open-Vocabulary Semantic Segmentation</strong><a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Jin_Feature_Purification_Matters_Suppressing_Outlier_Propagation_for_Training-Free_Open-Vocabulary_Semantic_ICCV_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/Kimsure/SFP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></p>
 </li>
-<li>
-<p class="xsj_paragraph xsj_paragraph_level_2"><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Plug-in Feedback Self-adaptive Attention in CLIP for Training-free Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2508.20265" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/chi-chi-zx/FSA" class="xsj_link xsj_manu_link" target="_blank">[code]</a></p>
-</li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2504.10487v2/x2.png')" ;=""> <span>FLOSS：<span style="color:red">类别专家，找到每一个类的最佳模板</span>从而为每个类别生成一个更精准、更具辨识度的文本表示，来提高像素级的分割性能。</span></div>
+<ol start="28" style="counter-reset: my-awesome-counter 27;" class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Plug-in Feedback Self-adaptive Attention in CLIP for Training-free Open-Vocabulary Segmentation</strong> <a href="https://arxiv.org/pdf/2508.20265" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/chi-chi-zx/FSA" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2508.20265v1/x3.png')" ;=""> <span>FSA：一种免训练的即插即用反馈自适应注意力框架，它将模型输出层面的补丁级预测作为强大的语义线索，并将其反馈回中间注意力进行调整。(vit最后一层)</span></div>
 <ol start="29" style="counter-reset: my-awesome-counter 28;" class="markdown_ol">
@@ -2149,7 +2162,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <div style="color:#03a9f4">1.图像经过 CLIP 模型处理时，在后面的层里，一些特殊的“图像小块”（我们称为“异常令牌”）会变得非常活跃，吸引了几乎所有其他“图像小块”的注意力：识别出这些“捣乱分子”（通过检查它们的“活跃度”和“稀疏度”）。一旦发现，就把这些“捣乱分子”的信息，替换成它周围那些“正常邻居”的平均信息。</div>
 <div style="color:#03a9f4">2.模型深层“看大局”能力强了，“看细节”能力却弱了：CLIP 模型在处理图像的早期层，非常擅长区分细节（“视觉区分性”强），但对图像的整体含义理解一般（“语义对齐”弱）。而到了深层，它对整体含义理解得非常透彻（“语义对齐”强），但区分细节的能力却急剧下降了。模型处理图像的最后几层，作者们稍微“放大”一点来自前面层（更擅长看细节的层）的原始信息，同时稍微“减弱”一点当前层对信息的进一步处理（自注意力和前馈网络）。</div><div style="color:#03a9f4">3.有些“注意力头部”天生就更擅长捕捉细节：并非所有注意力头部都一样重要，其中有一小部分注意力头部，它们捕捉到的信息天生就更擅长区分图像中的局部细节（“视觉区分性”非常强）。找出那些最擅长捕捉细节的“注意力头部”，然后把这些“精英头部”捕捉到的信息组合起来，生成一个“伪装掩码”（一个类似草图的东西）。这个“伪装掩码”可以用来进一步“修饰”和“增强”模型最后输出的图像特征，让细节更加清晰。</div></span>
 </div>
-<ol start="6" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+<ol start="48" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
   <li><span class="xsj_placeholder_span"></span>[2026 ICLR] <strong class="markdown_strong_asterisk">BEYONDOPEN-WORLD:COSRA,ATRAINING-FREE  SELF-REFININGAPPROACHTOOPEN-ENDEDOBJECT  DETECTION</strong> <a href="https://openreview.net/attachment?id=NcFtbEJ4EH&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
 <div class="content-box" style="--hover-image-url: url('')">
@@ -2159,6 +2172,10 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <ol>
 </ol>
 </fieldset> </div> 
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年11月3日添加</legend> 
+<ol>
+</ol>
+</fieldset></div>
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training20open-vocabulary20semantic20segmentation_5"><div class="xiaoshujiang_element xsj_anchor">
   <a name="training20open-vocabulary20semantic20segmentation_5" class="blank_anchor_name" target="_blank"></a><a id="training20open-vocabulary20semantic20segmentation_5" class="blank_anchor_id" target="_blank"></a><a name="training-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
