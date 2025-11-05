@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style type="text/css">
 #wmd-preview{
-	width: 75%;
+  width: 75%;
   max-width: 4000mm;
   margin: 0 auto;
 }
@@ -1849,7 +1849,7 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 </ol>
 <div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2403.02998v3/x7.png')">
 <div style="color:red">解决深度聚类中长期被忽视的“过自信”问题</div>
-<span>CDC：一个开创性的校准深度聚类框架，该框架引入了一个双头网络（包含聚类头和校准头），其中校准头通过新颖的区域感知正则化损失校准预测置信度，而聚类头则利用这些校准后的置信度动态选择可靠样本进行自训练，同时还提出了有效的网络初始化策略。<span style="color:#03a9f4">聚类头 (Clustering Head)： 负责真正做聚类分类的主力。它会尝试把特征（照片的内在信息）分成不同的组。校准头 (Calibration Head)： 这是负责“监督”和“纠正”聚类头置信度的“纠错员”。它不直接做聚类，而是专门确保聚类头说自己“很自信”的时候，是真的有那么自信。K-means算法在已经学好的特征上找出一些“代表点”（原型），然后用这些“代表点”来设置聚类头的初始权重。</span></span>
+<span>CDC：一个开创性的校准深度聚类框架，该框架引入了一个双头网络（包含聚类头和校准头），其中校准头通过新颖的区域感知正则化损失校准预测置信度，而聚类头则利用这些校准后的置信度动态选择可靠样本进行自训练，同时还提出了有效的网络初始化策略。<div style="color:#03a9f4">聚类头 (Clustering Head)： 负责真正做聚类分类的主力。它会尝试把特征（照片的内在信息）分成不同的组。校准头 (Calibration Head)： 这是负责“监督”和“纠正”聚类头置信度的“纠错员”。它不直接做聚类，而是专门确保聚类头说自己“很自信”的时候，是真的有那么自信。K-means算法在已经学好的特征上找出一些“代表点”（原型），然后用这些“代表点”来设置聚类头的初始权重。</div></span>
 </div>
  <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年11月4日添加</legend> 
 <ol start="9" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
@@ -1859,6 +1859,36 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <div style="color:red">Test-Time,不用源数据，识别开放类 </div>
   <span>TTAOD：该研究设计了一个多模态Prompt驱动的Mean-Teacher框架，通过文本和视觉Prompt微调结合Test-time Warm-start策略，实现了参数高效的自适应。 </span>
 <div style="color:#03a9f4">文本Prompt微调（TPT）：不改“字典”，只加“注释”。视觉Prompt微调（VPT）：在Grounding DINO的每个图像编码器层t中引入T个可学习的视觉token t 帮助他更快地适应新环境的视觉特点（比如新城市的模糊、光线等）</div>
+</div>
+<ol>
+</ol>
+</fieldset></div>
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年11月5日添加</legend> 
+<ol start="10" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">OVRD: OPEN-VOCABULARY RELATION DINO WITH TEXT-GUIDED SALIENT QUERY SELECTION</strong> <a href="https://openreview.net/pdf?id=p2E7haeXxa" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://anonymous.4open.science/r/OVRD" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEFMW5pCyiNfR5xOTjT0ZxjrRPrfUuuOAACvDYAAnPpWVSHOEyRYN2D7TYE.jpeg')">
+<div style="color:red">
+开放词汇目标检测,利用文字描述来更好地指导图像识别
+</div>
+  <span>OVRD引入了文本引导的显著查询选择（TSQS）来识别与文本最相关的图像特征及其空间信息，并利用视觉旋转位置嵌入（RoPE）来恢复被忽略的相对空间结构，从而增强位置感知。旨在解决现有开放词汇目标检测（OVD）方法在利用文本语义线索指导视觉感知方面的不足，以提升零样本目标检测性能。 </span>
+<div style="color:#03a9f4">
+1.文本引导的显著性查询选择 (Text-guided Salient Query Selection, TSQS) – “让机器根据文字描述，挑出图片中最相关的部分”。从一段话里面挑出关键词。
+<div>
+2.增强位置感知 (Positional Awareness Enhancement) – “即使图片区域被挑出来了，机器也能知道它们之间的相对位置”。使用“视觉旋转位置嵌入的特殊技术。包括了它们相距多远（是紧邻的还是隔很远），以及谁在谁的哪个方向。
+</div>
+<div>
+3.语义关系自注意力 (Semantic Relation Self-Attention, SRSA) – “让机器理解物体之间的高级语义联系”。保留那些最重要、最有意义的关系，过滤掉那些无关紧要或容易产生噪音的关系。
+</div></div></div>
+<ol start="11" style="counter-reset: my-awesome-counter 3;" class="markdown_ol">
+  <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Towards Vision-Language Correspondence without Parallel Data</strong> <a href="https://arxiv.org/pdf/2503.24129v2" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/dominik-schnaus/itsamatch" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<div class="content-box" style="--hover-image-url: url('https://arxiv.org/html/2503.24129v2/x1.png')">
+<div style="color:red">没有任何图像和文字配对数据的情况下，如何让计算机理解图像和文字之间的对应关系 </div>
+  <span>Hahn-Grant求解器，该方法在内存效率和求解精度上均优于现有技术，并能提供更紧密的优化下界。实现视觉与语言嵌入之间“盲匹配”的方法，并将此任务公式化为一个仅依赖模态内部成对距离的二次分配问题（QAP） </span>
+<div style="color:#03a9f4">
+计算所有图像类别之间的两两相似度，得到一个“视觉相似度矩阵”；同样，计算所有文字类别之间的两两相似度，得到一个“语言相似度矩阵”。找到一个最佳的排列（permutation），使得将视觉相似度矩阵中的类别重新排列后，它与语言相似度矩阵中的类别尽可能地相似。
+</div>
 </div>
 <ol>
 </ol>
@@ -2172,7 +2202,10 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <ol>
 </ol>
 </fieldset> </div> 
-
+ <div class="display-container"> <!-- 示例 1: 简单文本展示 --> <fieldset class="advanced-display-group"> <legend>2025年11月3日添加</legend> 
+<ol>
+</ol>
+</fieldset></div>
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training20open-vocabulary20semantic20segmentation_5"><div class="xiaoshujiang_element xsj_anchor">
   <a name="training20open-vocabulary20semantic20segmentation_5" class="blank_anchor_name" target="_blank"></a><a id="training20open-vocabulary20semantic20segmentation_5" class="blank_anchor_id" target="_blank"></a><a name="training-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
@@ -2473,6 +2506,7 @@ Re-identification</strong><a href="https://openaccess.thecvf.com/content/CVPR202
 </div>
 
 </div></div>
+
 
 
 <!-- Back to top: use .back-to-top structure to match provided markup -->
