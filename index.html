@@ -1777,14 +1777,17 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <div><div class="preview" id="wmd-preview">
 
 	<div class="preview html_preview xsj_export_html"><div style="overflow: hidden; position: absolute; top: 0px; height: 1px; width: auto; padding: 0px; border: 0px; margin: 0px; text-align: left; text-indent: 0px; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal;"><svg><defs id="MathJax_SVG_glyphs"></defs></svg></div><h1 class="story_title">MyPaper</h1><ol class="markdown_ol">
-<li><a href="#%E7%9B%B8%E5%85%B3%E9%A2%86%E5%9F%9F" class="xsj_link xsj_manu_link">相关领域</a></li>
+<li><a href="#3d-point-cloud-processing" class="xsj_link xsj_manu_link">3D Point Cloud Processing</a></li>
 <li><a href="#%E5%A4%9A%E6%A0%87%E7%AD%BE%E5%9B%BE%E5%83%8F%E5%88%86%E7%B1%BB" class="xsj_link xsj_manu_link">多标签图像分类</a></li>
 <li><a href="#training-free-open-vocabulary-semantic-segmentation" class="xsj_link xsj_manu_link">Training-Free Open-Vocabulary Semantic Segmentation</a></li>
 <li><a href="#remote-sensing" class="xsj_link xsj_manu_link">Remote Sensing</a></li>
 <li><a href="#training-open-vocabulary-semantic-segmentation" class="xsj_link xsj_manu_link">Training Open-Vocabulary Semantic Segmentation</a></li>
 <li><a href="#zero-shot-open-vocabulary-semantic-segmentation" class="xsj_link xsj_manu_link">Zero-Shot Open-Vocabulary Semantic Segmentation</a></li>
 <li><a href="#few-shot-open-vocabulary-semantic-segmentation" class="xsj_link xsj_manu_link">Few-Shot Open-Vocabulary Semantic Segmentation</a></li>
-<li><a href="#%E6%A3%80%E7%B4%A2" class="xsj_link xsj_manu_link">检索</a></li>
+<li><a href="#supervised-semantic-segmentation" class="xsj_link xsj_manu_link">Supervised Semantic Segmentation</a></li>
+<li><a href="#weakly-supervised-semantic-segmentation" class="xsj_link xsj_manu_link">Weakly Supervised Semantic Segmentation</a></li>
+<li><a href="#semi-supervised-semantic-segmentation" class="xsj_link xsj_manu_link">Semi-Supervised Semantic Segmentation</a></li>
+<li><a href="#unsupervised-semantic-segmentation" class="xsj_link xsj_manu_link">Unsupervised Semantic Segmentation</a></li>
 </ol>
 <h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e69a82e5ad98_1"><div class="xiaoshujiang_element xsj_anchor">
   <a name="e69a82e5ad98_1" class="blank_anchor_name" target="_blank"></a><a id="e69a82e5ad98_1" class="blank_anchor_id" target="_blank"></a><a name="暂存" class="blank_anchor_name" target="_blank"></a><a id="暂存" class="blank_anchor_id" target="_blank"></a>
@@ -1821,8 +1824,95 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 NeurIPS] <strong class="markdown_strong_asterisk">OpenWorldSAM: Extending SAM2 for Universal Image Segmentation with Language Prompts</strong><a href="https://arxiv.org/pdf/2507.05427" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Upsample Anything: A Simple and Hard to Beat Baseline for Feature Upsampling</strong><a href="https://arxiv.org/pdf/2511.16301" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/seominseok0429/Upsample-Anything-A-Simple-and-Hard-to-Beat-Baseline-for-Feature-Upsampling" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_3"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_3" class="blank_anchor_name" target="_blank"></a><a id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_3" class="blank_anchor_id" target="_blank"></a><a name="多标签图像分类" class="blank_anchor_name" target="_blank"></a><a id="多标签图像分类" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="3d20point20cloud20processing_3"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="3d20point20cloud20processing_3" class="blank_anchor_name" target="_blank"></a><a id="3d20point20cloud20processing_3" class="blank_anchor_id" target="_blank"></a><a name="3d-point-cloud-processing" class="blank_anchor_name" target="_blank"></a><a id="3d-point-cloud-processing" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">3D Point Cloud Processing</span></h1>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="ood20detection_4"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="ood20detection_4" class="blank_anchor_name" target="_blank"></a><a id="ood20detection_4" class="blank_anchor_id" target="_blank"></a><a name="ood-detection" class="blank_anchor_name" target="_blank"></a><a id="ood-detection" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">OOD Detection</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] Exploiting Vision Language Model for Training-Free 3D Point Cloud OOD Detection via Graph Score Propagation <a href="https://arxiv.org/pdf/2506.22375" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="segmentationrecognition_5"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="segmentationrecognition_5" class="blank_anchor_name" target="_blank"></a><a id="segmentationrecognition_5" class="blank_anchor_id" target="_blank"></a><a name="segmentationrecognition" class="blank_anchor_name" target="_blank"></a><a id="segmentationrecognition" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">Segmentation&amp;&amp;Recognition</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024-CVPR] MaskClustering- View Consensus based Mask Graph Clustering for Open-Vocabulary 3D Instance Segmentation <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Yan_MaskClustering_View_Consensus_based_Mask_Graph_Clustering_for_Open-Vocabulary_3D_CVPR_2024_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/PKU-EPIC/MaskClustering" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024-CVPR] LangSplat: 3D Language Gaussian Splatting <a href="https://arxiv.org/pdf/2312.16084" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/minghanqin/LangSplat" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2024-NeurIPS] OpenGaussian: Towards Point-Level 3D Gaussian-based Open Vocabulary Understanding <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/21f7b745f73ce0d1f9bcea7f40b1388e-Paper-Conference.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/yanmin-wu/OpenGaussian" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] Generalized Few-shot 3D Point Cloud Segmentation with Vision-Language Model <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/An_Generalized_Few-shot_3D_Point_Cloud_Segmentation_with_Vision-Language_Model_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/ZhaochongAn/GFS-VL" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICLR] MULTIMODALITY HELPS FEW-SHOT 3D POINT CLOUD SEMANTIC SEGMENTATION <a href="https://openreview.net/pdf?id=jXvwJ51vcK" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/ZhaochongAn/Multimodality-3D-Few-Shot" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] Domain-aware Category-level Geometry Learning Segmentation for 3D Point Clouds <a href="https://arxiv.org/pdf/2508.11265" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/lizhangjie316/Awesome-3D-Point-Cloud-Semantic-Segement" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] LogoSP: Local-global Grouping of Superpoints for Unsupervised Semantic Segmentation of 3D Point Clouds <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhang_LogoSP_Local-global_Grouping_of_Superpoints_for_Unsupervised_Semantic_Segmentation_of_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/vLAR-group/LogoSP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] UPP: Unified Point-Level Prompting for Robust Point Cloud Analysis <a href="https://arxiv.org/pdf/2507.18997" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/zhoujiahuan1991/ICCV2025-UPP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] All in One: Visual-Description-Guided Unified Point Cloud Segmentation <a href="https://arxiv.org/pdf/2507.05211" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Hanzy1996/VDG-Uni3DSeg" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] LUDVIG: Learning-Free Uplifting of 2D Visual Features to Gaussian Splatting Scenes <a href="https://arxiv.org/pdf/2410.14462" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/naver/ludvig" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] WildSeg3D: Segment Any 3D Objects in the Wild from 2D Images <a href="https://arxiv.org/pdf/2503.08407" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] SegDINO3D: 3D Instance Segmentation Empowered by Both Image-Level and Object-Level 2D Features <a href="https://arxiv.org/pdf/2509.16098" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] SceneSplat: Gaussian Splatting-based Scene Understanding with Vision-Language Pretraining <a href="https://arxiv.org/pdf/2503.18052" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Awesome3DGS/3D-Gaussian-Splatting-Papers" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] COS3D: Collaborative Open-Vocabulary 3D Segmentation <a href="https://arxiv.org/pdf/2510.20238" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Runsong123/COS3D" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] Cross-Modal 3D Representation with Multi-View Images and Point Clouds <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhou_Cross-Modal_3D_Representation_with_Multi-View_Images_and_Point_Clouds_CVPR_2025_paper.pdf#:~:text=This%20paper%20introduces%20OpenView%2C%20a%20novel%20representation%20method,multi-view%20images%20to%20form%20a%20unified%203D%20representation." class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] OpenSplat3D: Open-Vocabulary 3D Instance Segmentation using Gaussian Splatting <a href="https://arxiv.org/pdf/2506.07697v1" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] Dr. Splat: Directly Referring 3D Gaussian Splatting via Direct Language Embedding Registration <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Jun-Seong_Dr._Splat_Directly_Referring_3D_Gaussian_Splatting_via_Direct_Language_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/kaist-ami/Dr-Splat" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] Rethinking End-to-End 2D to 3D Scene Segmentation in Gaussian Splatting <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Zhu_Rethinking_End-to-End_2D_to_3D_Scene_Segmentation_in_Gaussian_Splatting_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] Is clustering enough for LiDAR instance segmentation? Astate-of-the-art training-free baseline <a href="https://arxiv.org/pdf/2503.13203" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/valeoai/Alpine/" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-NeurIPS] L2RSI: Cross-view LiDAR-based Place Recognition for Large-scale Urban Scenes via Remote Sensing Imagery <a href="https://arxiv.org/pdf/2503.11245#page=12.51" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Shizw695/L2RSI" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-NeurIPS] GTR-Loc: Geospatial Text Regularization Assisted Outdoor LiDAR Localization <a href="https://openreview.net/pdf/1b19094321848599a1a21221af90d4423d1e1cac.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2026-ICLR] Fixinggs: Enhancing 3D Gaussian Splatting Via Training-Free Score Distillation <a href="https://openreview.net/attachment?id=QIjmCQuXyx&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2026-ICLR] Query-Aware Hub Prototype Learning For Few-Shot 3D Point Cloud Segmentation <a href="https://openreview.net/attachment?id=AZl4sTVDCC&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="classificationtest-time20adaptation_6"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="classificationtest-time20adaptation_6" class="blank_anchor_name" target="_blank"></a><a id="classificationtest-time20adaptation_6" class="blank_anchor_id" target="_blank"></a><a name="classificationtest-time-adaptation" class="blank_anchor_name" target="_blank"></a><a id="classificationtest-time-adaptation" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">Classification&amp;&amp;Test-time Adaptation</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] Interpretable point cloud classification using multiple instance learning <a href="https://openreview.net/pdf?id=T7ZVzuObcj" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] Purge-Gate: Backpropagation-Free Test-Time Adaptation For Point Clouds Classification Via Token <a href="https://arxiv.org/pdf/2509.09785v1" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-ICML] SMART-PC: Skeletal Model Adaptation for Robust Test-Time Training in Point Clouds <a href="https://arxiv.org/pdf/2505.19546" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/AliBahri94/SMART-PC" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] Point-Cache: Test-time Dynamic and Hierarchical Cache for Robust and Generalizable Point Cloud Analysis <a href="https://arxiv.org/pdf/2503.12150" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/auniquesun/Point-Cache" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-CVPR] Purge-Gate: Efficient Backpropagation-Free Test-Time Adaptation for Point Clouds via Token Purging <a href="https://iccv.thecvf.com/virtual/2025/poster/1863" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/MosyMosy/Purge-Gate" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="information20retrieval_7"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="information20retrieval_7" class="blank_anchor_name" target="_blank"></a><a id="information20retrieval_7" class="blank_anchor_id" target="_blank"></a><a name="information-retrieval" class="blank_anchor_name" target="_blank"></a><a id="information-retrieval" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">Information Retrieval</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] Describe, Adapt and Combine: Empowering CLIP Encoders for Open-set 3D Object Retrieval <a href="https://arxiv.org/pdf/2507.21489" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/wangzhichuan123/DAC" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="localization_8"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="localization_8" class="blank_anchor_name" target="_blank"></a><a id="localization_8" class="blank_anchor_id" target="_blank"></a><a name="localization" class="blank_anchor_name" target="_blank"></a><a id="localization" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">Localization</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025-ICCV] Partially Matching Submap Helps: Uncertainty Modeling and Propagation for Text to Point Cloud Localization <a href="https://github.com/Afoolbird/PMSH" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="3d20reconstruction_9"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="3d20reconstruction_9" class="blank_anchor_name" target="_blank"></a><a id="3d20reconstruction_9" class="blank_anchor_id" target="_blank"></a><a name="3d-reconstruction" class="blank_anchor_name" target="_blank"></a><a id="3d-reconstruction" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">3D Reconstruction</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2024-ICRA] LidarDM: Generative LiDAR Simulation in a Generated World <a href="https://arxiv.org/pdf/2404.02903" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://arxiv.org/pdf/2404.02903" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] MapAnything: Universal Feed-Forward Metric 3D Reconstruction <a href="https://map-anything.github.io/assets/MapAnything.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/facebookresearch/map-anything" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey <a href="https://arxiv.org/pdf/2507.14501" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] IGGT: Instance-Grounded Geometry Transformer for Semantic 3D Reconstruction <a href="https://arxiv.org/pdf/2510.22706" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] Gaussian Herding across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS <a href="https://arxiv.org/pdf/2510.22706" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/DrunkenPoet/GHAP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] Ref-SAM3D: Bridging SAM3D with Text for Reference 3D Reconstruction <a href="https://arxiv.org/pdf/2511.19426" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+</ol>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="3d20alignment_10"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="3d20alignment_10" class="blank_anchor_name" target="_blank"></a><a id="3d20alignment_10" class="blank_anchor_id" target="_blank"></a><a name="3d-alignment" class="blank_anchor_name" target="_blank"></a><a id="3d-alignment" class="blank_anchor_id" target="_blank"></a>
+</div>
+<span class="xsj_heading_content">3D Alignment</span></h2>
+<ol class="markdown_ol">
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] Escaping Plato's Cave: Towards the Alignment of 3D and Text Latent Spaces <a href="https://arxiv.org/pdf/2503.05283" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-arXiv] Robust Cross-modal Alignment Learning for Cross-Scene Spatial Reasoning and Grounding <a href="https://arxiv.org/pdf/2506.09534" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
+<li><span class="xsj_placeholder_span"></span>[2025-NeurIPS] SCENEFORGE: Enhancing 3D-text alignment with Structured Scene Compositions <a href="https://arxiv.org/pdf/2509.15693" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/mortorit/sceneforge-neurips2025" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
+</ol>
+<hr class="xsj_hr xsj_minus">
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_11"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_11" class="blank_anchor_name" target="_blank"></a><a id="e5a49ae6a087e7adbee59bbee5838fe58886e7b1bb_11" class="blank_anchor_id" target="_blank"></a><a name="多标签图像分类" class="blank_anchor_name" target="_blank"></a><a id="多标签图像分类" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">多标签图像分类</span></h1>
 <ol class="markdown_ol">
@@ -1840,8 +1930,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">More Reliable Pseudo-labels, Better Performance: A Generalized Approach to Single Positive Multi-label Learning</strong><a href="https://arxiv.org/pdf/2508.20381" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/Fsoft-AIC/AEVLP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">Language-Driven Multi-Label Zero-Shot Learning with Semantic Granularity</strong> <a href="https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_Language-Driven_Multi-Label_Zero-Shot_Learning_with_Semantic_Granularity_ICCV_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/wangshouwen/RCNn" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="classification_4"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="classification_4" class="blank_anchor_name" target="_blank"></a><a id="classification_4" class="blank_anchor_id" target="_blank"></a><a name="classification" class="blank_anchor_name" target="_blank"></a><a id="classification" class="blank_anchor_id" target="_blank"></a>
+<h2 class="xsj_heading_hash xsj_heading xsj_heading_h2" id="classification_12"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="classification_12" class="blank_anchor_name" target="_blank"></a><a id="classification_12" class="blank_anchor_id" target="_blank"></a><a name="classification" class="blank_anchor_name" target="_blank"></a><a id="classification" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Classification</span></h2>
 <ol class="markdown_ol">
@@ -1852,8 +1942,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2026 ICLR] <strong class="markdown_strong_asterisk">GRAPH-REFINEDREPRESENTATIONLEARNINGFOR FEW-SHOTCLASSIFICATIONVIACLIPADAPTATION</strong> <a href="https://openreview.net/attachment?id=KQ9aK65BKm&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2026 ICLR] <strong class="markdown_strong_asterisk">GRAPH-REFINEDREPRESENTATIONLEARNINGFOR  FEW-SHOTCLASSIFICATIONVIACLIPADAPTATION</strong><a href="https://openreview.net/attachment?id=KQ9aK65BKm&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training-free20open-vocabulary20semantic20segmentation_5"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="training-free20open-vocabulary20semantic20segmentation_5" class="blank_anchor_name" target="_blank"></a><a id="training-free20open-vocabulary20semantic20segmentation_5" class="blank_anchor_id" target="_blank"></a><a name="training-free-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-free-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training-free20open-vocabulary20semantic20segmentation_13"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="training-free20open-vocabulary20semantic20segmentation_13" class="blank_anchor_name" target="_blank"></a><a id="training-free20open-vocabulary20semantic20segmentation_13" class="blank_anchor_id" target="_blank"></a><a name="training-free-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-free-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Training-Free Open-Vocabulary Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Training-Free_OVSS" target="_blank"></a></p>
@@ -1911,8 +2001,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2026 AAAI] <strong class="markdown_strong_asterisk">Target Refocusing via Attention Redistribution for Open-Vocabulary Semantic Segmentation: An Explainability Perspective</strong><a href="https://arxiv.org/pdf/2511.16170v1" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/liblacklucy/RF-CLIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Remote_Sensing" target="_blank"></a></p>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="remote20sensing_6"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="remote20sensing_6" class="blank_anchor_name" target="_blank"></a><a id="remote20sensing_6" class="blank_anchor_id" target="_blank"></a><a name="remote-sensing" class="blank_anchor_name" target="_blank"></a><a id="remote-sensing" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="remote20sensing_14"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="remote20sensing_14" class="blank_anchor_name" target="_blank"></a><a id="remote20sensing_14" class="blank_anchor_id" target="_blank"></a><a name="remote-sensing" class="blank_anchor_name" target="_blank"></a><a id="remote-sensing" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Remote Sensing</span></h1>
 <ol class="markdown_ol">
@@ -1961,8 +2051,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 Arxiv] <strong class="markdown_strong_asterisk">FoBa: A Foreground-Background co-Guided Method and New Benchmark for Remote Sensing Semantic Change Detection</strong> <a href="https://arxiv.org/pdf/2509.15788" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/zmoka-zht/FoBa" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 TGRS] Multimodal Visual-Language Prompt Network for Remote Sensing Few-Shot Segmentation <a href="https://ieeexplore.ieee.org/abstract/document/11071646" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/Gritiii/MVLPNet" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training20open-vocabulary20semantic20segmentation_7"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="training20open-vocabulary20semantic20segmentation_7" class="blank_anchor_name" target="_blank"></a><a id="training20open-vocabulary20semantic20segmentation_7" class="blank_anchor_id" target="_blank"></a><a name="training-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="training20open-vocabulary20semantic20segmentation_15"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="training20open-vocabulary20semantic20segmentation_15" class="blank_anchor_name" target="_blank"></a><a id="training20open-vocabulary20semantic20segmentation_15" class="blank_anchor_id" target="_blank"></a><a name="training-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="training-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Training Open-Vocabulary Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Training_OVSS" target="_blank"></a></p>
@@ -1999,8 +2089,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Unified Open-World Segmentation with Multi-Modal Prompts</strong> <a href="https://arxiv.org/pdf/2510.10524" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/aim-uofa/COSINE" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 NeurIPS] <strong class="markdown_strong_asterisk">OVS Meets Continual Learning: Towards Sustainable Open-Vocabulary Segmentation</strong><a href="https://arxiv.org/pdf/2410.11536" class="xsj_link xsj_manu_link" target="_blank">[paper]</a><a href="https://github.com/dongjunhwang/ConOVS" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="zero-shot20open-vocabulary20semantic20segmentation_8"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="zero-shot20open-vocabulary20semantic20segmentation_8" class="blank_anchor_name" target="_blank"></a><a id="zero-shot20open-vocabulary20semantic20segmentation_8" class="blank_anchor_id" target="_blank"></a><a name="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="zero-shot20open-vocabulary20semantic20segmentation_16"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="zero-shot20open-vocabulary20semantic20segmentation_16" class="blank_anchor_name" target="_blank"></a><a id="zero-shot20open-vocabulary20semantic20segmentation_16" class="blank_anchor_id" target="_blank"></a><a name="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="zero-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Zero-Shot Open-Vocabulary Semantic Segmentation</span></h1>
 <ol class="markdown_ol">
@@ -2015,8 +2105,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2026 ICLR]<strong class="markdown_strong_asterisk">COPATCH: ZERO-SHOTREFERRINGIMAGESEGMEN TATIONBYLEVERAGINGUNTAPPEDSPATIALKNOWL EDGEINCLIP</strong><a href="https://openreview.net/attachment?id=cIC5r0uv4n&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2026 ICLR] <strong class="markdown_strong_asterisk">TIDES:TRAINING-FREEINSTANCEDETECTIONFROM  SEMANTICS</strong><a href="https://openreview.net/attachment?id=KpKvtdJ6Fd&amp;name=pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="few-shot20open-vocabulary20semantic20segmentation_9"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="few-shot20open-vocabulary20semantic20segmentation_9" class="blank_anchor_name" target="_blank"></a><a id="few-shot20open-vocabulary20semantic20segmentation_9" class="blank_anchor_id" target="_blank"></a><a name="few-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="few-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="few-shot20open-vocabulary20semantic20segmentation_17"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="few-shot20open-vocabulary20semantic20segmentation_17" class="blank_anchor_name" target="_blank"></a><a id="few-shot20open-vocabulary20semantic20segmentation_17" class="blank_anchor_id" target="_blank"></a><a name="few-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="few-shot-open-vocabulary-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Few-Shot Open-Vocabulary Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="FSOVSS" target="_blank"></a></p>
@@ -2029,8 +2119,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 MICCAI] <strong class="markdown_strong_asterisk">Realistic Adaptation of Medical Vision-Language Models</strong> <a href="https://arxiv.org/pdf/2506.17500" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/jusiro/SS-Text" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 NeurIPS] <strong class="markdown_strong_asterisk">SANSA: Unleashing the Hidden Semantics in SAM2 for Few-Shot Segmentation</strong><a href="https://arxiv.org/pdf/2505.21795" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="supervised20semantic20segmentation_10"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="supervised20semantic20segmentation_10" class="blank_anchor_name" target="_blank"></a><a id="supervised20semantic20segmentation_10" class="blank_anchor_id" target="_blank"></a><a name="supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="supervised20semantic20segmentation_18"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="supervised20semantic20segmentation_18" class="blank_anchor_name" target="_blank"></a><a id="supervised20semantic20segmentation_18" class="blank_anchor_id" target="_blank"></a><a name="supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Supervised Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Supervised_Semantic_Segmentation" target="_blank"></a></p>
@@ -2040,8 +2130,8 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2022 ICLR] <strong class="markdown_strong_asterisk">Language-driven Semantic Segmentation</strong> <a href="https://arxiv.org/pdf/2201.03546" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/isl-org/lang-seg" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 CVPV] <strong class="markdown_strong_asterisk">Your ViT is Secretly an Image Segmentation Model</strong> <a href="https://arxiv.org/pdf/2503.19108" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/tue-mps/eomt" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="weakly20supervised20semantic20segmentation_11"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="weakly20supervised20semantic20segmentation_11" class="blank_anchor_name" target="_blank"></a><a id="weakly20supervised20semantic20segmentation_11" class="blank_anchor_id" target="_blank"></a><a name="weakly-supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="weakly-supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="weakly20supervised20semantic20segmentation_19"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="weakly20supervised20semantic20segmentation_19" class="blank_anchor_name" target="_blank"></a><a id="weakly20supervised20semantic20segmentation_19" class="blank_anchor_id" target="_blank"></a><a name="weakly-supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="weakly-supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Weakly Supervised Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Weakly_Supervised_Semantic_Segmentation" target="_blank"></a></p>
@@ -2084,16 +2174,16 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Image Augmentation Agent for Weakly Supervised Semantic Segmentation</strong> <a href="https://arXiv.org/pdf/2412.20439" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Multi-Label Prototype Visual Spatial Search for Weakly Supervised Semantic Segmentation</strong> <a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Duan_Multi-Label_Prototype_Visual_Spatial_Search_for_Weakly_Supervised_Semantic_Segmentation_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="semi-supervised20semantic20segmentation_12"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="semi-supervised20semantic20segmentation_12" class="blank_anchor_name" target="_blank"></a><a id="semi-supervised20semantic20segmentation_12" class="blank_anchor_id" target="_blank"></a><a name="semi-supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="semi-supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="semi-supervised20semantic20segmentation_20"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="semi-supervised20semantic20segmentation_20" class="blank_anchor_name" target="_blank"></a><a id="semi-supervised20semantic20segmentation_20" class="blank_anchor_id" target="_blank"></a><a name="semi-supervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="semi-supervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Semi-Supervised Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Semi-Supervised_Semantic_Segmentation" target="_blank"></a></p>
 <ol class="markdown_ol">
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">ConformalSAM: Unlocking the Potential of Foundational Segmentation Models in Semi-Supervised Semantic Segmentation with Conformal Prediction</strong> <a href="https://arxiv.org/pdf/2507.15803" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/xinqi-fan/TT-RAA" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
 </ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="unsupervised20semantic20segmentation_13"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="unsupervised20semantic20segmentation_13" class="blank_anchor_name" target="_blank"></a><a id="unsupervised20semantic20segmentation_13" class="blank_anchor_id" target="_blank"></a><a name="unsupervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="unsupervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
+<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="unsupervised20semantic20segmentation_21"><div class="xiaoshujiang_element xsj_anchor">
+  <a name="unsupervised20semantic20segmentation_21" class="blank_anchor_name" target="_blank"></a><a id="unsupervised20semantic20segmentation_21" class="blank_anchor_id" target="_blank"></a><a name="unsupervised-semantic-segmentation" class="blank_anchor_name" target="_blank"></a><a id="unsupervised-semantic-segmentation" class="blank_anchor_id" target="_blank"></a>
 </div>
 <span class="xsj_heading_content">Unsupervised Semantic Segmentation</span></h1>
 <p class="xsj_paragraph xsj_paragraph_level_0"><a name="Unsupervised_Semantic_Segmentation" target="_blank"></a></p>
@@ -2110,19 +2200,6 @@ Original highlight.js style (c) Ivan Sagalaev <maniac@softwaremaniacs.org>
 <li><span class="xsj_placeholder_span"></span>[2024 ECCV] <strong class="markdown_strong_asterisk">Unsupervised Dense Prediction using Differentiable Normalized Cuts</strong> <a href="https://fq.pkwyx.com/default/https/www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05675.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2024 NIPS] <strong class="markdown_strong_asterisk">PaintSeg: Training-free Segmentation via Painting</strong> <a href="https://arxiv.org/abs/2305.19406" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 <li><span class="xsj_placeholder_span"></span>[2025 ICCV] <strong class="markdown_strong_asterisk">DIP: Unsupervised Dense In-Context Post-training of Visual Representations</strong> <a href="https://arxiv.org/pdf/2506.18463" class="xsj_link xsj_manu_link" target="_blank">[paper]</a> <a href="https://github.com/sirkosophia/DIP" class="xsj_link xsj_manu_link" target="_blank">[code]</a></li>
-</ol>
-<h1 class="xsj_heading_hash xsj_heading xsj_heading_h1" id="e6a380e7b4a2_14"><div class="xiaoshujiang_element xsj_anchor">
-  <a name="e6a380e7b4a2_14" class="blank_anchor_name" target="_blank"></a><a id="e6a380e7b4a2_14" class="blank_anchor_id" target="_blank"></a><a name="检索" class="blank_anchor_name" target="_blank"></a><a id="检索" class="blank_anchor_id" target="_blank"></a>
-</div>
-<span class="xsj_heading_content">检索</span></h1>
-<ol class="markdown_ol">
-<li><span class="xsj_placeholder_span"></span>[2024 ICML] <strong class="markdown_strong_asterisk">Cluster-Aware Similarity Diffusion for Instance Retrieval</strong><a href="https://arxiv.org/pdf/2406.02343" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 CVPR] <strong class="markdown_strong_asterisk">Cheb-GR: Rethinking k-nearest neighbor search in Re-ranking for Person<br>
-Re-identification</strong><a href="https://openaccess.thecvf.com/content/CVPR2025/papers/Yang_Cheb-GR_Rethinking_K-nearest_Neighbor_Search_in_Re-ranking_for_Person_Re-identification_CVPR_2025_paper.pdf" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2025 NEIGHBOR] <strong class="markdown_strong_asterisk">Neighbor-aware Geodesic Transportation for Neighborhood Refinery</strong><a href="https://openreview.net/pdf?id=DWI1xx2sX5" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2021 NIPS] <strong class="markdown_strong_asterisk">Contextual Similarity Aggregation with Self-attention for Visual Re-ranking</strong><a href="https://arxiv.org/pdf/2110.13430" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
-<li><span class="xsj_placeholder_span"></span>[2027 AAAI] <strong class="markdown_strong_asterisk">Regularized diffusion process for visual retrieval</strong></li>
-<li><span class="xsj_placeholder_span"></span>[2025 arXiv] <strong class="markdown_strong_asterisk">Global-to-Local or Local-to-Global? Enhancing Image Retrieval with Efficient Local Search and Effective Global Re-ranking</strong><a href="https://arxiv.org/pdf/2509.04351" class="xsj_link xsj_manu_link" target="_blank">[paper]</a></li>
 </ol>
 <hr class="xsj_hr xsj_minus">
 </div>
